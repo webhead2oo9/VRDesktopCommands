@@ -631,22 +631,26 @@
         "description": "Right-click on Half-Life: Alyx in Steam, then click Properties. In the 'General' tab, click on 'Launch Options', and paste the following: ```+vr_fidelity_level_auto 0 +vr_fidelity_level 3```"
       }
     },
-	  {
+    {
       "name": "rsetup",
       "description": "Dedicated Router Setup Diagram",
       "ephemeral": false,
       "embed": {
         "title": "Dedicated Router Setup Diagram",
-        "description": "https://vrdiscord.com/images/routersetup.png"
+        "image": {
+          "url": "https://vrdiscord.com/images/routersetup.png"
+        }
       }
     },
-	  {
+    {
       "name": "altsetup",
       "description": "Alternate Dedicated Router Setup Diagrams",
       "ephemeral": false,
       "embed": {
         "title": "Alternate Dedicated Router Setup Diagrams",
-        "description": "https://vrdiscord.com/images/network_setups.png"
+        "image": {
+          "url": "https://vrdiscord.com/images/network_setups.png"
+        }
       }
     }
   ]
