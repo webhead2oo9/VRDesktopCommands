@@ -455,7 +455,7 @@
         "embed": {
             "description": "Once your VR headset is connected to your computer, all data traffic remains local. This is true whether you're connected directly to your main router or to a dedicated router on the same local area network (LAN). The only requirement is a wired connection from your PC to a router. The VR headset then connects wirelessly to the same router or dedicated router.",
             "image": {
-                "url": "https://media.discordapp.net/attachments/588239278841135105/950231687315488808/VD_internet_command.png"
+                "url": "https://vrdiscord.com/images/VD_internet_command.png"
             },
             "title": "Internet isn't used when streaming"
         },
@@ -633,7 +633,7 @@
 	{
         "description": "Dedicated Router Setup Diagram",
         "embed": {
-            "description": "https://media.discordapp.net/attachments/682369095798489129/1177476831671234570/routersetup.png?ex=6572a5c1&is=656030c1&hm=f8cad0c73dbf72cc4927ced29c4503d327082aaccfb58a3aa1aa5455d5d26f6b&=&format=webp&width=1120&height=840",
+            "description": "https://vrdiscord.com/images/routersetup.png",
             "title": "Dedicated Router Setup Diagram"
         },
         "ephemeral": false,
@@ -642,7 +642,7 @@
 	{
         "description": "Alterrnate Dedicated Router Setup Diagrams",
         "embed": {
-            "description": "https://cdn.discordapp.com/attachments/682369095798489129/1177476832434606100/network_setups.png?ex=6572a5c1&is=656030c1&hm=0951c79855a3e883e32333df891f957353622ccdee8dfdeb0b688ac536117cf0&",
+            "description": "https://vrdiscord.com/images/network_setups.png",
             "title": "Alternate Dedicated Router Setup Diagrams"
         },
         "ephemeral": false,
