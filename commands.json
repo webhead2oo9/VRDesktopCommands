@@ -337,15 +337,6 @@
       }
     },
     {
-      "name": "meta_bug",
-      "description": "Meta software bug causing network issues on Quest 2/Quest Pro",
-      "ephemeral": false,
-      "embed": {
-        "title": "Network issues on Quest 2/Quest Pro due to Meta software bug",
-        "description": "In version 54 of the Quest 2/Quest Pro software, Meta introduced a bug causing network issues. Users may experience latency spikes or see black bars when turning their head.\n\nTo correct this, please try the steps below.\n\nStep 1:  Opt into the Public Test Channel (PTC) to get version 55, which does not have this bug. To opt-in, open your Quest mobile app, go to 'Devices', then 'Headset Settings', and then 'Advanced Settings'. If 'Public Test Channel' is disabled, click on it to enable. Please note, while PTC versions can offer early access to new features, they may also have their own bugs.\n\nStep 2: In your headset go to settings, system, software updates and see if you have an update available. If not, turn on your headset, connect it to wifi, plug the charger into it and set it down on a flat surface. It will update soon. Sometimes in a few minutes, sometimes it could take a few hours.\n\nAs a last resort, you could perform a factory reset and avoid enabling any experimental features. However, this solution may not work for everyone.\n\nMeta is aware of the issue and is working on a permanent fix."
-      }
-    },
-    {
       "name": "specs",
       "description": "Minimum PC Specs",
       "ephemeral": false,
@@ -358,18 +349,6 @@
             "value": "You can find detailed minimums below. Please note that minimum does not mean you can play every game.\n[Oculus Rift S Supported Specs](https://store.facebook.com/help/quest/articles/getting-started/getting-started-with-rift/rift-s-minimum-requirements/)\n[Oculus Link Supported Specs](https://store.facebook.com/help/quest/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)\n[Valve Index Supported Specs](https://support.steampowered.com/kb_article.php?ref=4061-QUZB-4602)"
           }
         ]
-      }
-    },
-    {
-      "name": "vdoverlay",
-      "description": "Quest - Virtual Desktop - Overlay",
-      "ephemeral": false,
-      "embed": {
-        "title": "Sharing Screenshots of the Performance Overlay",
-        "description": "1.) Go into the Settings tab in the Virtual Desktop menu in VR and make sure Copy screenshots to desktop is enabled.\n2.) Go into the Streaming tab and check Show performance overlay.\n3.) Launch your VR game.\n4.) Look for numbers that are turning orange.\n5.) When you see this, hold the right Oculus button and press either the right or left trigger.\n\nThe screenshot will be found on your desktop and you can share it here.",
-        "image": {
-          "url": "https://cdn.discordapp.com/attachments/830109245642899496/893921627153240064/vdoverlay.gif"
-        }
       }
     },
     {
@@ -412,7 +391,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Recommended GPU Drivers",
-        "description": "Nvidia: [Latest drivers](https://www.nvidia.com/download/index.aspx)\nAMD RX 400/500 series: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000 series: [22.11.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-11-2)"
+        "description": "Nvidia: [Latest drivers](https://www.nvidia.com/download/index.aspx)\nAMD RX 400/500 series: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000 series: [22.11.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-11-2)\nAMD 7000 series: [Latest drivers](https://www.amd.com/en/support)"
       }
     },  
     {
@@ -448,7 +427,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Uninstall and Reinstall GPU Drivers",
-      "description": "Follow these steps to uninstall GPU drivers using DDU (Display Driver Uninstaller):\n1. Download DDU from the [official website](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html).\n2. Launch DDU and select the GPU from the list.\n3. Click on 'Clean and restart'.\n4. After the process and restart, the GPU drivers will be uninstalled.\n\nYou can reinstall the drivers using the links below:\n\nNvidia: [Latest drivers](https://www.nvidia.com/download/index.aspx)\nAMD RX 400/500 series: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000 series: [22.11.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-11-2)"
+      "description": "Follow these steps to uninstall GPU drivers using DDU (Display Driver Uninstaller):\n1. Download DDU from the [official website](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) and download the GPU driver you intend to install (see below).\n2. Reboot your PC into [Safe Mode](https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234)\n3. Launch DDU and select the GPU from the list.\n4. Click on 'Clean and restart'.\n5. After the process and restart, the GPU drivers will be uninstalled.\n\nYou can reinstall the drivers using the links below:\n\nNvidia: [Latest drivers](https://www.nvidia.com/download/index.aspx)\nAMD RX 400/500 series: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000 series: [22.11.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-11-2)\nAMD 7000 series: [Latest drivers](https://www.amd.com/en/support)"
       }
     },
     {
@@ -610,7 +589,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Oculus Servers Unreachable",
-        "description": "This could likely be a DNS issue or a bug associated with a recent Quest OS update. If your internet is working well from your Quest (you can check via store and web browser) and you've already rebooted your headset a few times, here are a few steps to try:\n\n**Step 1:** You might want to change the assigned DNS in your router settings. This tends to be the quickest fix. We suggest using either 8.8.8.8 or 1.1.1.1, or both.\n\n**Step 2:** Don't forget to reboot your router after making these changes. It's a small step that could make a big difference.\n\nIf all else fails, some users have resolved this issue by performing a factory reset on their Quest. However, be aware that this is due to a bug encountered with the recent Quest OS update, and this method may not work for everyone."
+        "description": "This could likely be a DNS issue or a bug associated with a recent Quest OS update. If your internet is working well from your Quest (you can check via store and web browser) and you've already rebooted your headset a few times, here are a few steps to try:\n\n**Step 1:** You might want to change the assigned DNS in your router WAN settings (NOT LAN). This tends to be the quickest fix. We suggest using either 8.8.8.8 or 1.1.1.1, or both.\n\n**Step 2:** Don't forget to reboot your router after making these changes. It's a small step that could make a big difference.\n\nIf all else fails, some users have resolved this issue by performing a factory reset on their Quest. However, be aware that this is due to a bug encountered with the recent Quest OS update, and this method may not work for everyone."
       }
     },
     {
