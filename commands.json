@@ -506,15 +506,6 @@
       }
     },
     {
-      "name": "hotspot",
-      "description": "Hotspot measuring bandwidth issues",
-      "ephemeral": false,
-      "embed": {
-        "title": "Hotspot issues",
-        "description": "If you are stuck at 'measuring bandwidth' when using a hotspot on Windows 10 or 11, update your Windows operating system, as this issue has been fixed in a recent Windows update."
-      }
-    },  
-    {
       "name": "tasklist",
       "description": "Provide a TaskList",
       "ephemeral": false,
@@ -564,10 +555,10 @@
     },
     {
       "name": "download",
-      "description": "How to download update",
+      "description": "How to manually update the Streamer app",
       "ephemeral": false,
       "embed": {
-        "title": "Update",
+        "title": "How to manually update the Streamer app",
         "image": {
           "url": "https://cdn.discordapp.com/attachments/586993452185681946/1010006469913088070/unknown.png"
         },
@@ -630,6 +621,15 @@
         "image": {
           "url": "https://vrdiscord.com/images/network_setups.png"
         }
+      }
+    },
+    {
+      "name": "codec",
+      "description": "scenarios for best codec use",
+      "ephemeral": false,
+      "embed": {
+        "title": "Which codec should I use?",
+        "description": "Best to leave the Preferred Codec to Automatic, but if you want to try different ones, here’s which is best for what:\n\n**H.264**: has the lowest latency but not as efficient as the other codecs\n**H.264+**: has higher bitrate limit; good for racing or fast-paced games but requires ideal network conditions\n**HEVC**: has improved efficiency (looks better at the same bitrate compared to H.264) but takes a bit more time to encode/decode\n**AV1**: has best efficiency but requires Nvidia 4000 or AMD 7000 series GPU and a Quest 3\n**10-bit encoding**: improves color gradients, recommended for darker/slower games"
       }
     }
   ]
