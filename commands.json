@@ -638,7 +638,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Clean Reinstall SteamVR",
-        "description": "1). Uninstall the Virtual Desktop Streamer app from Windows\n\n2). Cleanly uninstall SteamVR using the [manual method](https://steamcommunity.com/app/250820/discussions/2/1640917625015598552/) or using the [automated script](https://github.com/GeoMaciolek/steamvr-clean-reinstall)\n\n3). Reinstall the [Virtual Desktop Streamer app](https://download.vrdesktop.net/files/MicrosoftProgram_Install_and_Uninstall.meta.diagcab)"
+        "description": "**1).** Uninstall the Virtual Desktop Streamer app from Windows\n**2).** Cleanly uninstall SteamVR using the [manual method](https://steamcommunity.com/app/250820/discussions/2/1640917625015598552/) or using the [automated script](https://github.com/GeoMaciolek/steamvr-clean-reinstall)\n**3).** Reinstall the [Virtual Desktop Streamer app](https://download.vrdesktop.net/files/MicrosoftProgram_Install_and_Uninstall.meta.diagcab)"
       }
     },
     {
@@ -647,15 +647,15 @@
       "ephemeral": false,
       "embed": {
         "title": "How to Launch External Games",
-        "description": "Method 1). Once connected to your computer in VR, right-click the Virtual Desktop Streamer icon next to the clock at the bottom right of your screen and click “Launch game…” then locate the executable of the game.\n\nMethod 2). Create a .bat file with the following content: “C:\\Program Files\\Virtual Desktop Streamer\\VirtualDesktop.Streamer.exe” “[Path to game executable]” [optional game arguments]"
+        "description": "**Method 1).** Once connected to your computer in VR, right-click the Virtual Desktop Streamer icon next to the clock at the bottom right of your screen and click “Launch game…” then locate the executable of the game.\n\n**Method 2).** Create a .bat file with the following content: “C:\\Program Files\\Virtual Desktop Streamer\\VirtualDesktop.Streamer.exe” “[Path to game executable]” [optional game arguments]"
       }
     },
     {
       "name": "stats",
-      "description": "Latency Figures in the Performace Overlay",
+      "description": "What the different latency figures mean",
       "ephemeral": false,
       "embed": {
-        "title": "What the different latency figures mean",
+        "title": "Latency Figures in the Performace Overlay",
         "description": "**Game** is your computer's CPU/GPU rendering the game\n**Encoding** is your GPU encoding the video\n**Networking** is your router and network\n**Decoding** is the headset GPU decoding the image"
       }
     }
