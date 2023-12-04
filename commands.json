@@ -629,7 +629,34 @@
       "ephemeral": false,
       "embed": {
         "title": "Which codec should I use?",
-        "description": "Best to leave the Preferred Codec to Automatic, but if you want to try different ones, here’s which is best for what:\n\n**H.264**: has the lowest latency but not as efficient as the other codecs\n**H.264+**: has higher bitrate limit; good for racing or fast-paced games but requires ideal network conditions\n**HEVC**: has improved efficiency (looks better at the same bitrate compared to H.264) but takes a bit more time to encode/decode\n**AV1**: has best efficiency but requires Nvidia 4000 or AMD 7000 series GPU and a Quest 3\n**10-bit encoding**: improves color gradients, recommended for darker/slower games"
+        "description": "Best to leave the Preferred Codec to Automatic, but if you want to try different ones, here's which is best for what:\n\n**H.264:** has the lowest latency but not as efficient as the other codecs\n**H.264+:** has higher bitrate limit; good for racing or fast-paced games but requires ideal network conditions\n**HEVC:** has improved efficiency (looks better at the same bitrate compared to H.264) but takes a bit more time to encode/decode\n**AV1:** has best efficiency but requires Nvidia 4000 or AMD 7000 series GPU and a Quest 3\n**10-bit encoding:** improves color gradients, recommended for darker/slower games"
+      }
+    },
+    {
+      "name": "steamvr",
+      "description": "SteamVR clean reinstall",
+      "ephemeral": false,
+      "embed": {
+        "title": "Clean Reinstall SteamVR",
+        "description": "1). Uninstall the Virtual Desktop Streamer app from Windows\n\n2). Cleanly uninstall SteamVR using the [manual method](https://steamcommunity.com/app/250820/discussions/2/1640917625015598552/) or using the [automated script](https://github.com/GeoMaciolek/steamvr-clean-reinstall)\n\n3). Reinstall the [Virtual Desktop Streamer app](https://download.vrdesktop.net/files/MicrosoftProgram_Install_and_Uninstall.meta.diagcab)"
+      }
+    },
+    {
+      "name": "external",
+      "description": "How to Launch External Games",
+      "ephemeral": false,
+      "embed": {
+        "title": "How to Launch External Games",
+        "description": "Method 1). Once connected to your computer in VR, right-click the Virtual Desktop Streamer icon next to the clock at the bottom right of your screen and click “Launch game…” then locate the executable of the game.\n\nMethod 2). Create a .bat file with the following content: “C:\\Program Files\\Virtual Desktop Streamer\\VirtualDesktop.Streamer.exe” “[Path to game executable]” [optional game arguments]"
+      }
+    },
+    {
+      "name": "stats",
+      "description": "Latency Figures in the Performace Overlay",
+      "ephemeral": false,
+      "embed": {
+        "title": "What the different latency figures mean",
+        "description": "**Game** is your computer's CPU/GPU rendering the game\n**Encoding** is your GPU encoding the video\n**Networking** is your router and network\n**Decoding** is the headset GPU decoding the image"
       }
     }
   ]
