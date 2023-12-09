@@ -658,5 +658,17 @@
         "title": "Latency Figures in the Performace Overlay",
         "description": "**Game** is your computer's CPU/GPU rendering the game\n**Encoding** is your GPU encoding the video\n**Networking** is your router and network\n**Decoding** is the headset GPU decoding the image"
       }
+    },
+    {
+      "name": "channels",
+      "description": "Wireless Survey and Channel Allocation",
+      "ephemeral": false,
+      "embed": {
+        "title": "Wireless Survey and Channel Allocation",
+        "description": "For determining available channels on an Android device, [the open source version of Wifi Analyzer is the recommended app.](https://play.google.com/store/apps/details?id=com.vrem.wifianalyzer) (Please avoid Ad supported imitations).\n\nFor channel allocation reference, please see the image below:",
+        "image": {
+          "url": "https://cdn.discordapp.com/attachments/682369095798489129/1182933284846567474/channels.png?ex=65867f78&is=65740a78&hm=51b511d50a9beb9c2aa4159afcf64d693f03705a95a623ef659e35df7ce833da&"
+        }
+      }
     }
   ]
