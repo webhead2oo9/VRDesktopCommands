@@ -670,5 +670,28 @@
           "url": "https://cdn.discordapp.com/attachments/682369095798489129/1182933284846567474/channels.png?ex=65867f78&is=65740a78&hm=51b511d50a9beb9c2aa4159afcf64d693f03705a95a623ef659e35df7ce833da&"
         }
       }
+    },
+    {
+      "name": "hotspot",
+      "description": "Windows hotspot",
+      "ephemeral": false,
+      "embed": {
+        "title": "Windows Mobile Hotspots Are Not Supported",
+        "description": "We won't stop you from trying to use a Windows hotspot but we don't provide any support for setups that attempt to utilise them due to their inconsistency, unreliability, limitations and just because Windows performs poorly as a router/router replacement.",
+        "image": {
+          "url": "https://cdn.discordapp.com/attachments/692030889932095529/1181278404427923648/image.png?ex=6589b4be&is=65773fbe&hm=ef0cf33b31a3fd0112e5fcffe7e6e37bc53c90ad7dc5b291aebfdbdb16347fe3&"
+        }
+      }
+    },
+    {
+      "name": "uh-oh",
+      "description": "Your PC Isn't Connected by an Ethernet Cable?",
+      "ephemeral": false,
+      "embed": {
+        "title": "Your PC Isn't Connected by an Ethernet Cable?",
+        "image": {
+          "url": "https://cdn.discordapp.com/attachments/588170196968013845/1183567730100682923/image.png?ex=6588ce58&is=65765958&hm=67feb42bc49f4249ca2b3e6b59099b1af97e31af650cb9e14d1b9b2378a6768b&"
+        }
+      }
     }
   ]
