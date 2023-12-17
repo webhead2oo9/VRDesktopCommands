@@ -693,5 +693,14 @@
           "url": "https://cdn.discordapp.com/attachments/588170196968013845/1183567730100682923/image.png?ex=6588ce58&is=65765958&hm=67feb42bc49f4249ca2b3e6b59099b1af97e31af650cb9e14d1b9b2378a6768b&"
         }
       }
+    },
+    {
+      "name": "about",
+      "description": "Share the Details From Your About Tab",
+      "ephemeral": false,
+      "embed": {
+        "title": "Share the Details From Your About Tab",
+        "description": "**1).** Share a screenshot of your About tab from the Virtual Desktop Streamer app installed on your PC.\n**2).** Click \"Check for Interfering Apps\" and share a screenshot of the popup that appears with the results"
+      }
     }
   ]
