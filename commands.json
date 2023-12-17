@@ -475,7 +475,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Internet Connection Sharing",
-        "description": "If you're uncertain about how to set up Internet Connection Sharing, you can follow the instructions provided in [this guide](https://pureinfotech.com/share-internet-connection-windows-10/)."
+        "description": "If you're uncertain about how to set up Internet Connection Sharing, you can follow the instructions provided in [this guide](https://pureinfotech.com/share-internet-connection-windows-10/\n\nIf you have issues with ICS not working after a computer restart, you can try [this script](https://discord.com/channels/564087419918483486/692030889932095529/1178882282229075978))."
       }
     },  
     {
@@ -701,6 +701,18 @@
       "embed": {
         "title": "Share the Details From Your About Tab",
         "description": "**1).** Share a screenshot of your About tab from the Virtual Desktop Streamer app installed on your PC.\n**2).** Click \"Check for Interfering Apps\" and share a screenshot of the popup that appears with the results"
+      }
+    },
+    {
+      "name": "6e",
+      "description": "Do I need a Wifi 6E Router?",
+      "ephemeral": false,
+      "embed": {
+        "title": "Do I need a Wifi 6E Router?",
+        "description": "If you have a lot of congestion at your location, it could help. Type /channels and hit enter in the chat here to see the channels list and a link to an Android tool for surveying the surrounding wifi.\n\n**Is Wifi 6E FASTER than Wifi 6?**\nNo. The hardware for both wifi protocols are rated at the same speeds. HOWEVER, wifi 6E uses the 6Ghz band which is primarily not used by other devices and will not suffer from as much interference and congestion as Wifi 6 which should mean it performs better.\nIn the first image below I had two machines, both using Wifi 6 (5Ghz) and I was transferring a file between them. In the second image the exact same machines were connected to the same router with Wifi 6E (6Ghz). As you can see, the Wifi 6E connection was much more stable and nearly twice as fast because of a lack of interference!\nNote: For some the 6Ghz band does not work as well over longer distances. Be sure your 6E router is in the room with your headset.",
+        "image": {
+          "url": "https://media.discordapp.net/attachments/692030889932095529/1161499914795237426/image.png?ex=658b9497&is=65791f97&hm=d189701edb960ff560c2e294559896083e0d9494c4c40757f0d836f81c1c9f4a&=&format=webp&quality=lossless&width=455&height=590"
+        }
       }
     }
   ]
