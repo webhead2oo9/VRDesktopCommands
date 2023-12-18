@@ -566,12 +566,12 @@
       }
     },  
     {
-      "name": "pico",
-      "description": "Pico Headsets",
+      "name": "store",
+      "description": "Can I Transfer My License When I Purchased on Store x?",
       "ephemeral": false,
       "embed": {
-        "title": "Pico Headsets",
-        "description": "Virtual Desktop is available in the Pico store. Since it's a different store from a different company, it needs to be purchased again if you bought it for Quest (cross-buy is not possible). It is compatible with the Pico 4 and Neo 3. It has the same features as the app on Quest, allowing you to stream your desktop, videos, or PCVR games from your computer(s). The app is available in all markets, except for China."
+        "title": "Can I Transfer My License When I Purchased on Store x?",
+        "description": "Virtual Desktop is available on supported headset's **official** stores. Since they're different stores from different companies, it needs to be purchased again if you bought it for one headset and not the other (cross-buy is not possible). It is compatible with multiple headsets released using the same store though, for example, if you bought Virtual Desktop for the Pico Neo 3 and then you buy the Pico 4, you do not need to purchase Virtual Desktop again. Same for if you purchase on the Meta store you can use it for Quest 1/2/3/Pro without repurchasing.\n\nThe app on each of the stores all have the same core features, allowing you to stream your desktop, videos, or PCVR games from your computer(s). The app is available in all markets, except for China. **Do not** buy Virtual Desktop Classic on Steam, it is not intended for use with a standalone VR headset."
       }
     },
     {
