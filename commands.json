@@ -714,5 +714,17 @@
           "url": "https://media.discordapp.net/attachments/692030889932095529/1161499914795237426/image.png?ex=658b9497&is=65791f97&hm=d189701edb960ff560c2e294559896083e0d9494c4c40757f0d836f81c1c9f4a&=&format=webp&quality=lossless&width=455&height=590"
         }
       }
+    },
+    {
+      "name": "intel",
+      "description": "Intel Driver and Support Assistant",
+      "ephemeral": false,
+      "embed": {
+        "title": "Intel Driver and Support Assistant",
+        "description": "Make sure your Intel drivers are up-to-date by [clicking here](https://www.intel.com/content/www/us/en/support/intel-driver-support-assistant.html) to download and install the Intel Driver and Support Assistant.",
+        "image": {
+          "url": "https://cdn.discordapp.com/attachments/830109388927926282/1188380414600032327/image.png?ex=659a5081&is=6587db81&hm=a9e85013c88afe7a246bea5af689eb179e4dd595c41f799173b2c2a2d4be9eda&"
+        }
+      }
     }
   ]
