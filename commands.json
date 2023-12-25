@@ -16,7 +16,7 @@
           "embeds": [
             {
               "title": "Recommended Routers",
-              "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE - Wifi 6e *) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+              "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE - Wifi 6e *) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
               
             }
           ]
@@ -167,6 +167,35 @@
               ],
               "thumbnail": {
                 "url": "https://cdn.discordapp.com/attachments/875149053221019668/930535591953698966/P_setting_xxx_0_90_end_500.png"
+              }
+            }          
+          ]
+        },
+        {
+          "name": "tplaxe300",
+          "title": "TP-Link AXE300/AXE16000",
+          "description": "High End (AXE) - TP-Link AXE300/AXE16000",
+          "emoji": "",
+          "embeds": [
+            {
+              "title": "TP-Link AXE300/AXE16000",
+              "description": "The TP-Link AXE300/AXE16000 is a great home router as well as being great for wireless streaming. \n It is a full featured Wifi 6E/AXE router with solid performance.",
+              "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
+              "color": null,
+              "fields": [
+                {
+                  "name": "Info",
+                  "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
+                  "inline": true
+                },
+                {
+                  "name": "Store Links",
+                  "value": "[USA](https://www.amazon.com/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/) [Canada](https://www.amazon.ca/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/)",
+                  "inline": true
+                }
+              ],
+              "thumbnail": {
+                "url": "https://cdn.discordapp.com/attachments/830109388927926282/1188657513873293322/51xvfaZyLL.png"
               }
             }          
           ]
