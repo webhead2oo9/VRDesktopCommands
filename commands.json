@@ -783,9 +783,9 @@
       "ephemeral": false,
       "embed": {
         "title": "SGSR (Snapdragon Game Super Resolution)",
-        "description": "Qualcomm's SGSR (Snapdragon Game Super Resolution) implemented by Virtual Desktop is headset-side resolution upscaling performed on the headset after the video/image has been streamed from the PC.\n\nThe upscaling for each headset is as follows:\n**Pico Neo 3, Pico 4, HTC Vive XR Elite and HTC Vive Focus 3:** Upscales to Ultra on settings up to High and 90Hz\n**Quest 2, Quest Pro:** Only works on settings up to High and 90Hz\n**Quest 3:** Works on all settings including Godlike 120Hz\n**Quest 2, Quest Pro, Quest 3:** Upscales to the panel maximum\n\n**SGSR not compatible with Chromakey Passthrough, you will only be able to enable one or the other.**",
+        "description": "Qualcomm's SGSR (Snapdragon Game Super Resolution) implemented by Virtual Desktop is headset-side resolution upscaling performed on the headset after the video/image has been streamed from the PC.\n\nThe upscaling for each headset is as follows:\n\n**Pico Neo 3, Pico 4, HTC Vive XR Elite and HTC Vive Focus 3:** Upscales to Ultra on settings up to High and 90Hz\n**Quest 2, Quest Pro:** Only works on settings up to High and 90Hz\n**Quest 3:** Works on all settings including Godlike 120Hz\n**Quest 2, Quest Pro, Quest 3:** Upscales to the panel maximum\n\n**SGSR is not compatible with Chromakey Passthrough, you will only be able to enable one or the other.**",
         "image": {
-          "url": "https://cdn.discordapp.com/attachments/830109388927926282/1189459226112839810/image.png"
+          "url": "https://cdn.discordapp.com/attachments/830109388927926282/1189465514259513394/image.png"
         }
       }
     }
