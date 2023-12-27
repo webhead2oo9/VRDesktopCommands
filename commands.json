@@ -5,7 +5,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Community Tested Routers",
-        "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE - Wifi 6e *) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+        "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
       },
       "pages": [
         {
@@ -16,7 +16,7 @@
           "embeds": [
             {
               "title": "Community Tested Routers",
-              "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE - Wifi 6e *) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+              "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
               
             }
           ]
@@ -758,11 +758,23 @@
     },
     {
       "name": "usb",
-      "description": "Virtual Desktop does not support streaming over a USB cable",
+      "description": "Virtual Desktop Does Not Support Streaming Over a USB Cable",
       "ephemeral": false,
       "embed": {
-        "title": "Virtual Desktop does not support streaming over a USB cable",
+        "title": "Virtual Desktop Does Not Support Streaming Over a USB Cable",
         "description": "Third party store applications do not have low level access to the USB interface. We are aware that other solutions simulate a USB connection with alternative methods but these methods can not be supported by Virtual Desktop for PCVR game streaming."
+      }
+    },
+    {
+      "name": "runtimes",
+      "description": "What is a \"Runtime\" and How Does it Relate to Virtual Desktop",
+      "ephemeral": false,
+      "embed": {
+        "title": "What is a \"Runtime\" and How Does it Relate to Virtual Desktop",
+        "description": "For a comprehensive explanation on what a \"runtime\" is and how it relates to Virtual Desktop, [please click here](https://github.com/mbucchia/VirtualDesktop-OpenXR/wiki/Oculus-%22Runtimes%22)",
+        "image": {
+          "url": "https://cdn.discordapp.com/attachments/830109388927926282/1189437278548918322/287508481-7a29cdc1-023b-4612-9f07-3e92e8fea648.png"
+        }
       }
     }
   ]
