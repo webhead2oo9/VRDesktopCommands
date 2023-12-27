@@ -1,11 +1,11 @@
 [
     {
       "name": "routers",
-      "description": "Recommended Routers",
+      "description": "Community Tested Routers",
       "ephemeral": false,
       "embed": {
-        "title": "Recommended Routers",
-        "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE - Wifi 6e *) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+        "title": "Community Tested Routers",
+        "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE - Wifi 6e *) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
       },
       "pages": [
         {
@@ -15,7 +15,7 @@
           "emoji": "",
           "embeds": [
             {
-              "title": "Recommended Routers",
+              "title": "Community Tested Routers",
               "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE - Wifi 6e *) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
               
             }
@@ -754,6 +754,15 @@
         "image": {
           "url": "https://cdn.discordapp.com/attachments/830109388927926282/1188380414600032327/image.png?ex=659a5081&is=6587db81&hm=a9e85013c88afe7a246bea5af689eb179e4dd595c41f799173b2c2a2d4be9eda&"
         }
+      }
+    },
+    {
+      "name": "usb",
+      "description": "Virtual Desktop does not support streaming over a USB cable",
+      "ephemeral": false,
+      "embed": {
+        "title": "Virtual Desktop does not support streaming over a USB cable",
+        "description": "Third party store applications do not have low level access to the USB interface. We are aware that other solutions simulate a USB connection with alternative methods but these methods can not be supported by Virtual Desktop for PCVR game streaming."
       }
     }
   ]
