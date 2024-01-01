@@ -5,7 +5,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Community Tested Routers",
-        "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE) - TP-Link Archer AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+        "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400¹ ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\n¹The TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
       },
       "pages": [
         {
@@ -16,7 +16,7 @@
           "embeds": [
             {
               "title": "Community Tested Routers",
-              "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE) - TP-Link Archer AXE5400¹/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\n¹The TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+              "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400¹ ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\n¹The TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
               
             }
           ]
@@ -52,13 +52,13 @@
         },
         {
           "name": "TPLinkAXE5400",
-          "title": "TP-Link Archer AXE5400/AXE75",
-          "description": "Dedicated (AXE) - TP-Link Archer AXE5400/AXE75",
+          "title": "TP-Link Archer AXE75/AXE5400",
+          "description": "Dedicated (AXE) - TP-Link Archer AXE75/AXE5400",
           "emoji": "",
           "embeds": [
             {
-              "title": "TP-Link Archer AXE5400/AXE75",
-              "description": "The TP-Link Archer AXE5400/AXE75 is a Wifi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
+              "title": "TP-Link Archer AXE75/AXE5400",
+              "description": "The TP-Link Archer AXE75/AXE5400 is a Wifi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
               "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe5400/",
               "color": null,
               "fields": [
