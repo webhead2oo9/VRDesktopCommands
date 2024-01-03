@@ -788,5 +788,14 @@
           "url": "https://cdn.discordapp.com/attachments/830109388927926282/1189465514259513394/image.png"
         }
       }
+    },
+    {
+      "name": "support",
+      "description": "Staff are only volunteers, please be respectful",
+      "ephemeral": false,
+      "embed": {
+        "title": "Staff are only volunteers, please be respectful",
+        "description": "**Virtual Desktop support personnel are volunteers.** They will answer your questions based on their availability and the clarity of your request. Please be patient, courteous, clear and understand that there are limitations to their scope of support.'screen black how fix?' Will likely go unanswered. A complete question with detail likely will be answered.\n\nHere are example on how to ask questions with proper etiquette: [LINK](https://dontasktoask.com/)"
+      }
     }
   ]
