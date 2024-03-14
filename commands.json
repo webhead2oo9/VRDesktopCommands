@@ -1,801 +1,919 @@
 [
-    {
-      "name": "routers",
-      "description": "Community Tested Routers",
-      "ephemeral": false,
-      "embed": {
-        "title": "Community Tested Routers",
-        "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400¹ ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\n¹The TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+  {
+    "name": "routers",
+    "description": "Community Tested Routers",
+    "ephemeral": false,
+    "embed": {
+      "title": "Community Tested Routers",
+      "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400Â¹ ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nÂ¹The TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+    },
+    "pages": [
+      {
+        "name": "main",
+        "title": "Main Page",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Community Tested Routers",
+            "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400Â¹ ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nÂ¹The TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+            
+          }
+        ]
       },
-      "pages": [
-        {
-          "name": "main",
-          "title": "Main Page",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Community Tested Routers",
-              "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400¹ ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\n¹The TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
-              
+      {
+        "name": "TPLinkC6",
+        "title": "TP-Link Archer C6 or A6",
+        "description": "Low End (AC) - TP-Link C6 or A6",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "TP-Link Archer C6 or A6",
+            "description": "The TPLink C6/A6 is a good dedicated router specifically for wireless VR usage, it is a budget router that works well for Virtual Desktop.",
+            "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c6/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/NETGEAR-4-Stream-Dual-Band-Gigabit-Router/dp/B097HMLTQX) [Canada](https://www.amazon.ca/NETGEAR-Wireless-Desktop-Access-WAX202/dp/B097HMLTQX) [UK](https://www.amazon.co.uk/NETGEAR-Wireless-Access-Point-WAX202/dp/B098FGSHXH?)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/1030167263011151994/WAX202.png"
             }
-          ]
-        },
-        {
-          "name": "TPLinkC6",
-          "title": "TP-Link Archer C6 or A6",
-          "description": "Low End (AC) - TP-Link C6 or A6",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "TP-Link Archer C6 or A6",
-              "description": "The TPLink C6/A6 is a good dedicated router specifically for wireless VR usage, it is a budget router that works well for Virtual Desktop.",
-              "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c6/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[USA](https://www.amazon.com/NETGEAR-4-Stream-Dual-Band-Gigabit-Router/dp/B097HMLTQX?tag=vrdesktop-20) [Canada](https://www.amazon.ca/NETGEAR-Wireless-Desktop-Access-WAX202/dp/B097HMLTQX?tag=vrdesktop-20) [UK](https://www.amazon.co.uk/NETGEAR-Wireless-Access-Point-WAX202/dp/B098FGSHXH?tag=vrdesktop-20)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/1030167263011151994/WAX202.png"
+          }
+        ]
+      },
+      {
+        "name": "TPLinkAXE5400",
+        "title": "TP-Link Archer AXE75/AXE5400",
+        "description": "Dedicated (AXE) - TP-Link Archer AXE75/AXE5400",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "TP-Link Archer AXE75/AXE5400",
+            "description": "The TP-Link Archer AXE75/AXE5400 is a Wifi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
+            "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe5400/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA Walmart](https://www.walmart.com/ip/TP-Link-Tri-Band-6-Stream-Wi-Fi-6E-Router-6-Ghz-Band-Speed-up-to-5-4-Gbps-Archer-AXE5400/1853029190) [USA Amazon](https://www.amazon.com/TP-Link-Tri-Band-Archer-AXE75-Wireless/dp/B0B3SQK74L/) [USA TPLink](https://us.store.tp-link.com/collections/router-x/products/archer-axe75-axe5400-tri-band-gigabit-wi-fi-6e-router)",
+                "inline": true
               }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/682369095798489129/1132126125754167346/Archer_AXE5400_Tri-Band_6-Stream_WiFi_6E_Router-01_normal_20221227005559i.png"
             }
-          ]
-        },
-        {
-          "name": "TPLinkAXE5400",
-          "title": "TP-Link Archer AXE75/AXE5400",
-          "description": "Dedicated (AXE) - TP-Link Archer AXE75/AXE5400",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "TP-Link Archer AXE75/AXE5400",
-              "description": "The TP-Link Archer AXE75/AXE5400 is a Wifi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
-              "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe5400/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[USA Walmart](https://www.walmart.com/ip/TP-Link-Tri-Band-6-Stream-Wi-Fi-6E-Router-6-Ghz-Band-Speed-up-to-5-4-Gbps-Archer-AXE5400/1853029190?tag=vrdesktop-20) [USA Amazon](https://www.amazon.com/TP-Link-Tri-Band-Archer-AXE75-Wireless/dp/B0B3SQK74L/?tag=vrdesktop-20) [USA TPLink](https://us.store.tp-link.com/collections/router-x/products/archer-axe75-axe5400-tri-band-gigabit-wi-fi-6e-router?tag=vrdesktop-20)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/682369095798489129/1132126125754167346/Archer_AXE5400_Tri-Band_6-Stream_WiFi_6E_Router-01_normal_20221227005559i.png"
-              }
-            }
-          ]
-        },    
-        {
-          "name": "OpalGLSFT1200",
-          "title": "Opal GL-SFT1200",
-          "description": "Low End (AC) - Opal GL-SFT1200",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Opal GL-SFT1200",
-              "description": "The Opal GL-SFT1200 is a good dedicated router for bridging and repeating an existing wireless network.",
-              "url": "https://www.gl-inet.com/products/gl-sft1200/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No",
-                  "inline": true
-                },
-                {
-                  "name": "Dedicated Bridging Setup",
-                  "value": "Follow the [Opal Travel Router Setup Guide](https://discord.com/channels/564087419918483486/692030889932095529/1081059165713207326) or use r/opal for further information.",
-                  "inline": true
-                },     
-                {
-                  "name": "Store Links",
-                  "value": "[USA](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/?tag=vrdesktop-20) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/?tag=vrdesktop-20) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5?tag=vrdesktop-20)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.example.com/image-url.png"
-              }
-            }
-          ]
-        },      
-        {
-          "name": "WAX202",
-          "title": "Netgear WAX202",
-          "description": "Low End (AX) - Netgear WAX202",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Netgear WAX202",
-              "description": "The WAX202 is a good dedicated router specifically for wireless VR usage, it's priced well for an AX router and can function as an AP.",
-              "url": "https://www.netgear.com/business/wifi/access-points/wax202/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: No",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[USA](https://www.amazon.com/NETGEAR-4-Stream-Dual-Band-Gigabit-Router/dp/B097HMLTQX?tag=vrdesktop-20) [Canada](https://www.amazon.ca/NETGEAR-Wireless-Desktop-Access-WAX202/dp/B097HMLTQX?tag=vrdesktop-20) [UK](https://www.amazon.co.uk/NETGEAR-Wireless-Access-Point-WAX202/dp/B098FGSHXH?tag=vrdesktop-20)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/1030167263011151994/WAX202.png"
-              }
-            }
-          ]
-        },
-        {
-          "name": "AsusAX86U",
-          "title": "Asus RT-AX86U",
-          "description": "High End (AX) - Asus RT-AX86U",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Asus RT-AX86U",
-              "description": "The RT-AX86U is a great home router as well as being great for wireless streaming. \n It supports DFS channels, which decrease interference in congested areas.",
-              "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: Yes",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[USA](https://www.amazon.com/ASUS-RT-AX86U-802-11ax-Lifetime-Internet/dp/B08BJHS3X7?tag=vrdesktop-20) [Canada](https://www.amazon.ca/RT-AX86U-AX5700-Dual-Band-Wireless-Gaming/dp/B08H6NVB5N?tag=vrdesktop-20) [UK](https://www.amazon.co.uk/ASUS-RT-AX86U-Compatible-Lifetime-Internet/dp/B08CBCR6BB?tag=vrdesktop-20)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/875149053221019668/930535591953698966/P_setting_xxx_0_90_end_500.png"
-              }
-            }          
-          ]
-        },
-        {
-          "name": "tplaxe300",
-          "title": "TP-Link AXE300/AXE16000",
-          "description": "High End (AXE) - TP-Link AXE300/AXE16000",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "TP-Link AXE300/AXE16000",
-              "description": "The TP-Link AXE300/AXE16000 is a great home router as well as being great for wireless streaming. \n It is a full featured Wifi 6E/AXE router with solid performance.",
-              "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[USA](https://www.amazon.com/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/) [Canada](https://www.amazon.ca/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/830109388927926282/1188657513873293322/51xvfaZyLL.png"
-              }
-            }          
-          ]
-        }
-      ]
-    },
-    {
-      "name": "opalsetup",
-      "description": "GL.iNet Opal Setup Guide",
-      "ephemeral": false,
-      "embed": {
-        "title": "Opal Setup Guide",
-        "description": "You can follow a video guide on how to setup your Opal [here](https://youtu.be/1HwT-Own6vo).",
-        "footer": {
-          "text": "Thanks Dylan!"
-          },
-        "image": {
-          "url": "https://media.discordapp.net/attachments/588170196968013845/1094494466762608640/opelsetup.png"
-        }
+          }
+        ]
       },    
-      "pages": [
-        {
-          "name": "Main Page",
-          "title": "Main Page - Text Guide",
-          "description": "Main Page Introduction",
-          "embeds": [
-            {
-              "title": "Introduction",
-              "description": "The following chain of messages is a setup guide specifically designed for owners of the GL.iNet Opal router (model GL-SFT1200) with no way to directly wire it to both their PC and home router as an access point for Virtual Desktop, you can follow a video guide on how to setup your Opal [here](https://youtu.be/1HwT-Own6vo) as well. Traditionally, network bridges for Virtual Desktop are set up by using Internet Connection Sharing on Windows to feed Internet to a router in Access Point mode by the WAN port. The Opal can repeat an Internet connection wirelessly while transmitting its own Wi-Fi signal, as shown in the !opalsetup diagram drawn by @DenTechs.\n\nIn this guide, we will set up the GL.iNet Opal to use Repeater Mode, which takes your existing home Wi-Fi connection and repeats it to your PC over Ethernet and your VR headset over its own Wi-Fi signal. This means the Opal router will be able take video data from your PC by Ethernet and send it over Wi-Fi to your VR headset, while also providing an Internet connection to each device. This is both less expensive and more versatile than the D-Link AirBridge solution. The setup process is very easy and should take no longer than 20 minutes to complete.",
-              "fields": [
-                {
-                  "name": "Requirements",
-                  "value": "- [GL.iNet Opal](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5?tag=vrdesktop-20)\n- Ethernet Cable\n- VR Ready PC with Virtual Desktop Streamer installed\n- VR Headset with Virtual Desktop installed\n- Your current home router (2.4GHz sufficient. Internet speed irrelevant)"
-                },
-                {
-                  "name": "Note",
-                  "value": "The Opal includes a very short Ethernet cable. For best results, use a long cable to clear the router of other electronics.\n\nOwners of the GL.iNet Slate AX (model GL-AXT1800) and Opal owners using the experimental GL.iNet firmware v4 from the firmware download page may use this guide, as the UI and functionality are very similar, with the exception of channel optimization."
-                },
-                {
-                  "name": "Caution",
-                  "value": "Always use the included power brick or equivalent. The Opal's power input spec is 5V/3A."
-                }
-              ]
+      {
+        "name": "OpalGLSFT1200",
+        "title": "Opal GL-SFT1200",
+        "description": "Low End (AC) - Opal GL-SFT1200",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Opal GL-SFT1200",
+            "description": "The Opal GL-SFT1200 is a good dedicated router for bridging and repeating an existing wireless network.",
+            "url": "https://www.gl-inet.com/products/gl-sft1200/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No",
+                "inline": true
+              },
+              {
+                "name": "Dedicated Bridging Setup",
+                "value": "Follow the [Opal Travel Router Setup Guide](https://discord.com/channels/564087419918483486/692030889932095529/1081059165713207326) or use r/opal for further information.",
+                "inline": true
+              },     
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.example.com/image-url.png"
             }
-          ]
+          }
+        ]
+      },      
+      {
+        "name": "WAX202",
+        "title": "Netgear WAX202",
+        "description": "Low End (AX) - Netgear WAX202",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Netgear WAX202",
+            "description": "The WAX202 is a good dedicated router specifically for wireless VR usage, it's priced well for an AX router and can function as an AP.",
+            "url": "https://www.netgear.com/business/wifi/access-points/wax202/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: No",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/NETGEAR-4-Stream-Dual-Band-Gigabit-Router/dp/B097HMLTQX) [Canada](https://www.amazon.ca/NETGEAR-Wireless-Desktop-Access-WAX202/dp/B097HMLTQX) [UK](https://www.amazon.co.uk/NETGEAR-Wireless-Access-Point-WAX202/dp/B098FGSHXH)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/1030167263011151994/WAX202.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "AsusAX86U",
+        "title": "Asus RT-AX86U",
+        "description": "High End (AX) - Asus RT-AX86U",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Asus RT-AX86U",
+            "description": "The RT-AX86U is a great home router as well as being great for wireless streaming. \n It supports DFS channels, which decrease interference in congested areas.",
+            "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: Yes",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/ASUS-RT-AX86U-802-11ax-Lifetime-Internet/dp/B08BJHS3X7) [Canada](https://www.amazon.ca/RT-AX86U-AX5700-Dual-Band-Wireless-Gaming/dp/B08H6NVB5N) [UK](https://www.amazon.co.uk/ASUS-RT-AX86U-Compatible-Lifetime-Internet/dp/B08CBCR6BB)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/875149053221019668/930535591953698966/P_setting_xxx_0_90_end_500.png"
+            }
+          }          
+        ]
+      },
+      {
+        "name": "tplaxe300",
+        "title": "TP-Link AXE300/AXE16000",
+        "description": "High End (AXE) - TP-Link AXE300/AXE16000",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "TP-Link AXE300/AXE16000",
+            "description": "The TP-Link AXE300/AXE16000 is a great home router as well as being great for wireless streaming. \n It is a full featured Wifi 6E/AXE router with solid performance.",
+            "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/) [Canada](https://www.amazon.ca/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/830109388927926282/1188657513873293322/51xvfaZyLL.png"
+            }
+          }          
+        ]
+      }
+    ]
+  },
+  {
+    "name": "iobt",
+    "description": "Information about IOBT and Forwarded Data",
+    "ephemeral": false,
+    "embed": {
+      "title": "Inside Out Body Tracking",
+      "description": "Virtual Desktop supports passing through upper body tracking (Q3) and estimation using Meta IOBT (All Quests). \n\n Please select an option below."
+    },
+    "pages": [
+      {
+        "name": "Main Page",
+        "title": "Inside Out Body Tracking and Index Emulation",
+        "description": "",
+        "embeds": [
+          {
+            "title": "What is Supported",
+            "description": "Virtual Desktop supports passing through upper body tracking (Q3) and estimation using Meta IOBT (All Quests).",
+            "fields": [
+              {
+                "name": "What is IOBT?",
+                "value": "Inside out Body Tracking is a [feature provided by Meta](https://developer.oculus.com/blog/inside-out-body-tracking-and-generative-legs/) that allows you to use the Quest for Full Body Tracking/Estimation."
+              },              
+              {
+                "name": "Supported Devices",
+                "value": "All Quest devices are supported, at this time no other devices have this feature available on native openXR."
+              },
+              {
+                "name": "What is Tracked on IOBT?",
+                "value": "**Quest 3**: Upper Body is tracked using the cameras, waist and legs are estimated based on upper body positioning.\n **Quest 2/Pro/1**: All estimation based on head and hand pose. Cameras do not track your body. [You can see a demo of estimation here](https://www.youtube.com/watch?v=lkDW5yuQnvQ)"
+              },          
+              {
+                "name": "Can I kick people?",
+                "value": "No, sorry :("
+              },
+              {
+                "name": "Can I use this with other trackers?",
+                "value": "Yes, you can disable specific trackers at any time by setting the individual tracker to 'Held In Hand' or using [Dentech's configuration tool](https://github.com/DenTechs/Virtual_Desktop_Body_Tracking_Configurator/releases).\n This will allow you to use Slime/Vive trackers with IOBT."
+              }              
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Common Issues",
+        "title": "Common Issues",
+        "description": "",
+        "embeds": [
+          {
+            "title": "Troubleshooting",
+            "description": "If you are experiencing issues with IOBT you can check the following common issues.",
+            "fields": [
+              {
+                "name": "Hand Tracking/Body Tracking not showing up in SteamVR",
+                "value": "Verify the 'Vive Tracker Emulation' is enabled in the VD Streaming tab which is an option once 'Forward Tracking Data to PC' is enabled.\n\n Once enabled, verify SteamVR Addons has the Virtual Desktop addon enabled."
+              },
+              {
+                "name": "My legs aren't aligned right",
+                "value": "On IOBT, legs are estimated/generated through body pose and will not line up exactly.\n\n**You can open and close the Meta menu with the right controller button and this will recalibrate.**\n\n In most cases you will end up just moving to line your avatar up."
+              },
+              {
+                "name": "I can't kick people",
+                "value": "Yep! All lower body is estimated/generative. You cannot kick people."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "indexemulation",
+    "description": "Valve Index Controller Emulation",
+    "ephemeral": false,
+    "embed": {
+      "title": "Valve Index Controller Emulation",
+      "description": "Virtual Desktop allows you to emulate Index Controllers for full hand tracking support, as well as Skeletal Input in SteamVR.",
+      "fields": [
+        {
+          "name": "Where can I use it?",
+          "value": "Not all games will support it, but in supported games in scenes that do not require buttons such as stationary VRChat."
         },
         {
-          "name": "SetupWifi",
-          "title": "Set up your new GL.iNet Opal Wi-Fi network.",
-          "description": "If you have already set up your GL.iNet Opal, please review steps 4-5.",
-          "embeds": [
-            {
-              "title": "Set up your new GL.iNet Opal Wi-Fi network.",
-              "description": "If you have already set up your GL.iNet Opal, please review steps 4-5.",
-              "fields": [
-                {
-                  "name": "Step 1",
-                  "value": "Power up your GL.iNet Opal and connect your PCs Ethernet cable to one of the LAN ports. Avoid using the WAN port during setup."
-                },
-                {
-                  "name": "Step 2",
-                  "value": "In your browser URL bar, enter 192.168.8.1 to access the GL.iNet Admin Panel. This is the router's LOCAL IP address; no one can access it from outside your network."
-                },
-                {
-                  "name": "Step 3",
-                  "value": "If you have not done so, perform first-time setup and set the admin password. You may want to write this down, as you will need to enter it every time you access the Admin Panel from now on. This password can be changed later without impacting connected devices."
-                },
-                {
-                  "name": "Step 4",
-                  "value": "Go to the Wireless tab. From here, you can set up the Wi-Fi name and password for your VR headset to connect to. Perform the next set of steps for both the 2.4G and 5G networks."
-                },
-                {
-                  "name": "Step 5",
-                  "value": "On both networks, click Channel Optimization and wait for it to complete. The router will scan Wi-Fi channels in your area and select the least congested one.\n\nMake sure Guest Networks are disabled, as they may cause issues for Virtual Desktop if enabled."
-                }
-              ]
-            }
-          ]
+          "name": "How do I use it?",
+          "value": "Make sure Hand Tracking is enabled in the Quest in 'Movement Tracking'\n Enable Forward Data to PC in the 'Streaming' Tab in Virtual Desktop\n\nSkeletal Input: No other changes, this will pass through as expected.\nRegular Hand Tracking: Check 'Index Controller Emulation'."
         },
         {
-          "name": "ConnectToInternet",
-          "title": "Connect your GL.iNet Opal to the Internet.",
-          "description": "Connect your GL.iNet Opal to the Internet.",
-          "embeds": [
-            {
-              "title": "Phase 2: Connect your GL.iNet Opal to the Internet.",
-              "description": "In this phase, we will connect your GL.iNet Opal to the Internet.",
-              "fields": [
-                {
-                  "name": "Step 1",
-                  "value": "Set up Repeater Mode."
-                },
-                {
-                  "name": "Step 2",
-                  "value": "Set up Extender Mode (optional, but recommended if you find the Internet connection is a bit slow or you need your PC to see other devices on the home network.)"
-                }
-              ]
-            }
-          ]
+          "name": "What is Tracked on Index Controller Emulation?",
+          "value": "On all Quests, you can pass through your hand tracking as index controller emulation, allowing you to use full finger movement on hand tracking in supported games.\n\n If the game supports Skeletal Input, you do not need to enable this option and will have full Skeletal including Splay in supported titles."
+        },          
+        {
+          "name": "It's not working?",
+          "value": "Make sure the SteamVR Addon for Virtual Desktop is enabled, if disabled this will not work as expected."
+        },        
+        {
+          "name": "How do I move?",
+          "value": "While using hand tracking, you cannot move however you can pick up a controller at any time for movement."
+        }        
+      ]
+    }
+  },  
+  {
+    "name": "opalsetup",
+    "description": "GL.iNet Opal Setup Guide",
+    "ephemeral": false,
+    "embed": {
+      "title": "Opal Setup Guide",
+      "description": "You can follow a video guide on how to setup your Opal [here](https://youtu.be/1HwT-Own6vo).",
+      "footer": {
+        "text": "Thanks Dylan!"
+        },
+      "image": {
+        "url": "https://media.discordapp.net/attachments/588170196968013845/1094494466762608640/opelsetup.png"
+      }
+    },    
+    "pages": [
+      {
+        "name": "Main Page",
+        "title": "Main Page - Text Guide",
+        "description": "Main Page Introduction",
+        "embeds": [
+          {
+            "title": "Introduction",
+            "description": "The following chain of messages is a setup guide specifically designed for owners of the GL.iNet Opal router (model GL-SFT1200) with no way to directly wire it to both their PC and home router as an access point for Virtual Desktop, you can follow a video guide on how to setup your Opal [here](https://youtu.be/1HwT-Own6vo) as well. Traditionally, network bridges for Virtual Desktop are set up by using Internet Connection Sharing on Windows to feed Internet to a router in Access Point mode by the WAN port. The Opal can repeat an Internet connection wirelessly while transmitting its own Wi-Fi signal, as shown in the !opalsetup diagram drawn by @DenTechs.\n\nIn this guide, we will set up the GL.iNet Opal to use Repeater Mode, which takes your existing home Wi-Fi connection and repeats it to your PC over Ethernet and your VR headset over its own Wi-Fi signal. This means the Opal router will be able take video data from your PC by Ethernet and send it over Wi-Fi to your VR headset, while also providing an Internet connection to each device. This is both less expensive and more versatile than the D-Link AirBridge solution. The setup process is very easy and should take no longer than 20 minutes to complete.",
+            "fields": [
+              {
+                "name": "Requirements",
+                "value": "- [GL.iNet Opal](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5)\n- Ethernet Cable\n- VR Ready PC with Virtual Desktop Streamer installed\n- VR Headset with Virtual Desktop installed\n- Your current home router (2.4GHz sufficient. Internet speed irrelevant)"
+              },
+              {
+                "name": "Note",
+                "value": "The Opal includes a very short Ethernet cable. For best results, use a long cable to clear the router of other electronics.\n\nOwners of the GL.iNet Slate AX (model GL-AXT1800) and Opal owners using the experimental GL.iNet firmware v4 from the firmware download page may use this guide, as the UI and functionality are very similar, with the exception of channel optimization."
+              },
+              {
+                "name": "Caution",
+                "value": "Always use the included power brick or equivalent. The Opal's power input spec is 5V/3A."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SetupWifi",
+        "title": "Set up your new GL.iNet Opal Wi-Fi network.",
+        "description": "If you have already set up your GL.iNet Opal, please review steps 4-5.",
+        "embeds": [
+          {
+            "title": "Set up your new GL.iNet Opal Wi-Fi network.",
+            "description": "If you have already set up your GL.iNet Opal, please review steps 4-5.",
+            "fields": [
+              {
+                "name": "Step 1",
+                "value": "Power up your GL.iNet Opal and connect your PCs Ethernet cable to one of the LAN ports. Avoid using the WAN port during setup."
+              },
+              {
+                "name": "Step 2",
+                "value": "In your browser URL bar, enter 192.168.8.1 to access the GL.iNet Admin Panel. This is the router's LOCAL IP address; no one can access it from outside your network."
+              },
+              {
+                "name": "Step 3",
+                "value": "If you have not done so, perform first-time setup and set the admin password. You may want to write this down, as you will need to enter it every time you access the Admin Panel from now on. This password can be changed later without impacting connected devices."
+              },
+              {
+                "name": "Step 4",
+                "value": "Go to the Wireless tab. From here, you can set up the Wi-Fi name and password for your VR headset to connect to. Perform the next set of steps for both the 2.4G and 5G networks."
+              },
+              {
+                "name": "Step 5",
+                "value": "On both networks, click Channel Optimization and wait for it to complete. The router will scan Wi-Fi channels in your area and select the least congested one.\n\nMake sure Guest Networks are disabled, as they may cause issues for Virtual Desktop if enabled."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ConnectToInternet",
+        "title": "Connect your GL.iNet Opal to the Internet.",
+        "description": "Connect your GL.iNet Opal to the Internet.",
+        "embeds": [
+          {
+            "title": "Phase 2: Connect your GL.iNet Opal to the Internet.",
+            "description": "In this phase, we will connect your GL.iNet Opal to the Internet.",
+            "fields": [
+              {
+                "name": "Step 1",
+                "value": "Set up Repeater Mode."
+              },
+              {
+                "name": "Step 2",
+                "value": "Set up Extender Mode (optional, but recommended if you find the Internet connection is a bit slow or you need your PC to see other devices on the home network.)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ConnectVRToOpal",
+        "title": "Connect your VR Headset to the GL.iNet Opal.",
+        "description": "Connect your VR headset to the GL.iNet Opal.",
+        "embeds": [
+          {
+            "title": "Phase 3: Connect your VR Headset to the GL.iNet Opal.",
+            "description": "In this phase, we will connect your VR headset to the GL.iNet Opal.",
+            "fields": [
+              {
+                "name": "Step 1",
+                "value": "Connect your VR headset to your new Wi-Fi."
+              },
+              {
+                "name": "Step 2",
+                "value": "Open Virtual Desktop."
+              },
+              {
+                "name": "Step 3",
+                "value": "Launch a game."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "notes",
+        "title": "Notes and Miscellaneous Information",
+        "description": "Additional information and notes for the setup process.",
+        "embeds": [
+          {
+            "title": "Phase 1 Notes",
+            "description": "You can disable the 2.4GHz network if you wish, by turning it off in the Wireless tab, but any time you perform a router reset, it will turn on again. All GL.iNet Opal routers have the same default Wi-Fi passwords, which is why Step 4e is required. Fortunately, router resets do not revert your passwords or network names.\n\nTurning down the TX Power of your Opal Wi-Fi will reduce the range at which your devices can connect to it. While this may seem counterintuitive, it may be a courteous gesture to do so, as your neighbors will have less wireless interference. However, do this at your own risk. It may slow your connection down.\n\nDo not use the guest networks on the GL.iNet Opal if you plan to use Virtual Desktop. Having guest networks enabled is unnecessary and can lead to problems connecting or using VR. This does not apply to the Opal exclusively; guest networks should be avoided generally for Virtual Desktop."
+          },
+          {
+            "title": "Phase 2 Notes",
+            "description": "Soft Reset: If you experience a problem (lose Internet, can no longer connect to your GL.iNet Wi-Fi or lose access to the admin panel), hold the button on the side of the router for 4 seconds. The light will slowly blink blue 3 times. Let go as soon as it starts to blink faster. If the light stays solid while holding the button, leave the router alone for 5 minutes, as it may be recovering from a crash. Avoid unplugging the router until you have access to the admin panel. This soft reset will restore access to the admin panel and re-enable your Wi-Fi, but you will need to reconnect Repeater Mode.\n\n?? CAUTION: Do not hold the reset button for longer than the suggested time, as a 10 second hold WILL cause a FACTORY RESET!\n\nWhen this guide was originally written, it was thought that Repeater Mode was too slow to be used for VR and that connecting the GL.iNet router to the home Wi-Fi over 5GHz would cause Virtual Desktop to underperform. This is no longer the case. Testing has proven that Repeater Mode can handle VR just fine and using 5GHz may actually be beneficial in some situations. Depending on your situation, it may even give your PC full speed Internet.\n\nChoosing Extender Mode may be helpful if you need to use local connections with other devices."
+          },
+          {
+            "title": "Phase 3 Notes",
+            "description": "While it is absolutely not required, it may help to tell your headset to treat the Wi-Fi connection as unmetered. There have been no confirmed cases (to my knowledge) of this actually helping or solving any particular issue, but it is something to keep in mind.\n\nSometimes you may see an orange warning when Virtual Desktop connects, even if nothing is wrong. Ive seen this happen frequently after making changes to my router. If it fails to connect after two or three attempts, restart your PC and headset. If it fails again, restart the router by disconnecting it from power for 10 seconds."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "resolution",
+    "description": "Streaming Resolution per device",
+    "ephemeral": false,
+    "embed": {
+      "title": "Streaming Resolution",
+      "description": "Render Resolution __per eye__",
+      "fields": [
+        {
+          "name": "Quest",
+          "value": "Potato: 1200x1344\nLow: 1536x1728\nMedium: 1824x2016\nHigh: 2208x2400"
         },
         {
-          "name": "ConnectVRToOpal",
-          "title": "Connect your VR Headset to the GL.iNet Opal.",
-          "description": "Connect your VR headset to the GL.iNet Opal.",
-          "embeds": [
-            {
-              "title": "Phase 3: Connect your VR Headset to the GL.iNet Opal.",
-              "description": "In this phase, we will connect your VR headset to the GL.iNet Opal.",
-              "fields": [
-                {
-                  "name": "Step 1",
-                  "value": "Connect your VR headset to your new Wi-Fi."
-                },
-                {
-                  "name": "Step 2",
-                  "value": "Open Virtual Desktop."
-                },
-                {
-                  "name": "Step 3",
-                  "value": "Launch a game."
-                }
-              ]
-            }
-          ]
+          "name": "Quest 2/Pico Neo 3/Quest Pro/Quest 3",
+          "value": "Potato: 1440x1536\nLow: 1728x1824\nMedium: 2016x2112\nHigh: 2496x2592\nUltra: 2688x2784\nGodlike: 3072x3216 (Quest Pro/Quest 3)"
         },
         {
-          "name": "notes",
-          "title": "Notes and Miscellaneous Information",
-          "description": "Additional information and notes for the setup process.",
-          "embeds": [
-            {
-              "title": "Phase 1 Notes",
-              "description": "You can disable the 2.4GHz network if you wish, by turning it off in the Wireless tab, but any time you perform a router reset, it will turn on again. All GL.iNet Opal routers have the same default Wi-Fi passwords, which is why Step 4e is required. Fortunately, router resets do not revert your passwords or network names.\n\nTurning down the TX Power of your Opal Wi-Fi will reduce the range at which your devices can connect to it. While this may seem counterintuitive, it may be a courteous gesture to do so, as your neighbors will have less wireless interference. However, do this at your own risk. It may slow your connection down.\n\nDo not use the guest networks on the GL.iNet Opal if you plan to use Virtual Desktop. Having guest networks enabled is unnecessary and can lead to problems connecting or using VR. This does not apply to the Opal exclusively; guest networks should be avoided generally for Virtual Desktop."
-            },
-            {
-              "title": "Phase 2 Notes",
-              "description": "Soft Reset: If you experience a problem (lose Internet, can no longer connect to your GL.iNet Wi-Fi or lose access to the admin panel), hold the button on the side of the router for 4 seconds. The light will slowly blink blue 3 times. Let go as soon as it starts to blink faster. If the light stays solid while holding the button, leave the router alone for 5 minutes, as it may be recovering from a crash. Avoid unplugging the router until you have access to the admin panel. This soft reset will restore access to the admin panel and re-enable your Wi-Fi, but you will need to reconnect Repeater Mode.\n\n?? CAUTION: Do not hold the reset button for longer than the suggested time, as a 10 second hold WILL cause a FACTORY RESET!\n\nWhen this guide was originally written, it was thought that Repeater Mode was too slow to be used for VR and that connecting the GL.iNet router to the home Wi-Fi over 5GHz would cause Virtual Desktop to underperform. This is no longer the case. Testing has proven that Repeater Mode can handle VR just fine and using 5GHz may actually be beneficial in some situations. Depending on your situation, it may even give your PC full speed Internet.\n\nChoosing Extender Mode may be helpful if you need to use local connections with other devices."
-            },
-            {
-              "title": "Phase 3 Notes",
-              "description": "While it is absolutely not required, it may help to tell your headset to treat the Wi-Fi connection as unmetered. There have been no confirmed cases (to my knowledge) of this actually helping or solving any particular issue, but it is something to keep in mind.\n\nSometimes you may see an orange warning when Virtual Desktop connects, even if nothing is wrong. Ive seen this happen frequently after making changes to my router. If it fails to connect after two or three attempts, restart your PC and headset. If it fails again, restart the router by disconnecting it from power for 10 seconds."
-            }
-          ]
+          "name": "Pico 4",
+          "value": "Potato: 1488x1488\nLow: 1776x1776\nMedium: 2064x2064\nHigh: 2544x2544\nUltra: 2736x2736\nGodlike: 3120x3120"
         }
       ]
-    },
-    {
-      "name": "resolution",
-      "description": "Streaming Resolution per device",
-      "ephemeral": false,
-      "embed": {
-        "title": "Streaming Resolution",
-        "description": "Render Resolution __per eye__",
-        "fields": [
-          {
-            "name": "Quest",
-            "value": "Potato: 1200x1344\nLow: 1536x1728\nMedium: 1824x2016\nHigh: 2208x2400"
-          },
-          {
-            "name": "Quest 2/Pico Neo 3/Quest Pro/Quest 3",
-            "value": "Potato: 1440x1536\nLow: 1728x1824\nMedium: 2016x2112\nHigh: 2496x2592\nUltra: 2688x2784\nGodlike: 3072x3216 (Quest Pro/Quest 3)"
-          },
-          {
-            "name": "Pico 4",
-            "value": "Potato: 1488x1488\nLow: 1776x1776\nMedium: 2064x2064\nHigh: 2544x2544\nUltra: 2736x2736\nGodlike: 3120x3120"
-          }
-        ]
-      }
-    },
-    {
-      "name": "specs",
-      "description": "Minimum PC Specs",
-      "ephemeral": false,
-      "embed": {
-        "title": "General Minimum Specs for VR",
-        "description": "OS: Windows 10\nCPU: Intel i5-7500 / AMD Ryzen 5 1600 or greater\nRAM: 12GB+ RAM\nGPU: NVIDIA GTX 1660 Super / AMD Radeon RX 5600XT or greater\nUSB Ports: 1x 3.1 port\nFree Space: 35GB on C:",
-        "fields": [
-          {
-            "name": "Detailed Info",
-            "value": "You can find detailed minimums below. Please note that minimum does not mean you can play every game.\n[Oculus Rift S Supported Specs](https://store.facebook.com/help/quest/articles/getting-started/getting-started-with-rift/rift-s-minimum-requirements/)\n[Oculus Link Supported Specs](https://store.facebook.com/help/quest/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)\n[Valve Index Supported Specs](https://support.steampowered.com/kb_article.php?ref=4061-QUZB-4602)"
-          }
-        ]
-      }
-    },
-    {
-      "name": "roblox",
-      "description": "Play Roblox in VR",
-      "ephemeral": false,
-      "embed": {
-        "title": "Play Roblox in VR",
-        "description": "1. Set SteamVR as default OpenXR Runtime.\n2. Launch SteamVR from the button in the Virtual Desktop menu in VR.\n3. Switch back to desktop and Launch Roblox.\n4. Toggle VR mode in Roblox.",
-        "footer": {
-          "text": "Please note, Robloxs VR support is quite buggy."
-        }
-      }
-    },  
-    {
-      "name": "previous",
-      "description": "How to Install the Previous Version",
-      "ephemeral": false,
-      "embed": {
-        "title": "How to Install the Previous Version",
-        "description": "If you suspect that a newer version is causing issues, you can install the previous version at any time by uninstalling the current version from your device and following the instructions below.",
-        "color": 15158332,
-        "fields": [
-          {
-            "name": "**Quest**",
-            "value": "Download the previous version APK and Streamer from [GitHub](https://github.com/guygodin/VirtualDesktop/releases/) for the version you are installing. Sideload the APK to your Quest using Sidequest, and reinstall the correct streamer. Please ensure to uninstall it from your Quest before doing this.",
-            "inline": false
-          },
-          {
-            "name": "**Pico**",
-            "value": "Download the previous version APK and Streamer from [GitHub](https://github.com/guygodin/VirtualDesktop/releases/) for the version you are installing. Sideload the APK to your Pico using Sidequest, and reinstall the correct streamer.",
-            "inline": false
-          }
-        ]
-      }
-    },  
-    {
-      "name": "drivers",
-      "description": "Recommended GPU Drivers",
-      "ephemeral": false,
-      "embed": {
-        "title": "Recommended GPU Drivers",
-        "description": "Nvidia: [Latest drivers](https://www.nvidia.com/download/index.aspx)\nAMD RX 400/500 series: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000 series: [22.11.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-11-2)\nAMD 7000 series: [Latest drivers](https://www.amd.com/en/support)"
-      }
-    },  
-    {
-      "name": "ethernet",
-      "description": "Ethernet requirement",
-      "ephemeral": false,
-      "embed": {
-        "title": "Ethernet is required",
-        "description": "Rebooting your router can provide a temporary fix for certain issues you may be experiencing. Please note that since 2018, a Gigabit Ethernet connection between your PC and an AC or AX router is mandatory for support. Past success with other setups does not guarantee stability, and these configurations are not supported due to frequent complications. If your router is too far away to establish an Ethernet connection, use the command '/routers' to view a list of dedicated routers that have been tested by the community."
-      }
-    },  
-    {
-      "name": "remote",
-      "description": "Connecting to your computer remotely over the internet",
-      "ephemeral": false,
-      "embed": {
-        "title": "Connecting to your computer remotely over the internet",
-        "description": "Make sure 'Allow remote connections' is checked in the Streamer window, Options tab on your computer.\n\nYou'll also need to enable UPnP on your router and the Streamer App will forward the required ports automatically.\n\nIf you want to manually configure your router, forward TCP ports 38810, 38820, 38830 and 38840. All traffic uses end-to-end encryption."
-      }
-    },  
-    {
-      "name": "justask",
-      "description": "Don't ask to ask",
-      "ephemeral": false,
-      "embed": {
-        "title": "Don't ask to ask; just ask",
-        "description": "Asking 'Hey, can anyone help me?' can be seen as bad form. The best way to get assistance is to ask your entire question, with all the necessary details, in a relevant channel. There are many reasons why knowledgeable people might not offer help upfront, but by asking the full question, you're inviting people to provide an answer, not asking them to commit to solving a problem they might not know how to solve."
-      }
-    },
-    {
-    "name": "ddu",
-    "description": "DDU - Uninstall and Reinstall Drivers",
+    }
+  },
+  {
+    "name": "specs",
+    "description": "Minimum PC Specs",
     "ephemeral": false,
     "embed": {
-      "title": "Uninstall and Reinstall GPU Drivers",
-      "description": "Follow these steps to uninstall GPU drivers using DDU (Display Driver Uninstaller):\n1. Download DDU from the [official website](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) and download the GPU driver you intend to install (see below).\n2. Reboot your PC into [Safe Mode](https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234)\n3. Launch DDU and select the GPU from the list.\n4. Click on 'Clean and restart'.\n5. After the process and restart, the GPU drivers will be uninstalled.\n\nYou can reinstall the drivers using the links below:\n\nNvidia: [Latest drivers](https://www.nvidia.com/download/index.aspx)\nAMD RX 400/500 series: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000 series: [22.11.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-11-2)\nAMD 7000 series: [Latest drivers](https://www.amd.com/en/support)"
-      }
-    },
-    {
-      "name": "internet",
-      "description": "Internet isn't used when streaming",
-      "ephemeral": false,
-      "embed": {
-        "title": "Internet isn't used when streaming",
-        "image": {
-          "url": "https://vrdiscord.com/images/VD_internet_command.png"
-        },
-        "description": "Once your VR headset is connected to your computer, all data traffic remains local. This is true whether you're connected directly to your main router or to a dedicated router on the same local area network (LAN). The only requirement is a wired connection from your PC to a router. The VR headset then connects wirelessly to the same router or dedicated router."
-      }
-    },
-    {
-      "name": "wifi",
-      "description": "Wi-Fi link speed doesn't mean actual data speed",
-      "ephemeral": false,
-      "embed": {
-        "title": "Wi-Fi link speed doesn't mean actual data speed",
-        "description": "Think of Wi-Fi link speed as a pipe's size and data as water. The link speed is the maximum water that can flow through the pipe. However, the actual flow can be slower due to several reasons: \n1. Shared bandwidth - it's like too many taps drawing water from the same pipe, slowing down the flow at each tap. \n2. Interference - it's like dirt in the pipe blocking the flow of water. Other devices can interfere with your Wi-Fi signal. \n3. Distance and obstacles - it's like the pipe being longer or having turns, slowing down the water. Being further from the router or having walls in between can slow down your Wi-Fi. \nSo, a big pipe (high link speed) doesn't always mean fast water flow (high data speed)."
-      }
-    },
-    {
-    "name": "ptc",
-    "description": "Opting Out of Public Test Channel (PTC)",
+      "title": "General Minimum Specs for VR",
+      "description": "OS: Windows 10\nCPU: Intel i5-7500 / AMD Ryzen 5 1600 or greater\nRAM: 12GB+ RAM\nGPU: NVIDIA GTX 1660 Super / AMD Radeon RX 5600XT or greater\nUSB Ports: 1x 3.1 port\nFree Space: 35GB on C:",
+      "fields": [
+        {
+          "name": "Detailed Info",
+          "value": "You can find detailed minimums below. Please note that minimum does not mean you can play every game.\n[Oculus Rift S Supported Specs](https://store.facebook.com/help/quest/articles/getting-started/getting-started-with-rift/rift-s-minimum-requirements/)\n[Oculus Link Supported Specs](https://store.facebook.com/help/quest/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)\n[Valve Index Supported Specs](https://support.steampowered.com/kb_article.php?ref=4061-QUZB-4602)"
+        }
+      ]
+    }
+  },
+  {
+    "name": "roblox",
+    "description": "Play Roblox in VR",
     "ephemeral": false,
     "embed": {
-      "title": "PTC",
-      "description": "Here's how you can opt-out of the Public Test Channel (PTC):\n\n1. Open your Quest mobile app on your phone.\n2. Go to 'Devices', then 'Headset Settings', and then 'Advanced Settings'.\n3. If 'Public Test Channel' is enabled, click on it to disable.\n\nRemember, it's usually better to avoid opting in for public test versions unless you're ready to deal with potential bugs. While these test builds can have exciting new features, they can also have unresolved issues, sometimes even game-breaking ones."
-      }
-    },
-    {
-    "name": "limit",
-    "description": "Limitations",
-    "ephemeral": false,
-    "embed": {
-      "title": "Limitations",
-      "description": "Virtual Desktop does not stop or hinder you from using it with a network or PC setup that does not meet minimum requirements. Also, not meeting the minimum requirements doesn't necessarily mean that VRD or your game won't work.\nHowever, because VRD wasn't designed to work on setups that don't meet the requirements, we can't actively support those setups and we cannot guarantee the app will work."
-      }
-    },
-    {
-      "name": "ics",
-      "description": "Internet Connection Sharing",
-      "ephemeral": false,
-      "embed": {
-        "title": "Internet Connection Sharing",
-        "description": "If you're uncertain about how to set up Internet Connection Sharing, you can follow the instructions provided in [this guide](https://github.com/Crayphish/vrdocs/wiki/Internet-Connection-Sharing)\n\nIf you have issues with ICS not working after a computer restart (even after applying the registry fix), you can try [this script](https://discord.com/channels/564087419918483486/692030889932095529/1178882282229075978)"
-      }
-    },  
-    {
-      "name": "doublenat",
-      "description": "Test for a double NAT",
-      "ephemeral": false,
-      "embed": {
-        "title": "Test for a double NAT",
-        "description": "The simplest way to test for a double NAT is to check the IP assigned to WAN on your router and compare it to the result when you Google \"what is my IP\". If they are not the same, that means you have a double NAT. Another, less reliable, method is to open a command prompt on a computer in your home and type: tracert 8.8.8.8. If you see multiple private IP addresses, it means you have a double NAT. For more information, visit: https://windowsreport.com/double-nat/"
-      }
-    },
-    {
-    "name": "oculusgo",
-    "description": "Streamer Version for Oculus Go & GearVR Users",
-    "ephemeral": false,
-    "embed": {
-      "title": "Streamer Version for Oculus Go & GearVR",
-      "description": "If you're using Oculus Go or GearVR, you need to use version 1.20.38 of the Streamer. This is the last version that is compatible with these devices. You can download it from [here](https://github.com/guygodin/VirtualDesktop/releases/tag/v1.20.38)."
-      }
-    },
-    {
-    "name": "33fps",
-    "description": "Fixing 33fps issue in SteamVR Games",
-    "ephemeral": false,
-    "embed": {
-      "title": "Stuck at 33fps in SteamVR Games",
-      "description": "If you're stuck at 33fps in SteamVR Games, follow these steps:\n\n1. Completely close Steam and SteamVR.\n2. Navigate to the following paths and delete these files:\n    a. 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\SteamVR\\resources\\settings\\default.vrsettings'\n    b. 'C:\\Program Files (x86)\\Steam\\config\\steamvr.vrsettings'\n    c. 'C:\\Program Files (x86)\\Steam\\config\\lighthouse\\lighthousedb.json'\n\nNext, uninstall SteamVR:\n1. Right click the SteamVR tool from the Steam Library and select 'Uninstall'.\n2. Follow the on-screen prompts to complete the uninstallation of the SteamVR tool.\n3. Make sure to delete any leftover files in the installation directory by deleting the contents in the folder 'SteamVR'. The default path for that folder is '%ProgramFiles(x86)%\\Steam\\steamapps\\common\\SteamVR'.\n\nFinally, reinstall SteamVR."
-      }
-    },
-    {
-      "name": "tasklist",
-      "description": "Provide a TaskList",
-      "ephemeral": false,
-      "embed": {
-        "title": "Provide a TaskList",
-        "description": "Open a command prompt as an Administrator on your computer and type: tasklist > C:\\list.txt\n\nThen, navigate to your C drive and attach the list.txt file here."
-      }
-    },
-    {
-      "name": "overlay",
-      "description": "Sharing Screenshots of the Performance Overlay",
-      "ephemeral": false,
-      "embed": {
-        "title": "Sharing Screenshots of the Performance Overlay",
-        "image": {
-          "url": "https://cdn.discordapp.com/attachments/830109245642899496/893921627153240064/vdoverlay.gif"
-        },
-        "description": "1.) Go into the Settings tab in the Virtual Desktop menu in VR and ensure \"copy screenshots to desktop\" is enabled.\n2.) Navigate to the Streaming tab and enable \"Show performance overlay\".\n3.) Launch your VR game.\n4.) Look for numbers that are turning orange.\n5.) When you see this, hold the right Oculus button and press either the right or left trigger to take a screenshot.\nIf the screenshot shortcut does not work, press the Oculus button once and press the camera icon on the Oculus menu to take a screenshot.\n\nOn Pico Neo 3, press the Pico button on your controller, then click the screenshot (scissors) button.\n\nOn Pico 4, press the screenshot button on your right controller.\n\nThe screenshot will be found on your desktop, and you can share it here."
-      }
-    },  
-    {
-      "name": "uninstall",
-      "description": "Unable to Uninstall/Reinstall Streamer App",
-      "ephemeral": false,
-      "embed": {
-        "title": "Unable to Uninstall/Reinstall Streamer App",
-        "description": "If you're unable to uninstall or reinstall the Streamer App, you can use this [tool](https://download.vrdesktop.net/files/MicrosoftProgram_Install_and_Uninstall.meta.diagcab) for assistance."
-      }
-    },
-    {
-      "name": "connect",
-      "description": "How to test if your PC and VR Headset can communicate",
-      "ephemeral": false,
-      "embed": {
-        "title": "How to test if your PC and VR Headset can communicate",
-        "description": "To verify that your computer can communicate with your headset, note down the IP address of your headset, which is displayed at the top of the Computers tab in VR.\nOnce you have it, open a command prompt on your computer by clicking Start and typing: cmd\nIn the command prompt, type: ping x.x.x.x (where x.x.x.x is the IP address of your headset) and press Enter.\nThen type: ipconfig and press Enter.\nShare the results here."
-      }
-    },
-    {
-      "name": "windows",
-      "description": "Guide to upgrade to Windows 10/11 while retaining files and apps",
-      "ephemeral": false,
-      "embed": {
-        "title": "Upgrade/Reinstall Windows 10/11 & Keep Your Files and Apps",
-        "description":"Follow the below steps to upgrade or reinstall your Windows:\n\n**Windows 10**:\n1. Download the latest Windows 10 ISO from [Microsoft's website](https://www.microsoft.com/en-us/software-download/windows10ISO).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and select 'Keep files and programs'.\n\nNote: Always back up important data before an OS reinstall.\n\n**Windows 11**:\n1. Download the Windows 11 ISO from [Microsoft's website](https://www.microsoft.com/software-download/windows11).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and ensure to keep your data and applications.\n\nNote: Ensure compatibility and back up important data before upgrading if you are on Windows 10."
-      }
-    },
-    {
-      "name": "download",
-      "description": "How to manually update the Streamer app",
-      "ephemeral": false,
-      "embed": {
-        "title": "How to manually update the Streamer app",
-        "image": {
-          "url": "https://cdn.discordapp.com/attachments/586993452185681946/1010006469913088070/unknown.png"
-        },
-        "description": "To update, [download the Streamer from the website](https://www.vrdesktop.net/) and install it over the existing installation."
-      }
-    },  
-    {
-      "name": "store",
-      "description": "Can I Transfer My License When I Purchased on Store x?",
-      "ephemeral": false,
-      "embed": {
-        "title": "Purchasing Virtual Desktop",
-        "description": "Virtual Desktop is available on supported headset's **official** stores. Since they're different stores from different companies, it needs to be purchased again if you bought it for one headset and not the other (cross-buy is not possible). It is compatible with multiple headsets released using the same store though, for example, if you bought Virtual Desktop for the Pico Neo 3 and then you buy the Pico 4, you do not need to purchase Virtual Desktop again. Same for if you purchase on the Meta store you can use it for Quest 1/2/3/Pro without repurchasing.\n\nThe app on each of the stores all have the same core features, allowing you to stream your desktop, videos, or PCVR games from your computer(s). The app is available in all markets, except for China.\n\n**Do not** buy Virtual Desktop Classic on Steam, it is not intended for use with a standalone VR headset."
-      }
-    },
-    {
-      "name": "oculusserver",
-      "description": "Oculus Servers Unreachable",
-      "ephemeral": false,
-      "embed": {
-        "title": "Oculus Servers Unreachable",
-        "description": "This could likely be a DNS issue or a bug associated with a recent Quest OS update. If your internet is working well from your Quest (you can check via store and web browser) and you've already rebooted your headset a few times, here are a few steps to try:\n\n**Step 1:** You might want to change the assigned DNS in your router WAN settings (NOT LAN). This tends to be the quickest fix. We suggest using either 8.8.8.8 or 1.1.1.1, or both.\n\n**Step 2:** Don't forget to reboot your router after making these changes. It's a small step that could make a big difference.\n\nIf all else fails, some users have resolved this issue by performing a factory reset on their Quest. However, be aware that this is due to a bug encountered with the recent Quest OS update, and this method may not work for everyone."
-      }
-    },
-    {
-      "name": "china",
-      "description": "China Pico Store",
-      "ephemeral": false,
-      "embed": {
-        "title": "China Pico Store",
-        "description": "Virtual Desktop is not available in China because it is impossible for us to provide support through the Great Firewall. It would require a separate cloud infrastructure, separate builds of the app and Streamer, etc. We do not have the team or the time for this."
-      }
-    },
-    {
-      "name": "halflifealyx",
-      "description": "Half-Life: Alyx - Stutter Fix",
-      "ephemeral": false,
-      "embed": {
-        "title": "Half-Life: Alyx - Stutter Fix",
-        "description": "Right-click on Half-Life: Alyx in Steam, then click Properties. In the 'General' tab, click on 'Launch Options', and paste the following: ```+vr_fidelity_level_auto 0 +vr_fidelity_level 3```"
-      }
-    },
-    {
-      "name": "rsetup",
-      "description": "Dedicated Router Setup Diagram",
-      "ephemeral": false,
-      "embed": {
-        "title": "Dedicated Router Setup Diagram",
-        "image": {
-          "url": "https://vrdiscord.com/images/routersetup.png"
-        }
-      }
-    },
-    {
-      "name": "altsetup",
-      "description": "Alternate Dedicated Router Setup Diagrams",
-      "ephemeral": false,
-      "embed": {
-        "title": "Alternate Dedicated Router Setup Diagrams",
-        "image": {
-          "url": "https://vrdiscord.com/images/network_setups.png"
-        }
-      }
-    },
-    {
-      "name": "codec",
-      "description": "scenarios for best codec use",
-      "ephemeral": false,
-      "embed": {
-        "title": "Which codec should I use?",
-        "description": "Best to leave the Preferred Codec to Automatic, but if you want to try different ones, here's which is best for what:\n\n**H.264:** has the lowest latency but not as efficient as the other codecs\n**H.264+:** has higher bitrate limit; good for racing or fast-paced games but requires ideal network conditions\n**HEVC:** has improved efficiency (looks better at the same bitrate compared to H.264) but takes a bit more time to encode/decode\n**AV1:** has best efficiency but requires Nvidia 4000 or AMD 7000 series GPU and a Quest 3\n**10-bit encoding:** improves color gradients, recommended for darker/slower games"
-      }
-    },
-    {
-      "name": "steamvr",
-      "description": "SteamVR clean reinstall",
-      "ephemeral": false,
-      "embed": {
-        "title": "Clean Reinstall SteamVR",
-        "description": "**1).** Uninstall the Virtual Desktop Streamer app from Windows\n**2).** Cleanly reinstall SteamVR using the [manual method](https://steamcommunity.com/app/250820/discussions/2/1640917625015598552/) or the [automated script](https://github.com/GeoMaciolek/steamvr-clean-reinstall)\n**3).** Reinstall the [Virtual Desktop Streamer app](https://www.vrdesktop.net/)"
-      }
-    },
-    {
-      "name": "external",
-      "description": "How to Launch External Games",
-      "ephemeral": false,
-      "embed": {
-        "title": "How to Launch External Games",
-        "description": "**Method 1).** Once connected to your computer in VR, right-click the Virtual Desktop Streamer icon next to the clock at the bottom right of your screen and click “Launch game…” then locate the executable of the game.\n\n**Method 2).** Create a .bat file with the following content: “C:\\Program Files\\Virtual Desktop Streamer\\VirtualDesktop.Streamer.exe” “[Path to game executable]” [optional game arguments]\n\nBe aware that if you installed the Virtual Desktop Streamer elsewhere you will have to modify the location in the commands above"
-      }
-    },
-    {
-      "name": "stats",
-      "description": "What the different latency figures mean",
-      "ephemeral": false,
-      "embed": {
-        "title": "Latency Figures in the Performace Overlay",
-        "description": "**Game** is your computer's CPU/GPU rendering the game\n**Encoding** is your GPU encoding the video\n**Networking** is your router and network\n**Decoding** is the headset GPU decoding the image"
-      }
-    },
-    {
-      "name": "channels",
-      "description": "Wireless Survey and Channel Allocation",
-      "ephemeral": false,
-      "embed": {
-        "title": "Wireless Survey and Channel Allocation",
-        "description": "For determining available channels on an Android device, [the open source version of Wifi Analyzer is the recommended app.](https://play.google.com/store/apps/details?id=com.vrem.wifianalyzer) (Please avoid Ad supported imitations).\n\nFor channel allocation reference, please see the image below:",
-        "image": {
-          "url": "https://cdn.discordapp.com/attachments/682369095798489129/1182933284846567474/channels.png?ex=65867f78&is=65740a78&hm=51b511d50a9beb9c2aa4159afcf64d693f03705a95a623ef659e35df7ce833da&"
-        }
-      }
-    },
-    {
-      "name": "hotspot",
-      "description": "Windows hotspot",
-      "ephemeral": false,
-      "embed": {
-        "title": "Windows Mobile Hotspots Are Not Supported",
-        "description": "We won't stop you from trying to use a Windows hotspot but we don't provide any support for setups that attempt to utilise them due to their inconsistency, unreliability, limitations and just because Windows performs poorly as a router/router replacement.",
-        "image": {
-          "url": "https://cdn.discordapp.com/attachments/692030889932095529/1181278404427923648/image.png?ex=6589b4be&is=65773fbe&hm=ef0cf33b31a3fd0112e5fcffe7e6e37bc53c90ad7dc5b291aebfdbdb16347fe3&"
-        }
-      }
-    },
-    {
-      "name": "uh-oh",
-      "description": "Your PC Isn't Connected by an Ethernet Cable?",
-      "ephemeral": false,
-      "embed": {
-        "title": "Your PC Isn't Connected by an Ethernet Cable?",
-        "image": {
-          "url": "https://cdn.discordapp.com/attachments/588170196968013845/1183567730100682923/image.png?ex=6588ce58&is=65765958&hm=67feb42bc49f4249ca2b3e6b59099b1af97e31af650cb9e14d1b9b2378a6768b&"
-        }
-      }
-    },
-    {
-      "name": "about",
-      "description": "Share the Details From Your About Tab",
-      "ephemeral": false,
-      "embed": {
-        "title": "Share the Details From Your About Tab",
-        "description": "**1).** Share a screenshot of your About tab from the Virtual Desktop Streamer app installed on your PC.\n**2).** Click \"Check for Interfering Apps\" and share a screenshot of the popup that appears with the results"
-      }
-    },
-    {
-      "name": "6e",
-      "description": "Do I need a Wifi 6E Router?",
-      "ephemeral": false,
-      "embed": {
-        "title": "Do I need a Wifi 6E Router?",
-        "description": "If you have a lot of congestion at your location, it could help. Type /channels and hit enter in the chat here to see the channels list and a link to an Android tool for surveying the surrounding wifi.\n\n**Is Wifi 6E FASTER than Wifi 6?**\nNo. The hardware for both wifi protocols are rated at the same speeds. HOWEVER, wifi 6E uses the 6Ghz band which is primarily not used by other devices and will not suffer from as much interference and congestion as Wifi 6 which should mean it performs better.\nIn the first image below I had two machines, both using Wifi 6 (5Ghz) and I was transferring a file between them. In the second image the exact same machines were connected to the same router with Wifi 6E (6Ghz). As you can see, the Wifi 6E connection was much more stable and nearly twice as fast because of a lack of interference!\nNote: For some the 6Ghz band does not work as well over longer distances. Be sure your 6E router is in the room with your headset.",
-        "image": {
-          "url": "https://media.discordapp.net/attachments/692030889932095529/1161499914795237426/image.png?ex=658b9497&is=65791f97&hm=d189701edb960ff560c2e294559896083e0d9494c4c40757f0d836f81c1c9f4a&=&format=webp&quality=lossless&width=455&height=590"
-        }
-      }
-    },
-    {
-      "name": "intel",
-      "description": "Intel Driver and Support Assistant",
-      "ephemeral": false,
-      "embed": {
-        "title": "Intel Driver and Support Assistant",
-        "description": "Make sure your Intel drivers are up-to-date by [clicking here](https://www.intel.com/content/www/us/en/support/intel-driver-support-assistant.html) to download and install the Intel Driver and Support Assistant.",
-        "image": {
-          "url": "https://cdn.discordapp.com/attachments/830109388927926282/1188380414600032327/image.png?ex=659a5081&is=6587db81&hm=a9e85013c88afe7a246bea5af689eb179e4dd595c41f799173b2c2a2d4be9eda&"
-        }
-      }
-    },
-    {
-      "name": "usb",
-      "description": "Virtual Desktop Does Not Support Streaming Over a USB Cable",
-      "ephemeral": false,
-      "embed": {
-        "title": "Virtual Desktop Does Not Support Streaming Over a USB Cable",
-        "description": "Third party store applications do not have low level access to the USB interface. We are aware that other solutions simulate a USB connection with alternative methods but these methods can not be supported by Virtual Desktop for PCVR game streaming."
-      }
-    },
-    {
-      "name": "runtimes",
-      "description": "What is a \"Runtime\" and How Does it Relate to Virtual Desktop",
-      "ephemeral": false,
-      "embed": {
-        "title": "What is a \"Runtime\" and How Does it Relate to Virtual Desktop",
-        "description": "For a comprehensive explanation on what a \"runtime\" is and how it relates to Virtual Desktop, [please click here](https://github.com/mbucchia/VirtualDesktop-OpenXR/wiki/Oculus-%22Runtimes%22)",
-        "image": {
-          "url": "https://cdn.discordapp.com/attachments/830109388927926282/1189437278548918322/287508481-7a29cdc1-023b-4612-9f07-3e92e8fea648.png"
-        }
-      }
-    },
-    {
-      "name": "sgsr",
-      "description": "SGSR (Snapdragon Game Super Resolution)",
-      "ephemeral": false,
-      "embed": {
-        "title": "SGSR (Snapdragon Game Super Resolution)",
-        "description": "Qualcomm's SGSR (Snapdragon Game Super Resolution) implemented by Virtual Desktop is headset-side resolution upscaling performed on the headset after the video/image has been streamed from the PC.\n\nThe upscaling for each headset is as follows:\n\n**Pico Neo 3, Pico 4, HTC Vive XR Elite and HTC Vive Focus 3:** Upscales to Ultra on settings up to High and 90Hz\n**Quest 2, Quest Pro:** Only works on settings up to High and 90Hz\n**Quest 3:** Works on all settings including Godlike 120Hz\n**Quest 2, Quest Pro, Quest 3:** Upscales to the panel maximum\n\n**SGSR is not compatible with Chromakey Passthrough, you will only be able to enable one or the other.**",
-        "image": {
-          "url": "https://cdn.discordapp.com/attachments/830109388927926282/1189465514259513394/image.png"
-        }
-      }
-    },
-    {
-      "name": "support",
-      "description": "Staff are only volunteers, please be respectful",
-      "ephemeral": false,
-      "embed": {
-        "title": "Staff are only volunteers, please be respectful",
-        "description": "**Virtual Desktop support personnel are volunteers.** They will answer your questions based on their availability and the clarity of your request. Please be patient, courteous, clear and understand that there are limitations to their scope of support.'screen black how fix?' Will likely go unanswered. A complete question with detail will likely be answered.\n\nHere are examples on how to ask questions with proper etiquette: [LINK](https://dontasktoask.com/)"
+      "title": "Play Roblox in VR",
+      "description": "1. Set SteamVR as default OpenXR Runtime.\n2. Launch SteamVR from the button in the Virtual Desktop menu in VR.\n3. Switch back to desktop and Launch Roblox.\n4. Toggle VR mode in Roblox.",
+      "footer": {
+        "text": "Please note, Robloxs VR support is quite buggy."
       }
     }
-  ]
+  },  
+  {
+    "name": "previous",
+    "description": "How to Install the Previous Version",
+    "ephemeral": false,
+    "embed": {
+      "title": "How to Install the Previous Version",
+      "description": "If you suspect that a newer version is causing issues, you can install the previous version at any time by uninstalling the current version from your device and following the instructions below.",
+      "color": 15158332,
+      "fields": [
+        {
+          "name": "**Quest**",
+          "value": "Download the previous version APK and Streamer from [GitHub](https://github.com/guygodin/VirtualDesktop/releases/) for the version you are installing. Sideload the APK to your Quest using Sidequest, and reinstall the correct streamer. Please ensure to uninstall it from your Quest before doing this.",
+          "inline": false
+        },
+        {
+          "name": "**Pico**",
+          "value": "Download the previous version APK and Streamer from [GitHub](https://github.com/guygodin/VirtualDesktop/releases/) for the version you are installing. Copy the APK to your Pico or download using the browser and install with File Browser, and reinstall the correct streamer.",
+          "inline": false
+        }
+      ]
+    }
+  },  
+  {
+    "name": "drivers",
+    "description": "Recommended GPU Drivers",
+    "ephemeral": false,
+    "embed": {
+      "title": "Recommended GPU Drivers",
+      "description": "Nvidia: [Latest drivers](https://www.nvidia.com/download/index.aspx)\nAMD RX 400/500 series: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000 series: [22.11.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-11-2)\nAMD 7000 series: [23.10.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-23-10-2)"
+    }
+  },  
+  {
+    "name": "voicemeeter",
+    "description": "VoiceMeeter Mode",
+    "ephemeral": false,
+    "embed": {
+      "title": "VoiceMeeter Mode",
+      "description": "**VoiceMeeter Mode** (with VR Headset only selected) restricts audio reaching the headset to only the Virtual Desktop Audio device. The Virtual Desktop Audio device can then be used in a software app such as VB Audio's VoiceMeeter for routing audio directly to the headset.\n\nThis mode does not perform any other function. The best place for support with VoiceMeeter is [VB Audio's Discord server](https://discord.com/invite/TF42rahAXS)."
+    }
+  },
+  {
+    "name": "ethernet",
+    "description": "Ethernet requirement",
+    "ephemeral": false,
+    "embed": {
+      "title": "Ethernet is required",
+      "description": "Rebooting your router can provide a temporary fix for certain issues you may be experiencing. Please note that since 2018, a Gigabit Ethernet connection between your PC and an AC or AX router is mandatory for support. Past success with other setups does not guarantee stability, and these configurations are not supported due to frequent complications. If your router is too far away to establish an Ethernet connection, use the command '/routers' to view a list of dedicated routers that have been tested by the community."
+    }
+  },  
+  {
+    "name": "remote",
+    "description": "Connecting to your computer remotely over the internet",
+    "ephemeral": false,
+    "embed": {
+      "title": "Connecting to your computer remotely over the internet",
+      "description": "Make sure 'Allow remote connections' is checked in the Streamer window, Options tab on your computer.\n\nYou'll also need to enable UPnP on your router and the Streamer App will forward the required ports automatically.\n\nIf you want to manually configure your router, forward TCP ports 38810, 38820, 38830 and 38840. All traffic uses end-to-end encryption."
+    }
+  },  
+  {
+    "name": "justask",
+    "description": "Don't ask to ask",
+    "ephemeral": false,
+    "embed": {
+      "title": "Don't ask to ask; just ask",
+      "description": "Asking 'Hey, can anyone help me?' can be seen as bad form. The best way to get assistance is to ask your entire question, with all the necessary details, in a relevant channel. There are many reasons why knowledgeable people might not offer help upfront, but by asking the full question, you're inviting people to provide an answer, not asking them to commit to solving a problem they might not know how to solve."
+    }
+  },
+  {
+  "name": "ddu",
+  "description": "DDU - Uninstall and Reinstall Drivers",
+  "ephemeral": false,
+  "embed": {
+    "title": "Uninstall and Reinstall GPU Drivers",
+    "description": "Follow these steps to uninstall GPU drivers using DDU (Display Driver Uninstaller):\n1. Download DDU from the [official website](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) and download the GPU driver you intend to install (see below).\n2. Reboot your PC into [Safe Mode](https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234)\n3. Launch DDU and select the GPU from the list.\n4. Click on 'Clean and restart'.\n5. After the process and restart, the GPU drivers will be uninstalled.\n\nYou can then reinstall the reccomended drivers, to check the latest recommendations type /drivers."
+    }
+  },
+  {
+    "name": "internet",
+    "description": "Internet isn't used when streaming",
+    "ephemeral": false,
+    "embed": {
+      "title": "Internet isn't used when streaming",
+      "image": {
+        "url": "https://vrdiscord.com/images/VD_internet_command.png"
+      },
+      "description": "Once your VR headset is connected to your computer, all data traffic remains local. This is true whether you're connected directly to your main router or to a dedicated router on the same local area network (LAN). The only requirement is a wired connection from your PC to a router. The VR headset then connects wirelessly to the same router or dedicated router."
+    }
+  },
+  {
+    "name": "wifi",
+    "description": "Wi-Fi link speed doesn't mean actual data speed",
+    "ephemeral": false,
+    "embed": {
+      "title": "Wi-Fi link speed doesn't mean actual data speed",
+      "description": "Think of Wi-Fi link speed as a pipe's size and data as water. The link speed is the maximum water that can flow through the pipe. However, the actual flow can be slower due to several reasons: \n1. Shared bandwidth - it's like too many taps drawing water from the same pipe, slowing down the flow at each tap. \n2. Interference - it's like dirt in the pipe blocking the flow of water. Other devices can interfere with your Wi-Fi signal. \n3. Distance and obstacles - it's like the pipe being longer or having turns, slowing down the water. Being further from the router or having walls in between can slow down your Wi-Fi. \nSo, a big pipe (high link speed) doesn't always mean fast water flow (high data speed)."
+    }
+  },
+  {
+  "name": "ptc",
+  "description": "Opting Out of Public Test Channel (PTC)",
+  "ephemeral": false,
+  "embed": {
+    "title": "PTC",
+    "description": "Here's how you can opt-out of the Public Test Channel (PTC):\n\n1. Open your Quest mobile app on your phone.\n2. Go to 'Devices', then 'Headset Settings', and then 'Advanced Settings'.\n3. If 'Public Test Channel' is enabled, click on it to disable.\n\nRemember, it's usually better to avoid opting in for public test versions unless you're ready to deal with potential bugs. While these test builds can have exciting new features, they can also have unresolved issues, sometimes even game-breaking ones."
+    }
+  },
+  {
+  "name": "limit",
+  "description": "Limitations",
+  "ephemeral": false,
+  "embed": {
+    "title": "Limitations",
+    "description": "Virtual Desktop does not stop or hinder you from using it with a network or PC setup that does not meet minimum requirements. Also, not meeting the minimum requirements doesn't necessarily mean that VRD or your game won't work.\nHowever, because VRD wasn't designed to work on setups that don't meet the requirements, we can't actively support those setups and we cannot guarantee the app will work."
+    }
+  },
+  {
+    "name": "ics",
+    "description": "Internet Connection Sharing",
+    "ephemeral": false,
+    "embed": {
+      "title": "Internet Connection Sharing",
+      "description": "If you're uncertain about how to set up Internet Connection Sharing, you can follow the instructions provided in [this guide](https://github.com/Crayphish/vrdocs/wiki/Internet-Connection-Sharing)\n\nIf you have issues with ICS not working after a computer restart (even after applying the registry fix), you can try [this script](https://discord.com/channels/564087419918483486/692030889932095529/1178882282229075978)"
+    }
+  },
+  {
+    "name": "autobitrate",
+    "description": "Automatic Bitrate",
+    "ephemeral": false,
+    "embed": {
+      "title": "Automatic Bitrate",
+      "description": "Automatic Bitrate conducts a small 10MB speed test when you first connect to determine your maximum stable bitrate. While it can be disabled in the VRD Streamer in the Options tab, we recommend leaving it on in order to help in detecting network issues."
+    }
+  },  
+  {
+    "name": "doublenat",
+    "description": "Test for a double NAT",
+    "ephemeral": false,
+    "embed": {
+      "title": "Test for a double NAT",
+      "description": "The simplest way to test for a double NAT is to check the IP assigned to WAN on your router and compare it to the result when you Google \"what is my IP\". If they are not the same, that means you have a double NAT. Another, less reliable, method is to open a command prompt on a computer in your home and type: tracert 8.8.8.8. If you see multiple private IP addresses, it means you have a double NAT. For more information, visit: https://windowsreport.com/double-nat/"
+    }
+  },
+  {
+  "name": "oculusgo",
+  "description": "Streamer Version for Oculus Go & GearVR Users",
+  "ephemeral": false,
+  "embed": {
+    "title": "Streamer Version for Oculus Go & GearVR",
+    "description": "If you're using Oculus Go or GearVR, you need to use version 1.20.38 of the Streamer. This is the last version that is compatible with these devices. You can download it from [here](https://github.com/guygodin/VirtualDesktop/releases/tag/v1.20.38)."
+    }
+  },
+  {
+  "name": "33fps",
+  "description": "Fixing 33fps issue in SteamVR Games",
+  "ephemeral": false,
+  "embed": {
+    "title": "Stuck at 33fps in SteamVR Games",
+    "description": "If you're stuck at 33fps in SteamVR Games, follow these steps:\n\n1. Completely close Steam and SteamVR.\n2. Navigate to the following paths and delete these files:\n    a. 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\SteamVR\\resources\\settings\\default.vrsettings'\n    b. 'C:\\Program Files (x86)\\Steam\\config\\steamvr.vrsettings'\n    c. 'C:\\Program Files (x86)\\Steam\\config\\lighthouse\\lighthousedb.json'\n\nNext, uninstall SteamVR:\n1. Right click the SteamVR tool from the Steam Library and select 'Uninstall'.\n2. Follow the on-screen prompts to complete the uninstallation of the SteamVR tool.\n3. Make sure to delete any leftover files in the installation directory by deleting the contents in the folder 'SteamVR'. The default path for that folder is '%ProgramFiles(x86)%\\Steam\\steamapps\\common\\SteamVR'.\n\nFinally, reinstall SteamVR."
+    }
+  },
+  {
+    "name": "tasklist",
+    "description": "Provide a TaskList",
+    "ephemeral": false,
+    "embed": {
+      "title": "Provide a TaskList",
+      "description": "Open a command prompt as an Administrator on your computer and type: tasklist > C:\\list.txt\n\nThen, navigate to your C drive and attach the list.txt file here."
+    }
+  },
+  {
+    "name": "overlay",
+    "description": "Sharing Screenshots of the Performance Overlay",
+    "ephemeral": false,
+    "embed": {
+      "title": "Sharing Screenshots of the Performance Overlay",
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/830109245642899496/893921627153240064/vdoverlay.gif"
+      },
+      "description": "1.) Go into the Settings tab in the Virtual Desktop menu in VR and ensure \"copy screenshots to desktop\" is enabled.\n2.) Navigate to the Streaming tab and enable \"Show performance overlay\".\n3.) Launch your VR game.\n4.) Look for numbers that are turning orange.\n5.) When you see this, hold the right Oculus button and press either the right or left trigger to take a screenshot.\nIf the screenshot shortcut does not work, press the Oculus button once and press the camera icon on the Oculus menu to take a screenshot.\n\nOn Pico Neo 3, press the Pico button on your controller, then click the screenshot (scissors) button.\n\nOn Pico 4, press the screenshot button on your right controller.\n\nThe screenshot will be found on your desktop, and you can share it here."
+    }
+  },  
+  {
+    "name": "uninstall",
+    "description": "Unable to Uninstall/Reinstall Streamer App",
+    "ephemeral": false,
+    "embed": {
+      "title": "Unable to Uninstall/Reinstall Streamer App",
+      "description": "If you're unable to uninstall or reinstall the Streamer App, you can use this [tool](https://download.vrdesktop.net/files/MicrosoftProgram_Install_and_Uninstall.meta.diagcab) for assistance."
+    }
+  },
+  {
+    "name": "connect",
+    "description": "How to test if your PC and VR Headset can communicate",
+    "ephemeral": false,
+    "embed": {
+      "title": "How to test if your PC and VR Headset can communicate",
+      "description": "To verify that your computer can communicate with your headset, note down the IP address of your headset, which is displayed at the top of the Computers tab in VR.\nOnce you have it, open a command prompt on your computer by clicking Start and typing: cmd\nIn the command prompt, type: ping x.x.x.x (where x.x.x.x is the IP address of your headset) and press Enter.\nThen type: ipconfig and press Enter.\nShare the results here."
+    }
+  },
+  {
+    "name": "windows",
+    "description": "Guide to upgrade to Windows 10/11 while retaining files and apps",
+    "ephemeral": false,
+    "embed": {
+      "title": "Upgrade/Reinstall Windows 10/11 & Keep Your Files and Apps",
+      "description":"Follow the below steps to upgrade or reinstall your Windows:\n\n**Windows 10**:\n1. Download the latest Windows 10 ISO from [Microsoft's website](https://www.microsoft.com/en-us/software-download/windows10ISO).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and select 'Keep files and programs'.\n\nNote: Always back up important data before an OS reinstall.\n\n**Windows 11**:\n1. Download the Windows 11 ISO from [Microsoft's website](https://www.microsoft.com/software-download/windows11).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and ensure to keep your data and applications.\n\nNote: Ensure compatibility and back up important data before upgrading if you are on Windows 10."
+    }
+  },
+  {
+    "name": "download",
+    "description": "How to manually update the Streamer app",
+    "ephemeral": false,
+    "embed": {
+      "title": "How to manually update the Streamer app",
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/586993452185681946/1010006469913088070/unknown.png"
+      },
+      "description": "To update, [download the Streamer from the website](https://www.vrdesktop.net/) and install it over the existing installation."
+    }
+  },  
+  {
+    "name": "store",
+    "description": "Can I Transfer My License When I Purchased on Store x?",
+    "ephemeral": false,
+    "embed": {
+      "title": "Purchasing Virtual Desktop",
+      "description": "Virtual Desktop is available on supported headset's **official** stores. Since they're different stores from different companies, it needs to be purchased again if you bought it for one headset and not the other (cross-buy is not possible). It is compatible with multiple headsets released using the same store though, for example, if you bought Virtual Desktop for the Pico Neo 3 and then you buy the Pico 4, you do not need to purchase Virtual Desktop again. Same for if you purchase on the Meta store you can use it for Quest 1/2/3/Pro without repurchasing.\n\nThe app on each of the stores all have the same core features, allowing you to stream your desktop, videos, or PCVR games from your computer(s). The app is available in all markets, except for China.\n\n**Do not** buy Virtual Desktop Classic on Steam, it is not intended for use with a standalone VR headset."
+    }
+  },
+  {
+    "name": "oculusserver",
+    "description": "Oculus Servers Unreachable",
+    "ephemeral": false,
+    "embed": {
+      "title": "Oculus Servers Unreachable",
+      "description": "This could likely be a DNS issue or a bug associated with a recent Quest OS update. If your internet is working well from your Quest (you can check via store and web browser) and you've already rebooted your headset a few times, here are a few steps to try:\n\n**Step 1:** You might want to change the assigned DNS in your router WAN settings (NOT LAN). This tends to be the quickest fix. We suggest using either 8.8.8.8 or 1.1.1.1, or both.\n\n**Step 2:** Don't forget to reboot your router after making these changes. It's a small step that could make a big difference.\n\nIf all else fails, some users have resolved this issue by performing a factory reset on their Quest. However, be aware that this is due to a bug encountered with the recent Quest OS update, and this method may not work for everyone."
+    }
+  },
+  {
+    "name": "china",
+    "description": "China Pico Store",
+    "ephemeral": false,
+    "embed": {
+      "title": "China Pico Store",
+      "description": "Virtual Desktop is not available in China because it is impossible for us to provide support through the Great Firewall. It would require a separate cloud infrastructure, separate builds of the app and Streamer, etc. We do not have the team or the time for this."
+    }
+  },
+  {
+    "name": "halflifealyx",
+    "description": "Half-Life: Alyx - Stutter Fix",
+    "ephemeral": false,
+    "embed": {
+      "title": "Half-Life: Alyx - Stutter Fix",
+      "description": "Right-click on Half-Life: Alyx in Steam, then click Properties. In the 'General' tab, click on 'Launch Options', and paste the following: ```+vr_fidelity_level_auto 0 +vr_fidelity_level 3```"
+    }
+  },
+  {
+    "name": "rsetup",
+    "description": "Dedicated Router Setup Diagram",
+    "ephemeral": false,
+    "embed": {
+      "title": "Dedicated Router Setup Diagram",
+      "image": {
+        "url": "https://vrdiscord.com/images/routersetup.png"
+      }
+    }
+  },
+  {
+    "name": "altsetup",
+    "description": "Alternate Dedicated Router Setup Diagrams",
+    "ephemeral": false,
+    "embed": {
+      "title": "Alternate Dedicated Router Setup Diagrams",
+      "image": {
+        "url": "https://vrdiscord.com/images/network_setups.png"
+      }
+    }
+  },
+  {
+    "name": "codec",
+    "description": "scenarios for best codec use",
+    "ephemeral": false,
+    "embed": {
+      "title": "Which codec should I use?",
+      "description": "Best to leave the Preferred Codec to Automatic, but if you want to try different ones, here's which is best for what:\n\n**H.264:** has the lowest latency but not as efficient as the other codecs\n**H.264+:** has higher bitrate limit; good for racing or fast-paced games but requires ideal network conditions\n**HEVC:** has improved efficiency (looks better at the same bitrate compared to H.264) but takes a bit more time to encode/decode\n**AV1:** has best efficiency but requires Nvidia 4000 or AMD 7000 series GPU and a Quest 3\n**10-bit encoding:** improves color gradients, recommended for darker/slower games"
+    }
+  },
+  {
+    "name": "steamvr",
+    "description": "SteamVR clean reinstall",
+    "ephemeral": false,
+    "embed": {
+      "title": "Clean Reinstall SteamVR",
+      "description": "**1).** Uninstall the Virtual Desktop Streamer app from Windows\n**2).** Cleanly reinstall SteamVR using the [manual method](https://steamcommunity.com/app/250820/discussions/2/1640917625015598552/) or the [automated script](https://github.com/GeoMaciolek/steamvr-clean-reinstall)\n**3).** Reinstall the [Virtual Desktop Streamer app](https://www.vrdesktop.net/)"
+    }
+  },
+  {
+    "name": "external",
+    "description": "How to Launch External Games",
+    "ephemeral": false,
+    "embed": {
+      "title": "How to Launch External Games",
+      "description": "**Method 1).** Once connected to your computer in VR, right-click the Virtual Desktop Streamer icon next to the clock at the bottom right of your screen and click â€œLaunch gameâ€¦â€ then locate the executable of the game.\n\n**Method 2).** Create a .bat file with the following content: â€œC:\\Program Files\\Virtual Desktop Streamer\\VirtualDesktop.Streamer.exeâ€ â€œ[Path to game executable]â€ [optional game arguments]\n\nBe aware that if you installed the Virtual Desktop Streamer elsewhere you will have to modify the location in the commands above"
+    }
+  },
+  {
+    "name": "stats",
+    "description": "What the different latency figures mean",
+    "ephemeral": false,
+    "embed": {
+      "title": "Latency Figures in the Performace Overlay",
+      "description": "**Game** is your computer's CPU/GPU rendering the game\n**Encoding** is your GPU encoding the video\n**Networking** is your router and network\n**Decoding** is the headset GPU decoding the image"
+    }
+  },
+  {
+    "name": "channels",
+    "description": "Wireless Survey and Channel Allocation",
+    "ephemeral": false,
+    "embed": {
+      "title": "Wireless Survey and Channel Allocation",
+      "description": "For determining available channels on an Android device, [the open source version of Wifi Analyzer is the recommended app.](https://play.google.com/store/apps/details?id=com.vrem.wifianalyzer) (Please avoid Ad supported imitations).\n\nFor channel allocation reference, please see the image below:",
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/682369095798489129/1182933284846567474/channels.png?ex=65867f78&is=65740a78&hm=51b511d50a9beb9c2aa4159afcf64d693f03705a95a623ef659e35df7ce833da&"
+      }
+    }
+  },
+  {
+    "name": "hotspot",
+    "description": "Windows hotspot",
+    "ephemeral": false,
+    "embed": {
+      "title": "Windows Mobile Hotspots Are Not Supported",
+      "description": "We won't stop you from trying to use a Windows hotspot but we don't provide any support for setups that attempt to utilise them due to their inconsistency, unreliability, limitations and just because Windows performs poorly as a router/router replacement.",
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/692030889932095529/1181278404427923648/image.png?ex=6589b4be&is=65773fbe&hm=ef0cf33b31a3fd0112e5fcffe7e6e37bc53c90ad7dc5b291aebfdbdb16347fe3&"
+      }
+    }
+  },
+  {
+    "name": "uh-oh",
+    "description": "Your PC Isn't Connected by an Ethernet Cable?",
+    "ephemeral": false,
+    "embed": {
+      "title": "Your PC Isn't Connected by an Ethernet Cable?",
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/588170196968013845/1183567730100682923/image.png?ex=6588ce58&is=65765958&hm=67feb42bc49f4249ca2b3e6b59099b1af97e31af650cb9e14d1b9b2378a6768b&"
+      }
+    }
+  },
+  {
+    "name": "about",
+    "description": "Share the Details From Your About Tab",
+    "ephemeral": false,
+    "embed": {
+      "title": "Share the Details From Your About Tab",
+      "description": "**1).** Share a screenshot of your About tab from the Virtual Desktop Streamer app installed on your PC.\n**2).** Click \"Check for Interfering Apps\" and share a screenshot of the popup that appears with the results"
+    }
+  },
+  {
+    "name": "6e",
+    "description": "Do I need a Wifi 6E Router?",
+    "ephemeral": false,
+    "embed": {
+      "title": "Do I need a Wifi 6E Router?",
+      "description": "If you have a lot of congestion at your location, it could help. Type /channels and hit enter in the chat here to see the channels list and a link to an Android tool for surveying the surrounding wifi.\n\n**Is Wifi 6E FASTER than Wifi 6?**\nNo. The hardware for both wifi protocols are rated at the same speeds. HOWEVER, wifi 6E uses the 6Ghz band which is primarily not used by other devices and will not suffer from as much interference and congestion as Wifi 6 which should mean it performs better.\nIn the first image below I had two machines, both using Wifi 6 (5Ghz) and I was transferring a file between them. In the second image the exact same machines were connected to the same router with Wifi 6E (6Ghz). As you can see, the Wifi 6E connection was much more stable and nearly twice as fast because of a lack of interference!\nNote: For some the 6Ghz band does not work as well over longer distances. Be sure your 6E router is in the room with your headset.",
+      "image": {
+        "url": "https://media.discordapp.net/attachments/692030889932095529/1161499914795237426/image.png?ex=658b9497&is=65791f97&hm=d189701edb960ff560c2e294559896083e0d9494c4c40757f0d836f81c1c9f4a&=&format=webp&quality=lossless&width=455&height=590"
+      }
+    }
+  },
+  {
+    "name": "intel",
+    "description": "Intel Driver and Support Assistant",
+    "ephemeral": false,
+    "embed": {
+      "title": "Intel Driver and Support Assistant",
+      "description": "Make sure your Intel drivers are up-to-date by [clicking here](https://www.intel.com/content/www/us/en/support/intel-driver-support-assistant.html) to download and install the Intel Driver and Support Assistant.",
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/830109388927926282/1188380414600032327/image.png?ex=659a5081&is=6587db81&hm=a9e85013c88afe7a246bea5af689eb179e4dd595c41f799173b2c2a2d4be9eda&"
+      }
+    }
+  },
+  {
+    "name": "usb",
+    "description": "Virtual Desktop Does Not Support Streaming Over a USB Cable",
+    "ephemeral": false,
+    "embed": {
+      "title": "Virtual Desktop Does Not Support Streaming Over a USB Cable",
+      "description": "Third party store applications do not have low level access to the USB interface. We are aware that other solutions simulate a USB connection with alternative methods but these methods can not be supported by Virtual Desktop for PCVR game streaming."
+    }
+  },
+  {
+    "name": "runtimes",
+    "description": "What is a \"Runtime\" and How Does it Relate to Virtual Desktop",
+    "ephemeral": false,
+    "embed": {
+      "title": "What is a \"Runtime\" and How Does it Relate to Virtual Desktop",
+      "description": "For a comprehensive explanation on what a \"runtime\" is and how it relates to Virtual Desktop, [please click here](https://github.com/mbucchia/VirtualDesktop-OpenXR/wiki/Oculus-%22Runtimes%22)",
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/830109388927926282/1189437278548918322/287508481-7a29cdc1-023b-4612-9f07-3e92e8fea648.png"
+      }
+    }
+  },
+  {
+    "name": "sgsr",
+    "description": "SGSR (Snapdragon Game Super Resolution)",
+    "ephemeral": false,
+    "embed": {
+      "title": "SGSR (Snapdragon Game Super Resolution)",
+      "description": "Qualcomm's SGSR (Snapdragon Game Super Resolution) implemented by Virtual Desktop is headset-side resolution upscaling performed on the headset after the video/image has been streamed from the PC.\n\nThe upscaling for each headset is as follows:\n\n**Pico Neo 3, Pico 4, HTC Vive XR Elite and HTC Vive Focus 3:** Upscales to Ultra on settings up to High and 90Hz\n**Quest 2, Quest Pro:** Only works on settings up to High and 90Hz\n**Quest 3:** Works on all settings including Godlike 120Hz\n**Quest 2, Quest Pro, Quest 3:** Upscales to the panel maximum\n\n**SGSR not compatible with Chromakey Passthrough except on Quest 3. You will only be able to enable one or the other on all headsets other than Quest 3.**",
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/830109388927926282/1189465514259513394/image.png"
+      }
+    }
+  },
+  {
+    "name": "support",
+    "description": "Staff are only volunteers, please be respectful",
+    "ephemeral": false,
+    "embed": {
+      "title": "Staff are only volunteers, please be respectful",
+      "description": "**Virtual Desktop support personnel are volunteers.** They will answer your questions based on their availability and the clarity of your request. Please be patient, courteous, clear and understand that there are limitations to their scope of support.'screen black how fix?' Will likely go unanswered. A complete question with detail will likely be answered.\n\nHere are examples on how to ask questions with proper etiquette: [LINK](https://dontasktoask.com/)"
+    }
+  }
+]
