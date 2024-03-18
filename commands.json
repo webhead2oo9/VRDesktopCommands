@@ -780,6 +780,15 @@
     }
   },
   {
+    "name": "beatsaber",
+    "description": "Beat Saber Troubleshooting",
+    "ephemeral": false,
+    "embed": {
+      "title": "Beat Saber Troubleshooting",
+      "description": "Having stutters in Beat Saber? Try these changes to optimize your performance and reduce latency.\n\n**For Beat Saber versions 1.30+**\n- **Enable VDXR** in the Virtual Desktop PC Streamer App. This will bypass SteamVR and run Beat Saber with slightly more performance.\n\n**For all other Beat Saber versions**\n- **Adjust SteamVR render resolution** to Custom 100%. Ensure this applies to global and per-app Beat Saber settings in SteamVR.\n\n**Beat Saber graphics options**\n- **Reduce MSAA** to 2x (or disabled). In some cases, this will default to 4x or 8x and incur heavy performance penalties on most systems.\n- **Adjust render scale** to 1.0. This ensures that Beat Saber is not supersampling your game, but rather rendering at your chosen Virtual Desktop resolution preset."
+    }
+  },
+  {
     "name": "steamvr",
     "description": "SteamVR clean reinstall",
     "ephemeral": false,
