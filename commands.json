@@ -180,7 +180,7 @@
           {
             "title": "TP-Link AXE300/AXE16000",
             "description": "The TP-Link AXE300/AXE16000 is a great home router as well as being great for wireless streaming. \n It is a full featured Wifi 6E/AXE router with solid performance.",
-            "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
+            "url": "https://www.amazon.com/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/",
             "color": null,
             "fields": [
               {
@@ -923,6 +923,27 @@
     "embed": {
       "title": "Staff are only volunteers, please be respectful",
       "description": "**Virtual Desktop support personnel are volunteers.** They will answer your questions based on their availability and the clarity of your request. Please be patient, courteous, clear and understand that there are limitations to their scope of support.'screen black how fix?' Will likely go unanswered. A complete question with detail will likely be answered.\n\nHere are examples on how to ask questions with proper etiquette: [LINK](https://dontasktoask.com/)"
+    }
+  },
+  {
+    "name": "installer",
+    "description": "Streamer fails to install with installer not found error",
+    "ephemeral": false,
+    "embed": {
+      "title": "Streamer fails to install with installer not found error",
+      "description":"If you are experiencing issues with installing or updating the streamer, try using the `Reset this PC` option within windows recovery settings.\n\n__If you choose 'keep my files' it will NOT remove any personal files or applications__",
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/1179623061692088382/1223708661600485569/reset.png?"
+      }
+    }
+  },
+  {
+    "name": "spacewarp",
+    "description": "Explanation on how Synchronous SpaceWarp functions",
+    "ephemeral": false,
+    "embed": {
+      "title": "Synchronous SpaceWarp",
+      "description":"Synchronous SpaceWarp (SSW), developed in collaboration with Qualcomm, is Virtual Desktop's 3D **reprojection technology** designed to **halve the rendering load on PCs** by extrapolating every alternate frame directly on the headset. For instance, if your PC can only render **45fps**, the headset will fill in the gaps, keeping a smooth **90fps** experience.\n\nSSW can introduce graphical **artifacts** that may appear as warping or straight lines bending, so if possible it's **preferable for your pc to render the full fps.** However SSW is **beneficial on lower end systems**, or when you want to **push higher graphical settings** than your PC is capable of normally.\n\nThis is **different** to PC technologies like DLSS 3 which ***interpolate*** frames as opposed to ***extrapolating*** frames. The difference being that **DLSS 3 increases latency** while **SSW reduces percieved latency**"
     }
   }
 ]
