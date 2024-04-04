@@ -5,7 +5,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Community Tested Routers",
-      "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400Â¹ ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nÂ¹The TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+      "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX) - Asus RT-AX86U ($300 US)\nHigh End (AXE 6E) - Davolink 'Kevin' Minion 6E ($200 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nLow End (AC) - Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
     },
     "pages": [
       {
@@ -16,7 +16,7 @@
         "embeds": [
           {
             "title": "Community Tested Routers",
-            "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400Â¹ ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nÂ¹The TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+            "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX) - Asus RT-AX86U ($300 US)\nHigh End (AXE 6E) - Davolink 'Kevin' Minion 6E ($200 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nLow End (AC) - Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
             
           }
         ]
@@ -40,7 +40,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[USA](https://www.amazon.com/NETGEAR-4-Stream-Dual-Band-Gigabit-Router/dp/B097HMLTQX) [Canada](https://www.amazon.ca/NETGEAR-Wireless-Desktop-Access-WAX202/dp/B097HMLTQX) [UK](https://www.amazon.co.uk/NETGEAR-Wireless-Access-Point-WAX202/dp/B098FGSHXH?)",
+                "value": "[USA Amazon](https://www.amazon.com/Dual-band-Gigabit-WiFi-Internet-Router/dp/B08KJF5BS7) [Canada Amazon](https://www.amazon.ca/ROUTER-TP-LINK-ARCHER-AC1200-MU-MIMO/dp/B08GDC3534/) [UK](https://www.amazon.co.uk/TP-Link-AC1200-Wireless-Wi-Fi-Router/dp/B07L5YRYF4)",
                 "inline": true
               }
             ],
@@ -78,7 +78,36 @@
             }
           }
         ]
-      },    
+      },
+      {
+        "name": "TPLinkBE9300",
+        "title": "TP-Link BE9300/BE550",
+        "description": "Dedicated (Wifi 7) - TP-Link BE9300/BE550",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "TP-Link BE9300/BE550",
+            "description": "The TP-Link BE9300/BE550 is a Wifi 7 (Works for Wifi 6e) router that has been tested as a good dedicated router for wireless VR streaming. It has 4 2.5GbE LAN ports and 1 2.5GbE WAN port.\n*Note: Headsets do not support Wifi 7 but Wifi 7 routers function as Wifi 6e as well",
+            "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-be9300/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6/6e/7 5/6Ghz\n__Supports DFS__: Yes",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA Amazon](https://www.amazon.com/gp/product/B0CJSNSVMR/) [USA Walmart](https://www.walmart.com/ip/TP-Link-Archer-BE9300-Router-Tri-Band-WiFi-7-Wireless-Router-up-to-9-2-Gbps-Speeds-Easy-Setup-Parental-Controls/3339006219) [EU Amazon](https://www.amazon.de/-/en/Archer-BE550/dp/B0CJSNSVMR/)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/682369095798489129/1224843314860265584/61Uj6QU3jBL.png?ex=661ef73a&is=660c823a&hm=6949b4ed6de752b8f09c80967deb5a509dcdc15eb945a307895500e38ea76229&"
+            }
+          }
+        ]
+      },
       {
         "name": "OpalGLSFT1200",
         "title": "Opal GL-SFT1200",
@@ -108,36 +137,36 @@
               }
             ],
             "thumbnail": {
-              "url": "https://cdn.example.com/image-url.png"
+              "url": "https://m.media-amazon.com/images/I/41sKZ-x0NDL._AC_UF894,1000_QL80_.jpg"
             }
           }
         ]
       },      
       {
-        "name": "WAX202",
-        "title": "Netgear WAX202",
-        "description": "Low End (AX) - Netgear WAX202",
+        "name": "minion6e",
+        "title": "Davolink Minion 6E",
+        "description": "High End (AXE 6E) - Davolink Minion 6E",
         "emoji": "",
         "embeds": [
           {
-            "title": "Netgear WAX202",
-            "description": "The WAX202 is a good dedicated router specifically for wireless VR usage, it's priced well for an AX router and can function as an AP.",
-            "url": "https://www.netgear.com/business/wifi/access-points/wax202/",
+            "title": "Davolink Minion 6E",
+            "description": "The 'Kevin' Router is a good dedicated 6E Router, offering one of the best prices on a 6E Router/AP that has been tested.",
+            "url": "http://www.davolink.co.kr/",
             "color": null,
             "fields": [
               {
                 "name": "Info",
-                "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: No",
+                "value": "__Wireless Type__: Wifi 6E / AC\n__Supports DFS__: Yes",
                 "inline": true
               },
               {
                 "name": "Store Links",
-                "value": "[USA](https://www.amazon.com/NETGEAR-4-Stream-Dual-Band-Gigabit-Router/dp/B097HMLTQX) [Canada](https://www.amazon.ca/NETGEAR-Wireless-Desktop-Access-WAX202/dp/B097HMLTQX) [UK](https://www.amazon.co.uk/NETGEAR-Wireless-Access-Point-WAX202/dp/B098FGSHXH)",
+                "value": "[USA Amazon](https://www.amazon.com/Davolink-Minions-Kevin-Wi-Fi-Router/dp/B0CJXZSLNM?)",
                 "inline": true
               }
             ],
             "thumbnail": {
-              "url": "https://cdn.discordapp.com/attachments/416305941491875851/1030167263011151994/WAX202.png"
+              "url": "https://cdn.discordapp.com/attachments/875149053221019668/1211527202085015572/Kevin.png"
             }
           }
         ]
@@ -223,7 +252,7 @@
               {
                 "name": "What is IOBT?",
                 "value": "Inside out Body Tracking is a [feature provided by Meta](https://developer.oculus.com/blog/inside-out-body-tracking-and-generative-legs/) that allows you to use the Quest for Full Body Tracking/Estimation."
-              },              
+              },
               {
                 "name": "Supported Devices",
                 "value": "All Quest devices are supported, at this time no other devices have this feature available on native openXR."
@@ -231,7 +260,7 @@
               {
                 "name": "What is Tracked on IOBT?",
                 "value": "**Quest 3**: Upper Body is tracked using the cameras, waist and legs are estimated based on upper body positioning.\n **Quest 2/Pro/1**: All estimation based on head and hand pose. Cameras do not track your body. [You can see a demo of estimation here](https://www.youtube.com/watch?v=lkDW5yuQnvQ)"
-              },          
+              },
               {
                 "name": "Can I kick people?",
                 "value": "No, sorry :("
@@ -239,7 +268,7 @@
               {
                 "name": "Can I use this with other trackers?",
                 "value": "Yes, you can disable specific trackers at any time by setting the individual tracker to 'Held In Hand' or using [Dentech's configuration tool](https://github.com/DenTechs/Virtual_Desktop_Body_Tracking_Configurator/releases).\n This will allow you to use Slime/Vive trackers with IOBT."
-              }              
+              }
             ]
           }
         ]
@@ -290,18 +319,18 @@
         {
           "name": "What is Tracked on Index Controller Emulation?",
           "value": "On all Quests, you can pass through your hand tracking as index controller emulation, allowing you to use full finger movement on hand tracking in supported games.\n\n If the game supports Skeletal Input, you do not need to enable this option and will have full Skeletal including Splay in supported titles."
-        },          
+        },
         {
           "name": "It's not working?",
           "value": "Make sure the SteamVR Addon for Virtual Desktop is enabled, if disabled this will not work as expected."
-        },        
+        },
         {
           "name": "How do I move?",
           "value": "While using hand tracking, you cannot move however you can pick up a controller at any time for movement."
-        }        
+        }
       ]
     }
-  },  
+  },
   {
     "name": "opalsetup",
     "description": "GL.iNet Opal Setup Guide",
@@ -311,11 +340,11 @@
       "description": "You can follow a video guide on how to setup your Opal [here](https://youtu.be/1HwT-Own6vo).",
       "footer": {
         "text": "Thanks Dylan!"
-        },
+      },
       "image": {
         "url": "https://media.discordapp.net/attachments/588170196968013845/1094494466762608640/opelsetup.png"
       }
-    },    
+    },
     "pages": [
       {
         "name": "Main Page",
@@ -491,7 +520,7 @@
         "text": "Please note, Robloxs VR support is quite buggy."
       }
     }
-  },  
+  },
   {
     "name": "previous",
     "description": "How to Install the Previous Version",
@@ -513,7 +542,7 @@
         }
       ]
     }
-  },  
+  },
   {
     "name": "drivers",
     "description": "Recommended GPU Drivers",
@@ -522,7 +551,7 @@
       "title": "Recommended GPU Drivers",
       "description": "Nvidia: [Latest drivers](https://www.nvidia.com/download/index.aspx)\nAMD RX 400/500 series: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000 series: [22.11.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-11-2)\nAMD 7000 series: [23.10.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-23-10-2)"
     }
-  },  
+  },
   {
     "name": "voicemeeter",
     "description": "VoiceMeeter Mode",
@@ -540,7 +569,7 @@
       "title": "Ethernet is required",
       "description": "Rebooting your router can provide a temporary fix for certain issues you may be experiencing. Please note that since 2018, a Gigabit Ethernet connection between your PC and an AC or AX router is mandatory for support. Past success with other setups does not guarantee stability, and these configurations are not supported due to frequent complications. If your router is too far away to establish an Ethernet connection, use the command '/routers' to view a list of dedicated routers that have been tested by the community."
     }
-  },  
+  },
   {
     "name": "remote",
     "description": "Connecting to your computer remotely over the internet",
@@ -549,7 +578,7 @@
       "title": "Connecting to your computer remotely over the internet",
       "description": "Make sure 'Allow remote connections' is checked in the Streamer window, Options tab on your computer.\n\nYou'll also need to enable UPnP on your router and the Streamer App will forward the required ports automatically.\n\nIf you want to manually configure your router, forward TCP ports 38810, 38820, 38830 and 38840. All traffic uses end-to-end encryption."
     }
-  },  
+  },
   {
     "name": "justask",
     "description": "Don't ask to ask",
@@ -560,12 +589,12 @@
     }
   },
   {
-  "name": "ddu",
-  "description": "DDU - Uninstall and Reinstall Drivers",
-  "ephemeral": false,
-  "embed": {
-    "title": "Uninstall and Reinstall GPU Drivers",
-    "description": "Follow these steps to uninstall GPU drivers using DDU (Display Driver Uninstaller):\n1. Download DDU from the [official website](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) and download the GPU driver you intend to install (see below).\n2. Reboot your PC into [Safe Mode](https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234)\n3. Launch DDU and select the GPU from the list.\n4. Click on 'Clean and restart'.\n5. After the process and restart, the GPU drivers will be uninstalled.\n\nYou can then reinstall the reccomended drivers, to check the latest recommendations type /drivers."
+    "name": "ddu",
+    "description": "DDU - Uninstall and Reinstall Drivers",
+    "ephemeral": false,
+    "embed": {
+      "title": "Uninstall and Reinstall GPU Drivers",
+      "description": "Follow these steps to uninstall GPU drivers using DDU (Display Driver Uninstaller):\n1. Download DDU from the [official website](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) and download the GPU driver you intend to install (see below).\n2. Reboot your PC into [Safe Mode](https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234)\n3. Launch DDU and select the GPU from the list.\n4. Click on 'Clean and restart'.\n5. After the process and restart, the GPU drivers will be uninstalled.\n\nYou can then reinstall the reccomended drivers, to check the latest recommendations type /drivers."
     }
   },
   {
@@ -590,21 +619,21 @@
     }
   },
   {
-  "name": "ptc",
-  "description": "Opting Out of Public Test Channel (PTC)",
-  "ephemeral": false,
-  "embed": {
-    "title": "PTC",
-    "description": "Here's how you can opt-out of the Public Test Channel (PTC):\n\n1. Open your Quest mobile app on your phone.\n2. Go to 'Devices', then 'Headset Settings', and then 'Advanced Settings'.\n3. If 'Public Test Channel' is enabled, click on it to disable.\n\nRemember, it's usually better to avoid opting in for public test versions unless you're ready to deal with potential bugs. While these test builds can have exciting new features, they can also have unresolved issues, sometimes even game-breaking ones."
+    "name": "ptc",
+    "description": "Opting Out of Public Test Channel (PTC)",
+    "ephemeral": false,
+    "embed": {
+      "title": "PTC",
+      "description": "Here's how you can opt-out of the Public Test Channel (PTC):\n\n1. Open your Quest mobile app on your phone.\n2. Go to 'Devices', then 'Headset Settings', and then 'Advanced Settings'.\n3. If 'Public Test Channel' is enabled, click on it to disable.\n\nRemember, it's usually better to avoid opting in for public test versions unless you're ready to deal with potential bugs. While these test builds can have exciting new features, they can also have unresolved issues, sometimes even game-breaking ones."
     }
   },
   {
-  "name": "limit",
-  "description": "Limitations",
-  "ephemeral": false,
-  "embed": {
-    "title": "Limitations",
-    "description": "Virtual Desktop does not stop or hinder you from using it with a network or PC setup that does not meet minimum requirements. Also, not meeting the minimum requirements doesn't necessarily mean that VRD or your game won't work.\nHowever, because VRD wasn't designed to work on setups that don't meet the requirements, we can't actively support those setups and we cannot guarantee the app will work."
+    "name": "limit",
+    "description": "Limitations",
+    "ephemeral": false,
+    "embed": {
+      "title": "Limitations",
+      "description": "Virtual Desktop does not stop or hinder you from using it with a network or PC setup that does not meet minimum requirements. Also, not meeting the minimum requirements doesn't necessarily mean that VRD or your game won't work.\nHowever, because VRD wasn't designed to work on setups that don't meet the requirements, we can't actively support those setups and we cannot guarantee the app will work."
     }
   },
   {
@@ -624,7 +653,7 @@
       "title": "Automatic Bitrate",
       "description": "Automatic Bitrate conducts a small 10MB speed test when you first connect to determine your maximum stable bitrate. While it can be disabled in the VRD Streamer in the Options tab, we recommend leaving it on in order to help in detecting network issues."
     }
-  },  
+  },
   {
     "name": "doublenat",
     "description": "Test for a double NAT",
@@ -635,21 +664,21 @@
     }
   },
   {
-  "name": "oculusgo",
-  "description": "Streamer Version for Oculus Go & GearVR Users",
-  "ephemeral": false,
-  "embed": {
-    "title": "Streamer Version for Oculus Go & GearVR",
-    "description": "If you're using Oculus Go or GearVR, you need to use version 1.20.38 of the Streamer. This is the last version that is compatible with these devices. You can download it from [here](https://github.com/guygodin/VirtualDesktop/releases/tag/v1.20.38)."
+    "name": "oculusgo",
+    "description": "Streamer Version for Oculus Go & GearVR Users",
+    "ephemeral": false,
+    "embed": {
+      "title": "Streamer Version for Oculus Go & GearVR",
+      "description": "If you're using Oculus Go or GearVR, you need to use version 1.20.38 of the Streamer. This is the last version that is compatible with these devices. You can download it from [here](https://github.com/guygodin/VirtualDesktop/releases/tag/v1.20.38)."
     }
   },
   {
-  "name": "33fps",
-  "description": "Fixing 33fps issue in SteamVR Games",
-  "ephemeral": false,
-  "embed": {
-    "title": "Stuck at 33fps in SteamVR Games",
-    "description": "If you're stuck at 33fps in SteamVR Games, follow these steps:\n\n1. Completely close Steam and SteamVR.\n2. Navigate to the following paths and delete these files:\n    a. 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\SteamVR\\resources\\settings\\default.vrsettings'\n    b. 'C:\\Program Files (x86)\\Steam\\config\\steamvr.vrsettings'\n    c. 'C:\\Program Files (x86)\\Steam\\config\\lighthouse\\lighthousedb.json'\n\nNext, uninstall SteamVR:\n1. Right click the SteamVR tool from the Steam Library and select 'Uninstall'.\n2. Follow the on-screen prompts to complete the uninstallation of the SteamVR tool.\n3. Make sure to delete any leftover files in the installation directory by deleting the contents in the folder 'SteamVR'. The default path for that folder is '%ProgramFiles(x86)%\\Steam\\steamapps\\common\\SteamVR'.\n\nFinally, reinstall SteamVR."
+    "name": "33fps",
+    "description": "Fixing 33fps issue in SteamVR Games",
+    "ephemeral": false,
+    "embed": {
+      "title": "Stuck at 33fps in SteamVR Games",
+      "description": "If you're stuck at 33fps in SteamVR Games, follow these steps:\n\n1. Completely close Steam and SteamVR.\n2. Navigate to the following paths and delete these files:\n    a. 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\SteamVR\\resources\\settings\\default.vrsettings'\n    b. 'C:\\Program Files (x86)\\Steam\\config\\steamvr.vrsettings'\n    c. 'C:\\Program Files (x86)\\Steam\\config\\lighthouse\\lighthousedb.json'\n\nNext, uninstall SteamVR:\n1. Right click the SteamVR tool from the Steam Library and select 'Uninstall'.\n2. Follow the on-screen prompts to complete the uninstallation of the SteamVR tool.\n3. Make sure to delete any leftover files in the installation directory by deleting the contents in the folder 'SteamVR'. The default path for that folder is '%ProgramFiles(x86)%\\Steam\\steamapps\\common\\SteamVR'.\n\nFinally, reinstall SteamVR."
     }
   },
   {
@@ -672,7 +701,7 @@
       },
       "description": "1.) Go into the Settings tab in the Virtual Desktop menu in VR and ensure \"copy screenshots to desktop\" is enabled.\n2.) Navigate to the Streaming tab and enable \"Show performance overlay\".\n3.) Launch your VR game.\n4.) Look for numbers that are turning orange.\n5.) When you see this, hold the right Oculus button and press either the right or left trigger to take a screenshot.\nIf the screenshot shortcut does not work, press the Oculus button once and press the camera icon on the Oculus menu to take a screenshot.\n\nOn Pico Neo 3, press the Pico button on your controller, then click the screenshot (scissors) button.\n\nOn Pico 4, press the screenshot button on your right controller.\n\nThe screenshot will be found on your desktop, and you can share it here."
     }
-  },  
+  },
   {
     "name": "uninstall",
     "description": "Unable to Uninstall/Reinstall Streamer App",
@@ -697,7 +726,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Upgrade/Reinstall Windows 10/11 & Keep Your Files and Apps",
-      "description":"Follow the below steps to upgrade or reinstall your Windows:\n\n**Windows 10**:\n1. Download the latest Windows 10 ISO from [Microsoft's website](https://www.microsoft.com/en-us/software-download/windows10ISO).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and select 'Keep files and programs'.\n\nNote: Always back up important data before an OS reinstall.\n\n**Windows 11**:\n1. Download the Windows 11 ISO from [Microsoft's website](https://www.microsoft.com/software-download/windows11).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and ensure to keep your data and applications.\n\nNote: Ensure compatibility and back up important data before upgrading if you are on Windows 10."
+      "description": "Follow the below steps to upgrade or reinstall your Windows:\n\n**Windows 10**:\n1. Download the latest Windows 10 ISO from [Microsoft's website](https://www.microsoft.com/en-us/software-download/windows10ISO).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and select 'Keep files and programs'.\n\nNote: Always back up important data before an OS reinstall.\n\n**Windows 11**:\n1. Download the Windows 11 ISO from [Microsoft's website](https://www.microsoft.com/software-download/windows11).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and ensure to keep your data and applications.\n\nNote: Ensure compatibility and back up important data before upgrading if you are on Windows 10."
     }
   },
   {
@@ -711,7 +740,7 @@
       },
       "description": "To update, [download the Streamer from the website](https://www.vrdesktop.net/) and install it over the existing installation."
     }
-  },  
+  },
   {
     "name": "store",
     "description": "Can I Transfer My License When I Purchased on Store x?",
@@ -931,7 +960,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Streamer fails to install with installer not found error",
-      "description":"If you are experiencing issues with installing or updating the streamer, try using the `Reset this PC` option within windows recovery settings.\n\n__If you choose 'keep my files' it will NOT remove any personal files or applications__",
+      "description": "If you are experiencing issues with installing or updating the streamer, try using the `Reset this PC` option within windows recovery settings.\n\n__If you choose 'keep my files' it will NOT remove any personal files or applications__",
       "image": {
         "url": "https://cdn.discordapp.com/attachments/1179623061692088382/1223708661600485569/reset.png?"
       }
@@ -943,7 +972,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Synchronous SpaceWarp",
-      "description":"Synchronous SpaceWarp (SSW), developed in collaboration with Qualcomm, is Virtual Desktop's 3D **reprojection technology** designed to **halve the rendering load on PCs** by extrapolating every alternate frame directly on the headset. For instance, if your PC can only render **45fps**, the headset will fill in the gaps, keeping a smooth **90fps** experience.\n\nSSW can introduce graphical **artifacts** that may appear as warping or straight lines bending, so if possible it's **preferable for your pc to render the full fps.** However SSW is **beneficial on lower end systems**, or when you want to **push higher graphical settings** than your PC is capable of normally.\n\nThis is **different** to PC technologies like DLSS 3 which ***interpolate*** frames as opposed to ***extrapolating*** frames. The difference being that **DLSS 3 increases latency** while **SSW reduces percieved latency**"
+      "description": "Synchronous SpaceWarp (SSW), developed in collaboration with Qualcomm, is Virtual Desktop's 3D **reprojection technology** designed to **halve the rendering load on PCs** by extrapolating every alternate frame directly on the headset. For instance, if your PC can only render **45fps**, the headset will fill in the gaps, keeping a smooth **90fps** experience.\n\nSSW can introduce graphical **artifacts** that may appear as warping or straight lines bending, so if possible it's **preferable for your pc to render the full fps.** However SSW is **beneficial on lower end systems**, or when you want to **push higher graphical settings** than your PC is capable of normally.\n\nThis is **different** to PC technologies like DLSS 3 which ***interpolate*** frames as opposed to ***extrapolating*** frames. The difference being that **DLSS 3 increases latency** while **SSW reduces percieved latency**"
     }
   }
 ]
