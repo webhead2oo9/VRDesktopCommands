@@ -832,7 +832,7 @@
     "ephemeral": false,
     "embed": {
       "title": "How to Launch External Games",
-      "description": "**Method 1).** Once connected to your computer in VR, right-click the Virtual Desktop Streamer icon next to the clock at the bottom right of your screen and click `Launch game` then locate the executable of the game.\n\n**Method 2).** Create a .bat file with the following content: `"C:\\Program Files\\Virtual Desktop Streamer\\VirtualDesktop.Streamer.exe"` `[Path to game executable]` `[optional game arguments]`\n\nBe aware that if you installed the Virtual Desktop Streamer elsewhere you will have to modify the location in the commands above."
+      "description": "**Method 1).** Once connected to your computer in VR, right-click the Virtual Desktop Streamer icon next to the clock at the bottom right of your screen and click `Launch game` then locate the executable of the game.\n\n**Method 2).** Create a .bat file with the following content: `\"C:\\Program Files\\Virtual Desktop Streamer\\VirtualDesktop.Streamer.exe\"` `[Path to game executable]` `[optional game arguments]`\n\nBe aware that if you installed the Virtual Desktop Streamer elsewhere you will have to modify the location in the commands above."
     }
   },
   {
