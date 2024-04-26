@@ -850,7 +850,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Wireless Survey and Channel Allocation",
-      "description": "For determining available channels on an Android device, [the open source version of Wifi Analyzer is the recommended app.](https://play.google.com/store/apps/details?id=com.vrem.wifianalyzer) (Please avoid Ad supported imitations).\n\nFor channel allocation reference, please see the image below:",
+      "description": "For determining available channels on an Android device, [the open source version of Wifi Analyzer is the recommended app.](https://play.google.com/store/apps/details?id=com.vrem.wifianalyzer) (Please avoid Ad supported imitations).\n\nIf you do not have an android phone but your pc has a WiFi adapter you can [use this application instead.](https://lizardsystems.com/wi-fi-scanner/)\n\nFor channel allocation reference, please see the image below:",
       "image": {
         "url": "https://cdn.discordapp.com/attachments/682369095798489129/1182933284846567474/channels.png?ex=65867f78&is=65740a78&hm=51b511d50a9beb9c2aa4159afcf64d693f03705a95a623ef659e35df7ce833da&"
       }
