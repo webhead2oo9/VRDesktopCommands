@@ -974,5 +974,14 @@
       "title": "Synchronous SpaceWarp",
       "description": "Synchronous SpaceWarp (SSW), developed in collaboration with Qualcomm, is Virtual Desktop's 3D **reprojection technology** designed to **halve the rendering load on PCs** by extrapolating every alternate frame directly on the headset. For instance, if your PC can only render **45fps**, the headset will fill in the gaps, keeping a smooth **90fps** experience.\n\nSSW can introduce graphical **artifacts** that may appear as warping or straight lines bending, so if possible it's **preferable for your pc to render the full fps.** However SSW is **beneficial on lower end systems**, or when you want to **push higher graphical settings** than your PC is capable of normally.\n\nThis is **different** to PC technologies like DLSS 3 which ***interpolate*** frames as opposed to ***extrapolating*** frames. The difference being that **DLSS 3 increases latency** while **SSW reduces percieved latency**"
     }
+  },
+  {
+  "name": "wrc",
+  "description": "WRC Troubleshooting",
+  "ephemeral": false,
+  "embed": {
+        "title": "WRC Troubleshooting",
+        "description": "**How to Launch VR**\n- WRC uses a built-in VR mode that only initializes after the 2D version boots. Launch the game in Virtual Desktop's desktop view through Steam or desktop icon. Then, when prompted, select the option to enter VR.\n\n**Bypass SteamVR**\n- In the Virtual Desktop PC streamer app, change your OpenXR runtime selection to VDXR. This will bypass SteamVR and increase your performance and eliminate head tracking issues.\n\n**False/poor Controller Inputs**\n- WRC accepts touch controllers as inputs, and thus Virtual Desktop's hand tracking feature can interfere with inputs even when holding a regular gamepad. Disable hand tracking in Virtual Desktop Input settings to solve this issue.",
+    }
   }
 ]
