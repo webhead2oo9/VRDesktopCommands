@@ -990,7 +990,7 @@
   "ephemeral": false,
   "embed": {
         "title": "Beta Feedback",
-        "description": "Questions, concerns or reports about issues involving the **BETA** should be addressed in the #beta-testing channel."
+        "description": "Questions, concerns or reports about issues involving the **BETA** should be addressed in the <#952979951286628362> channel."
     }
   }
 ]
