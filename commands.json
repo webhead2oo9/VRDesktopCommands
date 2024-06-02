@@ -1015,7 +1015,7 @@
   "ephemeral": false,
   "embed": {
         "title": "WRC Troubleshooting",
-        "description": "**How to Launch VR**\n- WRC uses a built-in VR mode that only initializes after the 2D version boots. Launch the game in Virtual Desktop's desktop view through Steam or desktop icon. Then, when prompted, select the option to enter VR.\n\n**Bypass SteamVR**\n- In the Virtual Desktop PC streamer app, change your OpenXR runtime selection to VDXR. This will bypass SteamVR and increase your performance and eliminate head tracking issues.\n\n**False/poor Controller Inputs**\n- WRC accepts touch controllers as inputs, and thus Virtual Desktop's hand tracking feature can interfere with inputs even when holding a regular gamepad. Disable hand tracking in Virtual Desktop Input settings to solve this issue."
+        "description": "**Jittering/stuttering**\n- In the Virtual Desktop PC streamer app, change your OpenXR runtime selection to VDXR. This will bypass SteamVR and increase your performance and eliminate jittering/stuttering when moving your head.\n\n**False/poor Controller Inputs**\n- WRC accepts VR controllers as inputs, and thus Virtual Desktop's hand tracking feature can interfere with inputs even when holding a regular gamepad. Disable hand tracking in Virtual Desktop Input settings to avoid this conflict."
     }
   },
   {
