@@ -5,7 +5,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Community Tested Routers",
-      "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX) - Asus RT-AX86U ($300 US)\nHigh End (AXE 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated (AX) - GL.iNet Beryl GL-MT3000 ($90 US)\nLow End (AC) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+      "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE / WiFi 6E) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX / WiFi 6) - Asus RT-AX86U ($300 US)\nDedicated (BE / Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE / WiFi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (AXE / WiFi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated (AX / WiFi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\nLow End (AC / WiFi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC / WiFi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
     },
     "pages": [
       {
@@ -583,7 +583,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
-      "description": "Nvidia: [552.44](https://www.nvidia.com/download/driverResults.aspx/224484/)\nAMD RX 400/500/VEGA series: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000/7000 series: [23.12.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-23-12-1.html)"
+      "description": "Nvidia: [552.44](https://www.nvidia.com/download/driverResults.aspx/224484/)\nAMD RX 400/500/VEGA series: [20.10.1](https://community.amd.com/t5/drivers-software/radeon-software-adrenalin-2020-edition-20-10-1-release-notes/td-p/421166)\nAMD 5000/6000/7000 series: [23.12.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-23-12-1.html)"
     }
   },
   {
@@ -994,9 +994,9 @@
     "ephemeral": false,
     "embed": {
       "title": "Streamer fails to install with installer not found error",
-      "description": "If you are experiencing issues with installing or updating the streamer, try using the `Reset this PC` option within windows recovery settings.\n\n__If you choose 'keep my files' it will NOT remove any personal files or applications__",
+      "description": "If you are experiencing issues with installing or updating the streamer, try using the `Fix Problems Using Windows Update` option within windows recovery settings.\n\n__It will NOT remove any personal files or applications__",
       "image": {
-        "url": "https://cdn.discordapp.com/attachments/1179623061692088382/1223708661600485569/reset.png?"
+        "url": "https://cdn.discordapp.com/attachments/1179623061692088382/1249439937871220786/Screenshot_2024-06-09_150444.png?"
       }
     }
   },
