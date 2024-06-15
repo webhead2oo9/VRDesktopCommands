@@ -16,7 +16,7 @@
         "embeds": [
           {
             "title": "Community Tested Routers",
-            "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX) - Asus RT-AX86U ($300 US)\nHigh End (AXE 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated (AX) - GL.iNet Beryl GL-MT3000 ($90 US)\nLow End (AC) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+            "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX) - Asus RT-AX86U ($300 US)\nHigh End (AXE 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated (AX) - GL.iNet Beryl GL-MT3000 ($90 US)\nDedicated (AX) - PRISMXR Puppis S1 (80$ US)\nLow End (AC) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
             
           }
         ]
@@ -83,7 +83,36 @@
             }
           }
         ]
-      }, 
+      },
+      {
+        "name": "puppiss1",
+        "title": "PRISMXR Puppis S1",
+        "description": "Dedicated (AX) - PRISMXR Puppis S1",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "PRISMXR Puppis S1",
+            "description": "The Puppis is a small USB connected device that uses a mobile device to setup a connection to your existing network, it can't be used for multiple devices but is a very solid option for just a VR device connected to it.",
+            "url": "https://www.prismxr.com/products/prismxr-puppis-s1-ax3000-wifi6-router-for-pc-vr-streaming-quest-3-compatible",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6 / AX",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/PRISMXR-Streaming-Compatible-Accessories-Wireless/dp/B0CFDL5Y7F)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://images-ext-1.discordapp.net/external/rRFkGCfqqhBfuQ0_wnX6IQWwXb3fdaj41iLEg4Ty1LM/https/m.media-amazon.com/images/I/51vTZVO%2BbUL._AC_SL1500_.jpg"
+            }
+          }
+        ]
+      },         
       {
         "name": "BerylGLMT3000",
         "title": "GL.iNet Beryl GL-MT3000",
