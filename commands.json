@@ -1057,6 +1057,15 @@
     }
   },
   {
+  "name": "avast",
+  "description": "Avast Ruled as Spyware by FTC",
+  "ephemeral": false,
+  "embed": {
+        "title": "Avast Ruled as Spyware by FTC",
+        "description": "Avast was recently [sued by the FTC](https://consumer.ftc.gov/consumer-alerts/2024/02/software-provider-avast-will-pay-165-million-compromising-consumers-privacy) for selling private user data. We recommended removing Avast from your system, as it can now be considered spyware."
+    }
+  },
+  {
     "name": "multimonitor",
     "description": "Explanation of the multimonitor feature",
     "ephemeral": false,
