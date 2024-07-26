@@ -573,6 +573,15 @@
     }
   },
   {
+    "name": "vcredist",
+    "description": "Reinstall Visual C++",
+    "ephemeral": false,
+    "embed": {
+      "title": "Reinstall Visual C++ Redistributable",
+      "description": "If you're experiencing issues launching SteamVR, reinstalling the Visual C++ Redistributable might help. Follow these steps:\n\n1. Download the Visual C++ Redistributable from [this link](https://aka.ms/vs/17/release/vc_redist.x86.exe).\n2. Close SteamVR and the Virtual Desktop Streamer if they're running.\n3. Run the downloaded installer and follow the prompts to install.\n4. Restart your computer after the installation is complete.\n5. Try launching SteamVR again.\n\nIf the issue persists, please provide more details about the specific error you're encountering."
+    }
+  },  
+  {
     "name": "roblox",
     "description": "Play Roblox in VR",
     "ephemeral": false,
