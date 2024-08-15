@@ -594,6 +594,40 @@
     }
   },
   {
+    "name": "vrchatbeta",
+    "description": "Information about Virtual Desktop Beta for VRChat Hand Tracking",
+    "ephemeral": false,
+    "embed": {
+      "title": "Virtual Desktop Beta for VRChat Hand Tracking",
+      "description": "Virtual Desktop has released a Beta version to support VRChat's new hand tracking update. This beta will fix issues using VRChat in the current live version. Follow these steps to enable this feature:",
+      "fields": [
+        {
+          "name": "Step 1: Update Streamer",
+          "value": "Download and install the Beta Streamer from: https://download.vrdesktop.net/files/beta/VirtualDesktop.Streamer.Setup.exe"
+        },
+        {
+          "name": "Step 2: Update Quest App (In-VR)",
+          "value": "1. In your Quest library, find Virtual Desktop\n2. Click the 3 dots in the top right of the app logo\n3. Go to Settings > Release Channels\n4. Select the BETA channel"
+        },
+        {
+          "name": "Step 2: Update Quest App (Web Browser)",
+          "value": "If the in-VR method doesn't work:\n1. Visit https://www.meta.com/en-gb/experiences/2017050365004772/ \n2. Sign in to your Meta account\n3. Under 'Version + Release Notes', change to Beta"
+        },
+        {
+          "name": "Step 3: Enable VRChat Hand Tracking",
+          "value": "After updating both Streamer and Quest app:\n1. Open Virtual Desktop in your Quest\n2. Go to Streaming\n3. Under Advanced Options, enable 'Forward tracking data to PC' and 'VRChat Hand Tracking'\n4. This enables hand **or** controller tracking in VRChat."
+        },
+        {
+          "name": "Note",
+          "value": "This beta fixes issues with the current live version of VRChat. The beta features will be integrated into the main release in the near future."
+        }
+      ],
+      "image": {
+        "url": "https://vrdiscord.com/screenshots/vd/vrcbeta.png"
+      }
+    }
+  },
+  {
     "name": "previous",
     "description": "How to Install the Previous Version",
     "ephemeral": false,
