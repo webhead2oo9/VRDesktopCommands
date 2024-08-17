@@ -867,10 +867,10 @@
   },
   {
     "name": "china",
-    "description": "China Pico Store",
+    "description": "China Store",
     "ephemeral": false,
     "embed": {
-      "title": "China Pico Store",
+      "title": "China Store",
       "description": "Virtual Desktop is not available in China because it is impossible for us to provide support through the Great Firewall. It would require a separate cloud infrastructure, separate builds of the app and Streamer, etc. We do not have the team or the time for this."
     }
   },
