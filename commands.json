@@ -866,6 +866,15 @@
     }
   },
   {
+    "name": "falsepositive",
+    "description": "Virtual Desktop False Positive",
+    "ephemeral": false,
+    "embed": {
+      "title": "Virtual Desktop False Positive",
+      "description": "The Virtual Desktop installer might be flagged as suspicious by some antivirus programs. Don't worry, this is a false positive. The developer updated the AdvancedInstaller version, which can trigger some security alerts.\n\n The installer is safe and properly signed with Virtual Desktop's digital signature. You can safely proceed with the installation if you see any warnings."
+    }
+  },
+  {
     "name": "china",
     "description": "China Store",
     "ephemeral": false,
