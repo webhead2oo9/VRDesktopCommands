@@ -875,6 +875,15 @@
     }
   },
   {
+    "name": "repair",
+    "description": "Virtual Desktop Repair",
+    "ephemeral": false,
+    "embed": {
+      "title": "Virtual Desktop Repair",
+      "description": "If you are experiencing issues installing or updating Virtual Desktop, [please use this repair installer](https://download.vrdesktop.net/files/VirtualDesktop.Streamer.Repair.exe) to fix the problem."
+    }
+  },  
+  {
     "name": "china",
     "description": "China Store",
     "ephemeral": false,
