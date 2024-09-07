@@ -300,68 +300,34 @@
     "ephemeral": false,
     "embed": {
       "title": "Inside Out Body Tracking",
-      "description": "Virtual Desktop supports passing through upper body tracking (Q3) and estimation using Meta IOBT (All Quests). \n\n Please select an option below."
-    },
-    "pages": [
-      {
-        "name": "Main Page",
-        "title": "Inside Out Body Tracking and Index Emulation",
-        "description": "",
-        "embeds": [
-          {
-            "title": "What is Supported",
-            "description": "Virtual Desktop supports passing through upper body tracking (Q3) and estimation using Meta IOBT (All Quests).",
-            "fields": [
-              {
-                "name": "What is IOBT?",
-                "value": "Inside out Body Tracking is a [feature provided by Meta](https://developer.oculus.com/blog/inside-out-body-tracking-and-generative-legs/) that allows you to use the Quest for Full Body Tracking/Estimation."
-              },
-              {
-                "name": "Supported Devices",
-                "value": "All Quest devices are supported, at this time no other devices have this feature available on native openXR."
-              },
-              {
-                "name": "What is Tracked on IOBT?",
-                "value": "**Quest 3**: Upper Body is tracked using the cameras, waist and legs are estimated based on upper body positioning.\n **Quest 2/Pro/1**: All estimation based on head and hand pose. Cameras do not track your body. [You can see a demo of estimation here](https://www.youtube.com/watch?v=lkDW5yuQnvQ)"
-              },
-              {
-                "name": "Can I kick people?",
-                "value": "No, sorry :("
-              },
-              {
-                "name": "Can I use this with other trackers?",
-                "value": "Yes, you can disable specific trackers at any time by setting the individual tracker to 'Held In Hand' or using [Dentech's configuration tool](https://github.com/DenTechs/Virtual_Desktop_Body_Tracking_Configurator/releases).\n This will allow you to use Slime/Vive trackers with IOBT."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Common Issues",
-        "title": "Common Issues",
-        "description": "",
-        "embeds": [
-          {
-            "title": "Troubleshooting",
-            "description": "If you are experiencing issues with IOBT you can check the following common issues.",
-            "fields": [
-              {
-                "name": "Hand Tracking/Body Tracking not showing up in SteamVR",
-                "value": "Verify the 'Vive Tracker Emulation' is enabled in the VD Streaming tab which is an option once 'Forward Tracking Data to PC' is enabled.\n\n Once enabled, verify SteamVR Addons has the Virtual Desktop addon enabled."
-              },
-              {
-                "name": "My legs aren't aligned right",
-                "value": "On IOBT, legs are estimated/generated through body pose and will not line up exactly.\n\n**You can open and close the Meta menu with the right controller button and this will recalibrate.**\n\n In most cases you will end up just moving to line your avatar up."
-              },
-              {
-                "name": "I can't kick people",
-                "value": "Yep! All lower body is estimated/generative. You cannot kick people."
-              }
-            ]
-          }
-        ]
-      }
-    ]
+      "description": "Virtual Desktop supports passing through upper body tracking (Q3) and estimation using Meta IOBT (All Quests). \n\n Please select an option below.",
+      "fields": [
+        {
+          "name": "What is IOBT?",
+          "value": "Inside out Body Tracking is a [feature provided by Meta](https://developer.oculus.com/blog/inside-out-body-tracking-and-generative-legs/) that allows you to use the Quest for Full Body Tracking/Estimation."
+        },
+        {
+          "name": "Supported Devices",
+          "value": "All Quest devices are supported, at this time no other devices have this feature available on native openXR."
+        },
+        {
+          "name": "What is Tracked on IOBT?",
+          "value": "**Quest 3**: Upper Body is tracked using the cameras, waist and legs are estimated based on upper body positioning.\n **Quest 2/Pro/1**: All estimation based on head and hand pose. Cameras do not track your body. [You can see a demo of estimation here](https://www.youtube.com/watch?v=lkDW5yuQnvQ)"
+        },
+        {
+          "name": "Are my feet tracked?",
+          "value": "Meta does not provide feet tracking, only feet estimation based on upper body pose."
+        },
+        {
+          "name": "Can I use this with other trackers?",
+          "value": "Yes, you can disable specific trackers at any time by setting the individual tracker to 'Held In Hand' or using [Dentech's configuration tool](https://github.com/DenTechs/Virtual_Desktop_Body_Tracking_Configurator/releases).\n This will allow you to use Slime/Vive trackers with IOBT."
+        },
+        {
+          "name": "Hand Tracking/Body Tracking not showing up in SteamVR",
+          "value": "Verify the 'Vive Tracker Emulation' is enabled in the VD Streaming tab which is an option once 'Forward Tracking Data to PC' is enabled.\n\n Once enabled, verify SteamVR Addons has the Virtual Desktop addon enabled."
+        }
+      ]
+    }
   },
   {
     "name": "indexemulation",
@@ -551,7 +517,7 @@
           "value": "Potato: 1440x1536\nLow: 1728x1824\nMedium: 2016x2112\nHigh: 2496x2592\nUltra: 2688x2784\nGodlike: 3072x3216 (Quest Pro/Quest 3)"
         },
         {
-          "name": "Pico 4",
+          "name": "Pico 4 / Pico 4 Ultra",
           "value": "Potato: 1488x1488\nLow: 1776x1776\nMedium: 2064x2064\nHigh: 2544x2544\nUltra: 2736x2736\nGodlike: 3120x3120"
         }
       ]
@@ -590,40 +556,6 @@
       "description": "1. Set SteamVR as default OpenXR Runtime.\n2. Launch SteamVR from the button in the Virtual Desktop menu in VR.\n3. Switch back to desktop and Launch Roblox.\n4. Toggle VR mode in Roblox.",
       "footer": {
         "text": "Please note, Robloxs VR support is quite buggy."
-      }
-    }
-  },
-  {
-    "name": "vrchatbeta",
-    "description": "Information about Virtual Desktop Beta for VRChat Hand Tracking",
-    "ephemeral": false,
-    "embed": {
-      "title": "Virtual Desktop Beta for VRChat Hand Tracking",
-      "description": "Virtual Desktop has released a Beta version to support VRChat's new hand tracking update. This beta will fix issues using VRChat in the current live version. Follow these steps to enable this feature:",
-      "fields": [
-        {
-          "name": "Step 1: Update Streamer",
-          "value": "Download and install the Beta Streamer from: https://download.vrdesktop.net/files/beta/VirtualDesktop.Streamer.Setup.exe"
-        },
-        {
-          "name": "Step 2: Update Quest App (In-VR)",
-          "value": "1. In your Quest library, find Virtual Desktop\n2. Click the 3 dots in the top right of the app logo\n3. Go to Settings > Release Channels\n4. Select the BETA channel"
-        },
-        {
-          "name": "Step 2: Update Quest App (Web Browser)",
-          "value": "If the in-VR method doesn't work:\n1. Visit https://www.meta.com/en-gb/experiences/2017050365004772/ \n2. Sign in to your Meta account\n3. Under 'Version + Release Notes', change to Beta"
-        },
-        {
-          "name": "Step 3: Enable VRChat Hand Tracking",
-          "value": "After updating both Streamer and Quest app:\n1. Open Virtual Desktop in your Quest\n2. Go to Streaming\n3. Under Advanced Options, enable 'Forward tracking data to PC' and 'VRChat Hand Tracking'\n4. This enables hand **or** controller tracking in VRChat."
-        },
-        {
-          "name": "Note",
-          "value": "This beta fixes issues with the current live version of VRChat. The beta features will be integrated into the main release in the near future."
-        }
-      ],
-      "image": {
-        "url": "https://vrdiscord.com/screenshots/vd/vrcbeta.png"
       }
     }
   },
@@ -1132,7 +1064,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Multi-Monitor",
-      "description": "We're excited to introduce the Multi-Monitor feature, which allows you to view multiple monitors simultaneously within our app.\n\n**Supported Headsets**\n* **Meta Quest 3:** Up to 3 monitors.\n* **Meta Quest 2, Meta Quest Pro, Pico Neo 3, Pico 4, Vive Focus 3, Vive XR Elite:** Up to 2 monitors.\n* **Meta Quest 1:** Only 1 monitor is supported\n\n**Resolution Limits**\n* **Meta Quest 3:**\n * **Single monitor:** Up to 3840x2160.\n * **Multiple monitors:** Up to 2560x1440 per monitor.\n* **All other headsets:**\n * **Single monitor:** Up to 2560x1440.\n * **Multiple monitors:** Up to 1920x1080 per monitor.\n\n**Streaming Quality**\nThe monitor stream has a maximum bitrate of 120mbps, shared between all active monitors:\n* **1 monitor:** 120mbps\n* **2 monitors:** 60mbps each\n* **3 monitors:** 40mbps each\n\n**Platform Specific**\n**Windows:**\n* Supports creating virtual monitors up to the maximum supported by your headset.\n* You can mix both physical and virtual monitors (e.g., on Quest 3, you can have 2 physical monitors and 1 virtual monitor for a total of 3 monitors).\n\n**MacOS:**\n* Only physical and Airplay monitors are currently supported.\n* The same monitor limits per headset apply as listed above.\n* Virtual monitors will be supported in a future update\n",
+      "description": "We're excited to introduce the Multi-Monitor feature, which allows you to view multiple monitors simultaneously within our app.\n\n**Supported Headsets**\n* **Meta Quest 3, Pico 4 Ultra:** Up to 3 monitors.\n* **Meta Quest 2, Meta Quest Pro, Pico Neo 3, Pico 4, Vive Focus 3, Vive XR Elite:** Up to 2 monitors.\n* **Meta Quest 1:** Only 1 monitor is supported\n\n**Resolution Limits**\n* **Meta Quest 3:**\n * **Single monitor:** Up to 3840x2160.\n * **Multiple monitors:** Up to 2560x1440 per monitor.\n* **All other headsets:**\n * **Single monitor:** Up to 2560x1440.\n * **Multiple monitors:** Up to 1920x1080 per monitor.\n\n**Streaming Quality**\nThe monitor stream has a maximum bitrate of 120mbps, shared between all active monitors:\n* **1 monitor:** 120mbps\n* **2 monitors:** 60mbps each\n* **3 monitors:** 40mbps each\n\n**Platform Specific**\n**Windows:**\n* Supports creating virtual monitors up to the maximum supported by your headset.\n* You can mix both physical and virtual monitors (e.g., on Quest 3, you can have 2 physical monitors and 1 virtual monitor for a total of 3 monitors).\n\n**MacOS:**\n* Only physical and Airplay monitors are currently supported.\n* The same monitor limits per headset apply as listed above.\n* Virtual monitors will be supported in a future update\n",
       "footer": {
         "text": "Multi-Monitor support depends on PC Graphics power, multimonitor is automatically disabled when no hardware video encoder is present."
       }
