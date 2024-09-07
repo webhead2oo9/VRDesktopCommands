@@ -300,7 +300,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Inside Out Body Tracking",
-      "description": "Virtual Desktop supports passing through upper body tracking (Q3) and estimation using Meta IOBT (All Quests). \n\n Please select an option below.",
+      "description": "Virtual Desktop supports passing through upper body tracking (Q3) and estimation using Meta IOBT (All Quests).",
       "fields": [
         {
           "name": "What is IOBT?",
