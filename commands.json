@@ -570,7 +570,7 @@
       "fields": [
         {
           "name": "**Quest**",
-          "value": "Download the previous version using the [Release Channel](https://vrdiscord.com/screenshots/vd/releasechannel/release.jpg) option within your Quest APK by clicking the [three dots](https://vrdiscord.com/screenshots/vd/releasechannel/apps.jpg) and selecting [settings](https://vrdiscord.com/screenshots/vd/releasechannel/settings.jpg) and downloading the Streamer from [GitHub](https://github.com/guygodin/VirtualDesktop/releases/) for the version you are installing.",
+          "value": "Download the previous version using the [Release Channel](https://vrdiscord.com/screenshots/vd/releasechannel/release.jpg) option to choose 'Previous' within your Quest by clicking the [three dots](https://vrdiscord.com/screenshots/vd/releasechannel/apps.jpg) and selecting [settings](https://vrdiscord.com/screenshots/vd/releasechannel/settings.jpg).\n Download the previous Streamer from [GitHub](https://github.com/guygodin/VirtualDesktop/releases/) for the version you are installing.",
           "inline": false
         },
         {
@@ -648,7 +648,7 @@
     }
   },
   {
-    "name": "pua",
+    "name": "potentiallyunwantedapps",
     "description": "Potentially Unwanted Apps",
     "ephemeral": false,
     "embed": {
