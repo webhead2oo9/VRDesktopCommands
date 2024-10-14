@@ -570,7 +570,7 @@
       "fields": [
         {
           "name": "**Quest**",
-          "value": "Download the previous version APK and Streamer from [GitHub](https://github.com/guygodin/VirtualDesktop/releases/) for the version you are installing. Sideload the APK to your Quest using Sidequest, and reinstall the correct streamer. Please ensure to uninstall it from your Quest before doing this.",
+          "value": "Download the previous version using the [Release Channel](https://vrdiscord.com/screenshots/vd/releasechannel/release.jpg) option within your Quest APK by clicking the [three dots](https://vrdiscord.com/screenshots/vd/releasechannel/apps.jpg) and selecting [settings](https://vrdiscord.com/screenshots/vd/releasechannel/settings.jpg) and downloading the Streamer from [GitHub](https://github.com/guygodin/VirtualDesktop/releases/) for the version you are installing.",
           "inline": false
         },
         {
@@ -645,6 +645,30 @@
         "url": "https://vrdiscord.com/images/VD_internet_command.png"
       },
       "description": "Once your VR headset is connected to your computer, all data traffic remains local. This is true whether you're connected directly to your main router or to a dedicated router on the same local area network (LAN). The only requirement is a wired connection from your PC to a router. The VR headset then connects wirelessly to the same router or dedicated router."
+    }
+  },
+  {
+    "name": "pua",
+    "description": "Potentially Unwanted Apps",
+    "ephemeral": false,
+    "embed": {
+      "title": "PUA",
+      "image": {
+        "url": "https://vrdiscord.com/screenshots/vd/pua.jpg"
+      },      
+      "description": "Microsoft's Windows Defender includes a feature called 'Potentially Unwanted App (PUA) Protection' or 'Reputation-based Protection'. This can sometimes flag new installers incorrectly. To disable it:\n\n1. Open your Start menu\n2. Type 'reputation'\n3. Click on 'Reputation-based Protection' (should be the top result)\n4. Scroll down to 'Potentially Unwanted App Blocking'\n5. Turn this setting off."
+    }
+  },
+  {
+    "name": "msappinstall",
+    "description": "App Recommendation Settings",
+    "ephemeral": false,
+    "embed": {
+      "title": "App Recommendation Settings",
+      "image": {
+        "url": "https://vrdiscord.com/screenshots/vd/choosewheretoget.jpg"
+      },      
+      "description": "To bypass Microsoft's restrictive app installation policy:\n\n1. Open Start menu\n2. Search 'Choose where to get apps'\n3. In 'Apps & features', set to 'Anywhere'\n\nThis allows installing apps from any source. You may still see warnings, but can select 'Install anyway'."
     }
   },
   {
