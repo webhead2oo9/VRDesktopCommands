@@ -587,7 +587,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
-    "description": "Nvidia: 552.44 (later versions may have streaming or virtual display issues)\nAMD RX 400/500/VEGA series: 20.10.1 (newer versions can have HEVC compatibility issues)\nAMD 5000/6000/7000 series: 23.12.1 (newer versions can have HEVC compatibility issues)"
+    "description": "Nvidia: [552.44](https://www.nvidia.com/download/driverResults.aspx/224483/en-us/) (later versions may have streaming or virtual display issues)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC compatibility issues)\n\nAMD 5000/6000/7000 series: [23.12.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-23-12-1.html) (newer versions can have HEVC compatibility issues)"
     }
   },
   {
