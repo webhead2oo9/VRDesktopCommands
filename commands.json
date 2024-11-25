@@ -587,7 +587,29 @@
     "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
-      "description": "Nvidia: [552.44](https://www.nvidia.com/download/driverResults.aspx/224483/en-us/)\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/)\nAMD 5000/6000/7000 series: [23.12.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-23-12-1.html)"
+    "description": "Nvidia: 552.44 (later versions may have streaming or virtual display issues)\nAMD RX 400/500/VEGA series: 20.10.1 (newer versions can have HEVC compatibility issues)\nAMD 5000/6000/7000 series: 23.12.1 (newer versions can have HEVC compatibility issues)"
+    }
+  },
+  {
+    "name": "ethernetalt",
+    "description": "Ethernet requirement",
+    "ephemeral": false,
+    "embed": {
+      "title": "Ethernet Connection Required",
+      "description": "Virtual Desktop requires a Gigabit Ethernet connection from your PC to your router. This is required for support.",
+      "color": 15158332,
+      "fields": [
+        {
+          "name": "**Connection Requirements**",
+          "value": "• Gigabit Ethernet from PC to router\n• AC or AX router\n\nWireless PC connections cause instability and are NOT supported, even if they worked temporarily in the past.",
+          "inline": false
+        },
+        {
+          "name": "**Router Too Far?**",
+          "value": "Check `/routers` for a list of tested dedicated streaming routers that can be placed closer to your play space.",
+          "inline": false
+        }
+      ]
     }
   },
   {
