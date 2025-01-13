@@ -898,6 +898,9 @@
       "title": "Alternate Dedicated Router Setup Diagrams",
       "image": {
         "url": "https://vrdiscord.com/screenshots/vd/network_setups.png"
+      },
+      "footer": {
+        "text": "Check the /ics command for a guide on how to set up like the lower diagram"
       }
     }
   },
