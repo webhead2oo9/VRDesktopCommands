@@ -587,7 +587,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
-    "description": "NVIDIA: [572.16](https://www.nvidia.com/en-us/drivers/details/240547/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000 series: [23.12.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-23-12-1.html) (newer versions can have HEVC crashing issues)"
+    "description": "NVIDIA: [572.16](https://www.nvidia.com/en-us/drivers/details/240547/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000/9000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html)"
     }
   },
   {
