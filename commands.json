@@ -121,7 +121,7 @@
         "embeds": [
           {
             "title": "GL.iNet Beryl GL-MT3000",
-            "description": "The GL.iNet Beryl GL-MT3000 is a good dedicated router for bridging and repeating an existing wireless network. Unlike the GL.iNet Opal GL-SFT1200, the Beryl supports DFS channels which can be useful when there are limited clear 5ghz channels. Currently you will need to update this to beta firmware 4.6.0 or later for proper performance.",
+            "description": "The GL.iNet Beryl GL-MT3000 is a good dedicated router for bridging and repeating an existing wireless network. Unlike the GL.iNet Opal GL-SFT1200, the Beryl supports DFS channels which can be useful when there are limited clear 5ghz channels. Currently you will need to update this to stable firmware 4.6.2 or later for proper performance.",
             "url": "https://www.gl-inet.com/products/gl-mt3000/",
             "color": null,
             "fields": [
