@@ -17,6 +17,7 @@
           {
             "title": "Community Tested Routers",
             "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated (AX) - GL.iNet Beryl GL-MT3000 ($90 US)\nDedicated (AX) - PRISMXR Puppis S1 (80$ US)\nLow End (AC) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+            
           }
         ]
       },
@@ -70,7 +71,7 @@
                 "name": "Dedicated Bridging Setup",
                 "value": "Follow the [Opal Travel Router Setup Guide](https://discord.com/channels/564087419918483486/692030889932095529/1081059165713207326) or use r/opal for further information.",
                 "inline": true
-              },
+              },     
               {
                 "name": "Store Links",
                 "value": "[USA](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5)",
@@ -111,7 +112,7 @@
             }
           }
         ]
-      },
+      },         
       {
         "name": "BerylGLMT3000",
         "title": "GL.iNet Beryl GL-MT3000",
@@ -133,7 +134,7 @@
                 "name": "Dedicated Bridging Setup",
                 "value": "Follow the [Opal Travel Router Setup Guide](https://discord.com/channels/564087419918483486/692030889932095529/1081059165713207326) or use r/opal for further information.",
                 "inline": true
-              },
+              },     
               {
                 "name": "Store Links",
                 "value": "[USA](https://www.amazon.com/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [Canada](https://www.amazon.ca/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [UK](https://www.amazon.co.uk/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/)",
@@ -145,7 +146,7 @@
             }
           }
         ]
-      },
+      }, 
       {
         "name": "TPLinkAXE5400",
         "title": "TP-Link Archer AXE75/AXE5400",
@@ -203,7 +204,7 @@
             }
           }
         ]
-      },
+      },     
       {
         "name": "minion6e",
         "title": "Davolink Minion 6E",
@@ -259,7 +260,7 @@
             "thumbnail": {
               "url": "https://cdn.discordapp.com/attachments/875149053221019668/930535591953698966/P_setting_xxx_0_90_end_500.png"
             }
-          }
+          }          
         ]
       },
       {
@@ -288,7 +289,7 @@
             "thumbnail": {
               "url": "https://cdn.discordapp.com/attachments/830109388927926282/1188657513873293322/51xvfaZyLL.png"
             }
-          }
+          }          
         ]
       }
     ]
@@ -545,7 +546,7 @@
       "title": "Reinstall Visual C++ Redistributable",
       "description": "If you're experiencing issues launching SteamVR, reinstalling the Visual C++ Redistributable might help. Follow these steps:\n\n1. Download the Visual C++ Redistributable from [this link](https://aka.ms/vs/17/release/vc_redist.x86.exe).\n2. Close SteamVR and the Virtual Desktop Streamer if they're running.\n3. Run the downloaded installer and follow the prompts to install.\n4. Restart your computer after the installation is complete.\n5. Try launching SteamVR again.\n\nIf the issue persists, please provide more details about the specific error you're encountering."
     }
-  },
+  },  
   {
     "name": "roblox",
     "description": "Play Roblox in VR",
@@ -586,7 +587,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
-      "description": "Nvidia RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nNvidia: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000/9000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html)"
+    "description": "Nvidia RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nNvidia: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000/9000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html)"
     }
   },
   {
@@ -676,7 +677,7 @@
       "title": "PUA",
       "image": {
         "url": "https://vrdiscord.com/screenshots/vd/pua.jpg"
-      },
+      },      
       "description": "Microsoft's Windows Defender includes a feature called 'Potentially Unwanted App (PUA) Protection' or 'Reputation-based Protection'. This can sometimes flag new installers incorrectly. To disable it:\n\n1. Open your Start menu\n2. Type 'reputation'\n3. Click on 'Reputation-based Protection' (should be the top result)\n4. Scroll down to 'Potentially Unwanted App Blocking'\n5. Turn this setting off."
     }
   },
@@ -688,7 +689,7 @@
       "title": "App Recommendation Settings",
       "image": {
         "url": "https://vrdiscord.com/screenshots/vd/choosewheretoget.jpg"
-      },
+      },      
       "description": "To bypass Microsoft's restrictive app installation policy:\n\n1. Open Start menu\n2. Search 'Choose where to get apps'\n3. In 'Apps & features', set to 'Anywhere'\n\nThis allows installing apps from any source. You may still see warnings, but can select 'Install anyway'."
     }
   },
@@ -859,7 +860,7 @@
       "title": "Virtual Desktop Repair",
       "description": "If you are experiencing issues installing or updating Virtual Desktop, [please use this repair installer](https://download.vrdesktop.net/files/VirtualDesktop.Streamer.Repair.exe) to fix the problem."
     }
-  },
+  },  
   {
     "name": "china",
     "description": "China Store",
@@ -1080,30 +1081,30 @@
     }
   },
   {
-    "name": "wrc",
-    "description": "WRC Troubleshooting",
-    "ephemeral": false,
-    "embed": {
-      "title": "WRC Troubleshooting",
-      "description": "**Jittering/stuttering**\n- In the Virtual Desktop PC streamer app, change your OpenXR runtime selection to VDXR. This will bypass SteamVR and increase your performance and eliminate jittering/stuttering when moving your head.\n\n**False/poor Controller Inputs**\n- WRC accepts VR controllers as inputs, and thus Virtual Desktop's hand tracking feature can interfere with inputs even when holding a regular gamepad. Disable hand tracking in Virtual Desktop Input settings to avoid this conflict."
+  "name": "wrc",
+  "description": "WRC Troubleshooting",
+  "ephemeral": false,
+  "embed": {
+        "title": "WRC Troubleshooting",
+        "description": "**Jittering/stuttering**\n- In the Virtual Desktop PC streamer app, change your OpenXR runtime selection to VDXR. This will bypass SteamVR and increase your performance and eliminate jittering/stuttering when moving your head.\n\n**False/poor Controller Inputs**\n- WRC accepts VR controllers as inputs, and thus Virtual Desktop's hand tracking feature can interfere with inputs even when holding a regular gamepad. Disable hand tracking in Virtual Desktop Input settings to avoid this conflict."
     }
   },
   {
-    "name": "beta",
-    "description": "Beta Feedback",
-    "ephemeral": false,
-    "embed": {
-      "title": "Beta Feedback",
-      "description": "Questions, concerns or reports about issues involving the **BETA** should be addressed in the <#952979951286628362> channel."
+  "name": "beta",
+  "description": "Beta Feedback",
+  "ephemeral": false,
+  "embed": {
+        "title": "Beta Feedback",
+        "description": "Questions, concerns or reports about issues involving the **BETA** should be addressed in the <#952979951286628362> channel."
     }
   },
   {
-    "name": "avast",
-    "description": "Avast Ruled as Spyware by FTC",
-    "ephemeral": false,
-    "embed": {
-      "title": "Avast Ruled as Spyware by FTC",
-      "description": "Avast was recently [sued by the FTC](https://consumer.ftc.gov/consumer-alerts/2024/02/software-provider-avast-will-pay-165-million-compromising-consumers-privacy) for selling private user data. We recommend removing Avast from your system, as it can now be considered spyware."
+  "name": "avast",
+  "description": "Avast Ruled as Spyware by FTC",
+  "ephemeral": false,
+  "embed": {
+        "title": "Avast Ruled as Spyware by FTC",
+        "description": "Avast was recently [sued by the FTC](https://consumer.ftc.gov/consumer-alerts/2024/02/software-provider-avast-will-pay-165-million-compromising-consumers-privacy) for selling private user data. We recommend removing Avast from your system, as it can now be considered spyware."
     }
   },
   {
@@ -1122,28 +1123,9 @@
     "name": "dongle",
     "description": "Connecting the Quest 3 directly with ethernet",
     "ephemeral": false,
-    "embed": {
+    "embed":{
       "title": "**__Using a USB Dongle/Adapter on your Quest 3__**",
       "description": "While it's **unsupported here and by Meta**, it is possible to use a USB to Ethernet adapter or hub attached to your Quest 3 headset.\n\nThere are a few conditions that must be met:\n**1)** This is a not officially supported feature and can be removed by Meta at any time. (Meta removed this feature from the Quest 2 permanently and temporarily from the Quest 3 in the past)\n**2)** Many USB to Ethernet devices simply will not work. You'll need to research which ones will work.\n**3)** The USB to Ethernet device must be 1Gbps, Higher speeds are not supported by the headset.\n**4)** The headset will give you no indication that it's using the Ethernet connection other than that it simply works.\n**5)** **Neither Meta nor Virtual Desktop provide support for this feature. If it doesn't work properly, you'll need to do you own research to figure out why and how to fix it.**\n"
-    }
-  },
-  {
-    "name": "singlecommandtest",
-    "description": "test",
-    "ephemeral": false,
-    "embed": {
-      "title": "addingsinglecommand",
-      "description": "test",
-      "footer": {
-        "text": "footer"
-      },
-      "fields": [
-        {
-          "name": "test field",
-          "value": "field data",
-          "inline": false
-        }
-      ]
     }
   }
 ]
