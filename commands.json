@@ -502,10 +502,10 @@
   },
   {
     "name": "resolution",
-    "description": "Streaming Resolution per device",
+    "description": "Render Resolution Per Eye for Each Device",
     "ephemeral": false,
     "embed": {
-      "title": "Streaming Resolution",
+      "title": "Render Resolution",
       "description": "Render Resolution __per eye__",
       "fields": [
         {
