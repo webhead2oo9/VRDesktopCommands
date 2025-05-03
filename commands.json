@@ -506,7 +506,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Render Resolution",
-      "description": "Render Resolution __per eye__",
+      "description": "Render Resolution __Per Eye__",
       "fields": [
         {
           "name": "Quest",
