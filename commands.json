@@ -625,9 +625,9 @@
     "name": "ethernet",
     "description": "Ethernet requirement",
     "ephemeral": false,
-    "embed": {
-      "title": "Ethernet is required",
-      "description": "Rebooting your router can provide a temporary fix for certain issues you may be experiencing. Please note that since 2018, a Gigabit Ethernet connection between your PC and an AC or AX router is mandatory for support. Past success with other setups does not guarantee stability, and these configurations are not supported due to frequent complications. If your router is too far away to establish an Ethernet connection, use the command '/routers' to view a list of dedicated routers that have been tested by the community."
+    "embed":{
+      "title": "**__Ethernet is required__**",
+      "description": "Rebooting your router can provide a temporary fix for certain issues you may be experiencing. Please note that since 2018, a Gigabit Ethernet or better connection between your PC and an AC, AX or better router is mandatory for support. Past success with other setups does not guarantee stability, and these configurations are not supported due to frequent complications. If your router is too far away to establish an Ethernet connection, use the command '/routers' to view a list of dedicated routers that have been tested by the community."
     }
   },
   {
