@@ -1136,5 +1136,45 @@
       "title": "**__OpenXR Toolkit is deprecated__**",
       "description": "Support will not be provided for use of the tool in any support channels\n\nNothing in the tool has been changed in over a year and the developer recommends if you experience new issues with it you follow the official troubleshooting and [reset your settings](https://mbucchia.github.io/OpenXR-Toolkit/troubleshooting.html#reset-all-the-settings)\n"
     }
+  },
+  {
+    "name": "crossposting",
+    "description": "Why you shouldn't crosspost",
+    "ephemeral": false,
+    "embed": {
+      "title": "Why You Shouldn't Crosspost",
+      "description": "Crossposting your question across multiple channels, servers, or platforms simultaneously can actually harm your chances of getting help and creates unnecessary work for support volunteers.",
+      "color": 15158332,
+      "fields": [
+        {
+          "name": "**Fragments Support Efforts**",
+          "value": "When you post the same question in multiple places, helpers may waste time duplicating work that's already being done elsewhere. This divides attention and reduces the quality of help you receive.",
+          "inline": false
+        },
+        {
+          "name": "**Creates Confusion**",
+          "value": "Multiple conversation threads make it difficult to track what solutions have been tried and what additional information has been provided. This leads to repeated suggestions and confusion.",
+          "inline": false
+        },
+        {
+          "name": "**Wastes Volunteer Time**",
+          "value": "Support staff and community helpers are volunteers. Crossposting wastes their valuable time when they unknowingly duplicate efforts happening in other channels.",
+          "inline": false
+        },
+        {
+          "name": "**Better Approach**",
+          "value": "Instead of crossposting:\n• Choose the most appropriate channel for your question\n• Wait a reasonable amount of time for responses\n• If you don't get help, try a different channel after some time has passed\n• Mention if you've asked elsewhere and what responses you received",
+          "inline": false
+        },
+        {
+          "name": "**Remember**",
+          "value": "Patience and respect for volunteer helpers will get you better assistance than trying to ask everywhere at once. Quality help takes time, and good supporters appreciate when you value their efforts.",
+          "inline": false
+        }
+      ],
+      "footer": {
+        "text": "Be patient, be respectful, and you'll get better help!"
+      }
+    }
   }
 ]
