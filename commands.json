@@ -510,19 +510,23 @@
       "fields": [
         {
           "name": "Quest",
-          "value": "Potato: 1200x1344\nLow: 1536x1728\nMedium: 1824x2016\nHigh: 2208x2400"
+          "value": "Potato: 1200x1344\nLow: 1536x1728\nMedium: 1824x2016\nHigh: 2208x2400",
+          "inline": true
         },
         {
           "name": "Quest 2/Pico Neo 3/Quest Pro/Quest 3",
-          "value": "Potato: 1440x1536\nLow: 1728x1824\nMedium: 2016x2112\nHigh: 2496x2592\nUltra: 2688x2784\nGodlike: 3072x3216 (Quest Pro/Quest 3)"
+          "value": "Potato: 1440x1536\nLow: 1728x1824\nMedium: 2016x2112\nHigh: 2496x2592\nUltra: 2688x2784\nGodlike: 3072x3216 (Quest Pro/Quest 3)",
+          "inline": true
         },
         {
           "name": "Pico 4 / Pico 4 Ultra",
-          "value": "Potato: 1488x1488\nLow: 1776x1776\nMedium: 2064x2064\nHigh: 2544x2544\nUltra: 2736x2736\nGodlike: 3120x3120"
+          "value": "Potato: 1488x1488\nLow: 1776x1776\nMedium: 2064x2064\nHigh: 2544x2544\nUltra: 2736x2736\nGodlike: 3120x3120",
+          "inline": true
         },
         {
           "name": "Play For Dream",
-          "value": "Potato: 1560x1440\nLow: 1848x1704\nMedium: 2160x1992\nHigh: 2640x2448\nUltra: 2856x2640\nGodlike: 3840x3552"
+          "value": "Potato: 1560x1440\nLow: 1848x1704\nMedium: 2160x1992\nHigh: 2640x2448\nUltra: 2856x2640\nGodlike: 3264x3024\nMonster: 3840x3552",
+          "inline": true
         }
       ]
     }
