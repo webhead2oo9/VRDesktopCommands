@@ -1140,5 +1140,14 @@
       "title": "**__OpenXR Toolkit is deprecated__**",
       "description": "Support will not be provided for use of the tool in any support channels\n\nNothing in the tool has been changed in over a year and the developer recommends if you experience new issues with it you follow the official troubleshooting and [reset your settings](https://mbucchia.github.io/OpenXR-Toolkit/troubleshooting.html#reset-all-the-settings)\n"
     }
+  },
+  {
+    "name": "opencomposite",
+    "description": "OpenComposite not supported",
+    "ephemeral": false,
+    "embed":{
+      "title": "**__OpenComposite not supported__**",
+      "description": "OpenComposite overwrites OpenVR API calls and tries to redirect them to OpenXr, however it's an imperfect process and often uses unsupported and unreliable methods which can cause issues and incompatibilities. So sometimes it will work and sometimes it won't and because it's impossible to tell what's due to an issue with OpenComposite or VDXR we don't provide any support for it"
+    }
   }
 ]
