@@ -5,7 +5,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Community Tested Routers",
-      "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AX / WiFi 6) - Asus RT-AX86U ($300 US)\nDedicated (BE / Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE / WiFi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (AXE / WiFi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated (AX) - PRISMXR Puppis S1 (80$)\nDedicated (AX / WiFi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\nLow End (AC / WiFi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC / WiFi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+      "description": "The following routers have been reported to work reliably by a number of users.\nHigh End (AX / WiFi 6) - Asus RT-AX86U ($300 US)\nDedicated (BE / Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE / WiFi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (AXE / WiFi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated (AX) - PRISMXR Puppis S1 (80$)\nDedicated (AX / WiFi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\nLow End (AC / WiFi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC / WiFi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
     },
     "pages": [
       {
@@ -92,7 +92,7 @@
         "embeds": [
           {
             "title": "PRISMXR Puppis S1",
-            "description": "The Puppis is a small USB connected device that uses a mobile device to setup a connection to your existing network, it can't be used for multiple devices but is a very solid option for just a VR device connected to it.",
+            "description": "The Puppis is a small USB connected device that uses a mobile device to set up a connection to your existing network. It can't be used for multiple devices but is a very solid option for just a VR device connected to it.",
             "url": "https://www.prismxr.com/products/prismxr-puppis-s1-ax3000-wifi6-router-for-pc-vr-streaming-quest-3-compatible",
             "color": null,
             "fields": [
@@ -155,7 +155,7 @@
         "embeds": [
           {
             "title": "TP-Link Archer AXE75/AXE5400",
-            "description": "The TP-Link Archer AXE75/AXE5400 is a Wifi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
+            "description": "The TP-Link Archer AXE75/AXE5400 is a Wi-Fi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
             "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe5400/",
             "color": null,
             "fields": [
@@ -184,7 +184,7 @@
         "embeds": [
           {
             "title": "TP-Link BE9300/BE550",
-            "description": "The TP-Link BE9300/BE550 is a Wifi 7 (Works for Wifi 6e) router that has been tested as a good dedicated router for wireless VR streaming. It has 4 2.5GbE LAN ports and 1 2.5GbE WAN port.\n*Note: Headsets do not support Wifi 7 but Wifi 7 routers function as Wifi 6e as well",
+            "description": "The TP-Link BE9300/BE550 is a Wi-Fi 7 (Works for Wi-Fi 6e) router that has been tested as a good dedicated router for wireless VR streaming. It has 4 2.5GbE LAN ports and 1 2.5GbE WAN port.\n*Note: Headsets do not support Wi-Fi 7 but Wi-Fi 7 routers function as Wi-Fi 6e as well*",
             "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-be9300/",
             "color": null,
             "fields": [
@@ -219,7 +219,7 @@
             "fields": [
               {
                 "name": "Info",
-                "value": "__Wireless Type__: Wifi 6E / AC\n__Supports DFS__: Yes",
+                "value": "__Wireless Type__: Wi-Fi 6E / AC\n__Supports DFS__: Yes",
                 "inline": true
               },
               {
@@ -242,7 +242,7 @@
         "embeds": [
           {
             "title": "Asus RT-AX86U",
-            "description": "The RT-AX86U is a great home router as well as being great for wireless streaming. \n It supports DFS channels, which decrease interference in congested areas.",
+            "description": "The RT-AX86U is a great home router as well as being great for wireless streaming.\nIt supports DFS channels, which decrease interference in congested areas.",
             "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
             "color": null,
             "fields": [
@@ -530,7 +530,7 @@
       "title": "Play Roblox in VR",
       "description": "1. Set SteamVR as default OpenXR Runtime.\n2. Launch SteamVR from the button in the Virtual Desktop menu in VR.\n3. Switch back to desktop and Launch Roblox.\n4. Toggle VR mode in Roblox.",
       "footer": {
-        "text": "Please note, Robloxs VR support is quite buggy."
+        "text": "Please note, Roblox's VR support is quite buggy."
       }
     }
   },
@@ -562,7 +562,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
-    "description": "Nvidia RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nNvidia: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000/9000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html)"
+    "description": "NVIDIA RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nNVIDIA: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000/9000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html)"
     }
   },
   {
@@ -602,7 +602,7 @@
     "ephemeral": false,
     "embed":{
       "title": "**__Ethernet is required__**",
-      "description": "Rebooting your router can provide a temporary fix for certain issues you may be experiencing. Please note that since 2018, a Gigabit Ethernet or better connection between your PC and an AC, AX or better router is mandatory for support. Past success with other setups does not guarantee stability, and these configurations are not supported due to frequent complications. If your router is too far away to establish an Ethernet connection, use the command '/routers' to view a list of dedicated routers that have been tested by the community."
+      "description": "Rebooting your router can provide a temporary fix for certain issues you may be experiencing. Please note that since 2018, a Gigabit Ethernet or better connection between your PC and an AC, AX or better router is mandatory for support. Past success with other setups does not guarantee stability, and these configurations are not supported due to frequent complications.\n\nIf your router is too far away to establish an Ethernet connection, use the command '/routers' to view a list of dedicated routers that have been tested by the community."
     }
   },
   {
@@ -785,7 +785,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Upgrade/Reinstall Windows 10/11 & Keep Your Files and Apps",
-      "description": "Follow the below steps to upgrade or reinstall your Windows:\n\n**Windows 10**:\n1. Download the latest Windows 10 ISO from [Microsoft's website](https://www.microsoft.com/en-us/software-download/windows10ISO).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and select 'Keep files and programs'.\n\nNote: Always back up important data before an OS reinstall.\n\n**Windows 11**:\n1. Download the Windows 11 ISO from [Microsoft's website](https://www.microsoft.com/software-download/windows11).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and ensure to keep your data and applications.\n\nNote: Ensure compatibility and back up important data before upgrading if you are on Windows 10."
+      "description": "Follow the steps below to upgrade or reinstall your Windows:\n\n**Windows 10**:\n1. Download the latest Windows 10 ISO from [Microsoft's website](https://www.microsoft.com/en-us/software-download/windows10ISO).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and select 'Keep files and programs'.\n\nNote: Always back up important data before an OS reinstall.\n\n**Windows 11**:\n1. Download the Windows 11 ISO from [Microsoft's website](https://www.microsoft.com/software-download/windows11).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and ensure to keep your data and applications.\n\nNote: Ensure compatibility and back up important data before upgrading if you are on Windows 10."
     }
   },
   {
