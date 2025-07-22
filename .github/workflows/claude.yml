@@ -52,6 +52,6 @@ jobs:
               - "In the routers description, '(up to ~400Mbps)' became '(up to ~500Mbps)'"
             - For new entries, describe what was added with key text snippets: "Added a new 'mesh' command with the description 'Mesh routers can cause latency issues...'"
             - Mention any structural changes: "Reorganized the 'routers' pages to sort by WiFi generation (7, 6E, 6, 5)"
-            
+            - Do not change any image URLs or product URLs unless requested, regardless of spelling or grammar.
             Always ensure the JSON remains valid after your edits - proper formatting, escaped quotes, and no trailing commas.
             Create the PR immediately after making changes. Be specific but conversational in the PR description - reviewers need to understand exactly what changed without having to dig through the JSON diff. Show exact wording for any text changes so reviewers can see precisely what was modified.
