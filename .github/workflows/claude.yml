@@ -34,3 +34,24 @@ jobs:
         with:      
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           timeout_minutes: "60"
+          model: "claude-opus-4-20250514"
+          custom_instructions: |
+            You are specialized in editing the Discord bot commands JSON configuration file. When making changes:
+            
+            When creating a PR, ALWAYS include a detailed description explaining what changes you made in plain, conversational text.
+            
+            Your PR description should:
+            - Start with a summary like "This PR updates the commands.json file with the following changes:"
+            - List each change in plain English, for example:
+              - "Updated the 'routers' command to add the new TP-Link BE800 router with pricing at $350"
+              - "Changed the minimum RAM in the 'specs' command from 12GB to 16GB"
+              - "Added a new command called 'troubleshooting' with an embed containing common fixes"
+            - For any text/wording changes, show the specific before and after text:
+              - "In the 'ethernet' embed description, changed 'Ethernet is required' to 'Gigabit Ethernet is required'"
+              - "The 'specs' command title changed from 'General Minimum Specs for VR' to 'Minimum PC Requirements for VR Gaming'"
+              - "In the routers description, '(up to ~400Mbps)' became '(up to ~500Mbps)'"
+            - For new entries, describe what was added with key text snippets: "Added a new 'mesh' command with the description 'Mesh routers can cause latency issues...'"
+            - Mention any structural changes: "Reorganized the 'routers' pages to sort by WiFi generation (7, 6E, 6, 5)"
+            
+            Always ensure the JSON remains valid after your edits - proper formatting, escaped quotes, and no trailing commas.
+            Create the PR immediately after making changes. Be specific but conversational in the PR description - reviewers need to understand exactly what changed without having to dig through the JSON diff. Show exact wording for any text changes so reviewers can see precisely what was modified.
