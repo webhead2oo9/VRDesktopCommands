@@ -242,7 +242,7 @@
     "ephemeral": false,
     "embed": {
       "title": "TP-Link Models and Routers with Known Issues",
-      "description": "TP-Link **AX** (not to be confused with AXE) and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected. The AXE5400 can be sold with one of two different chassis as shown in the image below\n",
+      "description": "TP-Link **AX** (not to be confused with AXE), Huawei and Tenda routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected. The AXE5400 can be sold with one of two different chassis as shown in the image below\n",
       "image": {
         "url": "https://cdn.discordapp.com/attachments/682369095798489129/1390667850833858610/image.png?ex=68802a1c&is=687ed89c&hm=9a0d26d5d0a5f18539825d3adb57330201721f4921ef71c4a0307220be8b55c3&"
       }
