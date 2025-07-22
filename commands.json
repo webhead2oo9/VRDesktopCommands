@@ -16,7 +16,7 @@
         "embeds": [
           {
             "title": "Community Tested Routers",
-            "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated (AX) - GL.iNet Beryl GL-MT3000 ($90 US)\nDedicated (AX) - PRISMXR Puppis S1 (80$ US)\nLow End (AC) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+            "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 (80$ US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
             
           }
         ]
@@ -24,12 +24,12 @@
       {
         "name": "TPLinkC6",
         "title": "TP-Link Archer C6 or A6",
-        "description": "Low End (AC) - TP-Link C6 or A6",
+        "description": "(Last Resort AC/Wifi 5) - TP-Link C6 or A6",
         "emoji": "",
         "embeds": [
           {
             "title": "TP-Link Archer C6 or A6",
-            "description": "The TPLink C6/A6 is a good dedicated router specifically for wireless VR usage, it is a budget router that works well for Virtual Desktop.",
+            "description": "The TPLink C6/A6 can be used as a dedicated router specifically for wireless VR usage, it is a budget router that works competently with Virtual Desktop at lower bitrates.",
             "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c6/",
             "color": null,
             "fields": [
@@ -53,12 +53,12 @@
       {
         "name": "OpalGLSFT1200",
         "title": "GL.iNet Opal GL-SFT1200",
-        "description": "Low End (AC) - Opal GL-SFT1200",
+        "description": "(Last Resort AC/Wifi 5) - Opal GL-SFT1200",
         "emoji": "",
         "embeds": [
           {
             "title": "GL.iNet Opal GL-SFT1200",
-            "description": "The GL.iNet Opal GL-SFT1200 is a good dedicated router for bridging and repeating an existing wireless network.",
+            "description": "The GL.iNet Opal GL-SFT1200 can be used as a dedicated router for bridging and repeating an existing wireless network.",
             "url": "https://www.gl-inet.com/products/gl-sft1200/",
             "color": null,
             "fields": [
@@ -87,7 +87,7 @@
       {
         "name": "puppiss1",
         "title": "PRISMXR Puppis S1",
-        "description": "Dedicated (AX) - PRISMXR Puppis S1",
+        "description": "(AX/Wifi 6) - PRISMXR Puppis S1",
         "emoji": "",
         "embeds": [
           {
@@ -116,7 +116,7 @@
       {
         "name": "BerylGLMT3000",
         "title": "GL.iNet Beryl GL-MT3000",
-        "description": "Dedicated (AX) GL.iNet Beryl GL-MT3000",
+        "description": "(AX/Wifi 6) GL.iNet Beryl GL-MT3000",
         "emoji": "",
         "embeds": [
           {
@@ -150,7 +150,7 @@
       {
         "name": "TPLinkAXE5400",
         "title": "TP-Link Archer AXE75/AXE5400",
-        "description": "Dedicated (AXE) - TP-Link Archer AXE75/AXE5400",
+        "description": "(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400",
         "emoji": "",
         "embeds": [
           {
@@ -179,7 +179,7 @@
       {
         "name": "TPLinkBE9300",
         "title": "TP-Link BE9300/BE550",
-        "description": "Dedicated (Wifi 7) - TP-Link BE9300/BE550",
+        "description": "(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550",
         "emoji": "",
         "embeds": [
           {
@@ -208,7 +208,7 @@
       {
         "name": "minion6e",
         "title": "Davolink Minion 6E",
-        "description": "Dedicated (AXE 6E) - Davolink Minion 6E",
+        "description": "(**Preferred** AXE/Wifi 6E) - Davolink Minion 6E",
         "emoji": "",
         "embeds": [
           {
