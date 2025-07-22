@@ -5,7 +5,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Community Tested Routers",
-      "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 (80$ US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
+      "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
     },
     "pages": [
       {
@@ -16,7 +16,7 @@
         "embeds": [
           {
             "title": "Community Tested Routers",
-            "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 (80$ US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
+            "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
             
           }
         ]
@@ -325,7 +325,7 @@
         "text": "Thanks Dylan!"
       },
       "image": {
-        "url": "https://media.discordapp.net/attachments/588170196968013845/1094494466762608640/opelsetup.png"
+        "url": "https://media.discordapp.net/attachments/588170196968013845/1094494466762608640/opalsetup.png"
       }
     },
     "pages": [
@@ -545,7 +545,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
-    "description": "NVIDIA RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nNVIDIA: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000/9000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html)"
+      "description": "NVIDIA RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nNVIDIA: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000/9000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html)"
     }
   },
   {
@@ -594,7 +594,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Connecting to your computer remotely over the internet",
-      "description": "Make sure 'Allow remote connections' is checked in the Streamer window, Options tab on your computer.\n\nYou'll also need to enable UPnP on your router and the Streamer App will forward the required ports automatically.\n\nIf you want to manually configure your router, forward TCP ports 38810, 38820, 38830 and 38840. All traffic uses end-to-end encryption."
+      "description": "Make sure 'Allow remote connections' is checked in the Streamer window, Options tab on your computer.\n\nYou'll also need to enable UPnP on your router and the Streamer App will forward the required ports automatically.\n\nIf you want to manually configure your router, forward TCP ports 38810, 38820, 38830, and 38840. All traffic uses end-to-end encryption."
     }
   },
   {
@@ -612,7 +612,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Uninstall and Reinstall GPU Drivers",
-      "description": "Follow these steps to uninstall GPU drivers using DDU (Display Driver Uninstaller):\n1. Download DDU from the [official website](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) and download the GPU driver you intend to install (see below).\n2. Reboot your PC into [Safe Mode](https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234)\n3. Launch DDU and select the GPU from the list.\n4. Click on 'Clean and restart'.\n5. After the process and restart, the GPU drivers will be uninstalled.\n\nYou can then reinstall the reccomended drivers, to check the latest recommendations type /drivers."
+      "description": "Follow these steps to uninstall GPU drivers using DDU (Display Driver Uninstaller):\n1. Download DDU from the [official website](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) and download the GPU driver you intend to install (see below).\n2. Reboot your PC into [Safe Mode](https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234)\n3. Launch DDU and select the GPU from the list.\n4. Click on 'Clean and restart'.\n5. After the process and restart, the GPU drivers will be uninstalled.\n\nYou can then reinstall the recommended drivers, to check the latest recommendations type /drivers."
     }
   },
   {
@@ -864,7 +864,7 @@
   },
   {
     "name": "codec",
-    "description": "scenarios for best codec use",
+    "description": "Scenarios for best codec use",
     "ephemeral": false,
     "embed": {
       "title": "Which codec should I use?",
@@ -903,7 +903,7 @@
     "description": "What the different latency figures mean",
     "ephemeral": false,
     "embed": {
-      "title": "Latency Figures in the Performace Overlay",
+      "title": "Latency Figures in the Performance Overlay",
       "description": "**Game** is your computer's CPU/GPU rendering the game\n**Encoding** is your GPU encoding the video\n**Networking** is your router and network\n**Decoding** is the headset GPU decoding the image"
     }
   },
@@ -1014,7 +1014,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Staff are only volunteers, please be respectful",
-      "description": "**Virtual Desktop support personnel are volunteers.** They will answer your questions based on their availability and the clarity of your request. Please be patient, courteous, clear and understand that there are limitations to their scope of support.'screen black how fix?' Will likely go unanswered. A complete question with detail will likely be answered.\n\nHere are examples on how to ask questions with proper etiquette: [LINK](https://dontasktoask.com/)"
+      "description": "**Virtual Desktop support personnel are volunteers.** They will answer your questions based on their availability and the clarity of your request. Please be patient, courteous, clear and understand that there are limitations to their scope of support. 'screen black how fix?' Will likely go unanswered. A complete question with detail will likely be answered.\n\nHere are examples on how to ask questions with proper etiquette: [LINK](https://dontasktoask.com/)"
     }
   },
   {
@@ -1035,7 +1035,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Synchronous SpaceWarp",
-      "description": "Synchronous SpaceWarp (SSW), developed in collaboration with Qualcomm, is Virtual Desktop's 3D **reprojection technology** designed to **halve the rendering load on PCs** by extrapolating every alternate frame directly on the headset. For instance, if your PC can only render **45fps**, the headset will fill in the gaps, keeping a smooth **90fps** experience.\n\nSSW can introduce graphical **artifacts** that may appear as warping or straight lines bending, so if possible it's **preferable for your pc to render the full fps.** However SSW is **beneficial on lower end systems**, or when you want to **push higher graphical settings** than your PC is capable of normally.\n\nThis is **different** to PC technologies like DLSS 3 which ***interpolate*** frames as opposed to ***extrapolating*** frames. The difference being that **DLSS 3 increases latency** while **SSW reduces percieved latency**"
+      "description": "Synchronous SpaceWarp (SSW), developed in collaboration with Qualcomm, is Virtual Desktop's 3D **reprojection technology** designed to **halve the rendering load on PCs** by extrapolating every alternate frame directly on the headset. For instance, if your PC can only render **45fps**, the headset will fill in the gaps, keeping a smooth **90fps** experience.\n\nSSW can introduce graphical **artifacts** that may appear as warping or straight lines bending, so if possible it's **preferable for your pc to render the full fps.** However SSW is **beneficial on lower end systems**, or when you want to **push higher graphical settings** than your PC is capable of normally.\n\nThis is **different** to PC technologies like DLSS 3 which ***interpolate*** frames as opposed to ***extrapolating*** frames. The difference being that **DLSS 3 increases latency** while **SSW reduces perceived latency**"
     }
   },
   {
@@ -1083,7 +1083,7 @@
     "ephemeral": false,
     "embed":{
       "title": "**__Using a USB Dongle/Adapter on your Meta Quest__**",
-      "description": "While it's **unsupported here and by Meta**, it is possible to use a USB to Ethernet adapter or hub attached to your Quest 3 headset.\n\nThere are a few conditions that must be met:\n1. This is a not officially supported feature and can be removed by Meta at any time. (Meta removed this feature from the Quest 2 and the Quest 3 in the past)\n2. Many USB to Ethernet devices simply will not work. You'll need to research which ones will work.\n3. Developer mode and an adb command from a connected PC is required to make this work with the Quest 2 `adb shell setprop debug.usb.ethernet.enabled 1`\n4. The headset will give you no indication that it's using the Ethernet connection other than that it simply works.\n5. **Neither Meta nor Virtual Desktop provide support for this feature. If it doesn't work properly, you'll need to do you own research to figure out why and how to fix it.**\n"
+      "description": "While it's **unsupported here and by Meta**, it is possible to use a USB to Ethernet adapter or hub attached to your Quest 3 headset.\n\nThere are a few conditions that must be met:\n1. This is a not officially supported feature and can be removed by Meta at any time. (Meta removed this feature from the Quest 2 and the Quest 3 in the past)\n2. Many USB to Ethernet devices simply will not work. You'll need to research which ones will work.\n3. Developer mode and an adb command from a connected PC is required to make this work with the Quest 2 `adb shell setprop debug.usb.ethernet.enabled 1`\n4. The headset will give you no indication that it's using the Ethernet connection other than that it simply works.\n5. **Neither Meta nor Virtual Desktop provide support for this feature. If it doesn't work properly, you'll need to do your own research to figure out why and how to fix it.**\n"
     }
   },
   {
