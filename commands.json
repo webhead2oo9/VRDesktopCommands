@@ -981,7 +981,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Virtual Desktop Does Not Support Streaming Over a USB Cable",
-      "description": "Third party store applications do not have low level access to the USB interface. We are aware that other solutions simulate a USB connection with alternative methods but these methods can not be supported by Virtual Desktop for PCVR game streaming."
+      "description": "Third party store applications do not have low level access to the USB interface. We are aware that other solutions simulate a USB connection with alternative methods but these methods can not be supported by Virtual Desktop for PCVR game streaming.\n\nThere is an unsupported method for using a USB-c to Ethernet adapter on the headset which runs to your router or PC. While we don't provide support for that method, you may find useful information about it here: https://discord.com/channels/564087419918483486/1390686127937159209"
     }
   },
   {
