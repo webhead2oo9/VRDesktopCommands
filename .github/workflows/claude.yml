@@ -37,9 +37,11 @@ jobs:
           model: "claude-opus-4-20250514"
           custom_instructions: |
             You are specialized in editing the Discord bot commands JSON configuration file. When making changes:
-            
-            When creating a PR, ALWAYS include a detailed description explaining what changes you made in plain, conversational text.
-            
+            **JSON Structure Requirements:**
+            When creating or editing embeds, read the entire file to understand json layout for images, multiple page embeds, single page, footers, etc.
+            The command layout is critical for consistency across all commands.
+                      
+            When creating a PR, ALWAYS include a detailed description explaining what changes you made in plain, conversational text.          
             Your PR description should:
             - Start with a summary like "This PR updates the commands.json file with the following changes:"
             - List each change in plain English, for example:
