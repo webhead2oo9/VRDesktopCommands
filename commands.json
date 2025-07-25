@@ -684,7 +684,10 @@
     "ephemeral": false,
     "embed": {
       "title": "Internet Connection Sharing",
-      "description": "If you're uncertain about how to set up Internet Connection Sharing, you can follow the instructions provided in [this guide](https://github.com/Crayphish/vrdocs/wiki/Internet-Connection-Sharing)\n\nIf you have issues with ICS not working after a computer restart (even after applying the registry fix), you can try [this script](https://discord.com/channels/564087419918483486/692030889932095529/1178882282229075978)"
+      "description": "If you're uncertain about how to set up Internet Connection Sharing, you can follow the instructions provided in [this guide](https://github.com/Crayphish/vrdocs/wiki/Internet-Connection-Sharing)\n\nIf you have issues with ICS not working after a computer restart (even after applying the registry fix), you can try [this script](https://discord.com/channels/564087419918483486/692030889932095529/1178882282229075978)",
+      "image": {
+        "url": "https://github.com/user-attachments/assets/571caee6-5ee7-48a3-8b4c-bf7b4c3ecbbd"
+      }
     }
   },
   {
