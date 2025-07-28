@@ -1115,5 +1115,107 @@
       "title": "Latency, Stutter and Optimizing Configuration",
       "description": "For help with  Latency, Stutter and Optimizing your Configuration read the following: https://discord.com/channels/564087419918483486/586993452185681946/624135826435211265"
     }
+  },
+  {
+    "name": "optimize",
+    "description": "VR Desktop Optimization Guide",
+    "ephemeral": false,
+    "embed": {
+      "title": "VR Desktop Optimization Guide",
+      "description": "This comprehensive guide covers network setup, Wi-Fi optimization, and software configuration to optimize your Virtual Desktop experience.\n\nUse the navigation buttons below to view:\n• **Part 1**: Network & Wi-Fi Setup (Steps 1-6)\n• **Part 2**: Software Configuration (Steps 7-13)"
+    },
+    "pages": [
+      {
+        "name": "part1",
+        "title": "Part 1: Network & Wi-Fi Setup",
+        "description": "Latency, Stutter, Optimising your Configuration",
+        "embeds": [
+          {
+            "title": "Part 1: Network & Wi-Fi Optimization",
+            "description": "Follow these steps to optimize your network setup for Virtual Desktop:",
+            "fields": [
+              {
+                "name": "1. Ethernet Connection",
+                "value": "Make sure your computer is wired via Ethernet into the router and the connection obtains 1Gbps. We do not support WiFi-only setups. Ideally the Quest should obtain Wi-Fi from the same device your computer is wired to. Make sure you are using 5Ghz AC/AX WiFi or if your headset supports it, 6Ghz AXE.\n\n5Ghz AC/AX should use a channel width of 80Mhz, 6Ghz AXE should be set to 160Mhz.\n\nWi-Fi Hotspots from computers typically don't perform well, should be avoided and we will not support them.\n\nVarious TP-Link and Huawei AX models are currently known to have issues with the AX implementation. If experiencing stutters with these devices, please try using with OFDMA disabled or in AC mode.",
+                "inline": false
+              },
+              {
+                "name": "2. Router Proximity",
+                "value": "Make sure you aren't too far away from your router and/or have no obstacles/walls in between.",
+                "inline": false
+              },
+              {
+                "name": "3. Separate SSIDs",
+                "value": "Create separate SSIDs (wireless network names) for your wireless bands (2.4Ghz/5Ghz/6Ghz) and connect the Quest solely to the 5Ghz or 6Ghz (with no other devices). If you have a tri band router you need only one of the 5Ghz bands or the 6Ghz band to have a unique SSID. You may need to disable the \"Smart Connect\" feature.",
+                "inline": false
+              },
+              {
+                "name": "4. Channel Selection",
+                "value": "Use a wireless survey tool (the Android app WifiAnalyzer (Open Source) is recommended https://play.google.com/store/apps/details?id=com.vrem.wifianalyzer) to make sure your router is the only nearby router on its channel. Try not to overlap channels, co channel interference is better than adjacent. For iOS see https://iphone-tricks.com/tutorial/6941-using-airport-as-wi-fi-scanner-on-iphone",
+                "inline": false
+              },
+              {
+                "name": "5. Wireless Mode",
+                "value": "Switch to dedicated 802.11ac/ax wireless mode (router settings).",
+                "inline": false
+              },
+              {
+                "name": "6. Reduce Interference",
+                "value": "Move wireless/Bluetooth devices or anything that can cause radio interference away from your router and Quest.",
+                "inline": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "part2",
+        "title": "Part 2: Software Configuration",
+        "description": "Latency, Stutter, Optimising your Configuration",
+        "embeds": [
+          {
+            "title": "Part 2: Software Configuration",
+            "description": "Follow these steps to optimize your software settings for Virtual Desktop:",
+            "fields": [
+              {
+                "name": "7. SteamVR Settings",
+                "value": "In the SteamVR settings under the General tab, change \"Render Resolution\" to Custom and set \"Resolution Per Eye\" to 100%. Leave this at 100% until you understand why you may want to decrease or increase it.",
+                "inline": false
+              },
+              {
+                "name": "8. Codec Selection",
+                "value": "Switch to the H.264 codec on the desktop streaming app to improve latency slightly (the benefit is greater on the Quest 1) otherwise using Automatic is recommended. For Quest 2 you can enable HEVC in the Streamer app for better image quality and reduce your video bitrate to decrease required throughput, which may be more beneficial for some networks environments.",
+                "inline": false
+              },
+              {
+                "name": "9. Audio Configuration",
+                "value": "Stream audio directly from the PC to your headphones (something like the PlayStation Gold Headphones that have a supplied USB dongle that operates on 2.4Ghz, do not use a 5Ghz model) rather than over the 5ghz connection. This is probably minimal gains so I wouldn't spend cash on new headphones if you don't need to.",
+                "inline": false
+              },
+              {
+                "name": "10. Add-ons Management",
+                "value": "It's advised to disable or remove all add-ons except Virtual Desktop Streamer (Quest) and Gamepad Support while trying to isolate any issues. Also make sure both of those add-ons are not blocked.\n\nIf you have the OpenVR Input Emulator SteamVR addon installed, disable it! It's been reported it creates a wobbling effect and also a reduced framerate. This is likely version specific so if you really need it, just be aware of this issue.\n\nOpenVR Advanced Settings is also known to recently cause issues. Please ensure this is uninstalled when trying to isolate stutters/performace issues (also likely version specific).",
+                "inline": false
+              },
+              {
+                "name": "11. Windows Game Bar",
+                "value": "Disable Windows Xbox Game Bar (in Xbox Game Bar Settings).",
+                "inline": false
+              },
+              {
+                "name": "12. GPU Recording Features",
+                "value": "If you have an Nvidia GPU, disable all Nvidia Shadowplay features in Geforce Experience. For AMD, disable AMD Radeon ReLive in the AMD Settings app.",
+                "inline": false
+              },
+              {
+                "name": "13. Router Recommendations",
+                "value": "If you need a new router, use the command \"/routers\" in discord to see our current list of recommended routers.",
+                "inline": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
