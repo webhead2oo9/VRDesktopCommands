@@ -1184,7 +1184,7 @@
               },
               {
                 "name": "8. Codec Selection",
-                "value": "Switch to the H.264 codec on the desktop streaming app to improve latency slightly (the benefit is greater on the Quest 1) otherwise using Automatic is recommended. For Quest 2 you can enable HEVC in the Streamer app for better image quality and reduce your video bitrate to decrease required throughput, which may be more beneficial for some networks environments.",
+                "value": "Switch to the H.264 codec on the desktop streaming app to improve latency slightly (the benefit is greater on the Quest 1) otherwise using Automatic is recommended. For Quest 2 or later you can enable HEVC in the Streamer app for better image quality and reduce your video bitrate to decrease required throughput, which may be more beneficial for some networks environments.",
                 "inline": false
               },
               {
