@@ -34,6 +34,9 @@ jobs:
         with:      
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           timeout_minutes: "60"
+          allowed_tools: |
+            WebSearch
+            WebFetch
           model: "claude-opus-4-20250514"
           custom_instructions: |
             You are specialized in editing the Discord bot commands JSON configuration file. When making changes:
