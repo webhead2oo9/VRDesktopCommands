@@ -5,7 +5,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Community Tested Routers",
-      "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
+      "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($179-$299 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 (~$190 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
     },
     "pages": [
       {
@@ -16,7 +16,7 @@
         "embeds": [
           {
             "title": "Community Tested Routers",
-            "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
+            "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($179-$299 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 (~$190 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
             
           }
         ]
@@ -467,7 +467,7 @@
           "value": "Potato: 1200x1344\nLow: 1536x1728\nMedium: 1824x2016\nHigh: 2208x2400"
         },
         {
-          "name": "Quest 2/Pico Neo 3/Quest Pro/Quest 3",
+          "name": "Quest 2/Quest 3S/Pico Neo 3/Quest Pro/Quest 3",
           "value": "Potato: 1440x1536\nLow: 1728x1824\nMedium: 2016x2112\nHigh: 2496x2592\nUltra: 2688x2784\nGodlike: 3072x3216 (Quest Pro/Quest 3)"
         },
         {
@@ -585,7 +585,7 @@
     "ephemeral": false,
     "embed":{
       "title": "**__Ethernet is required__**",
-      "description": "Rebooting your router can provide a temporary fix for certain issues you may be experiencing. Please note that since 2018, a Gigabit Ethernet or better connection between your PC and an AC, AX or better router is mandatory for support. Past success with other setups does not guarantee stability, and these configurations are not supported due to frequent complications.\n\nIf your router is too far away to establish an Ethernet connection, use the command '/routers' to view a list of dedicated routers that have been tested by the community."
+      "description": "Rebooting your router can provide a temporary fix for certain issues you may be experiencing. Please note that since 2018, a Gigabit Ethernet or better connection between your PC and an AC, AX or better router is mandatory for support. Past success with other setups does not guarantee stability, and these configurations are not supported due to frequent complications.\n\nVirtual Desktop always recommends the PC be connected via Ethernet (exception: PrismXR Puppis S1 connects directly via USB).\n\nIf your router is too far away to establish an Ethernet connection, use the command '/routers' to view a list of dedicated routers that have been tested by the community."
     }
   },
   {
@@ -871,7 +871,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Which codec should I use?",
-      "description": "Best to leave the Preferred Codec to Automatic, but if you want to try different ones, here's which is best for what:\n\n**H.264:** has the lowest latency but not as efficient as the other codecs\n**H.264+:** has higher bitrate limit; good for racing or fast-paced games but requires ideal network conditions\n**HEVC:** has improved efficiency (looks better at the same bitrate compared to H.264) but takes a bit more time to encode/decode\n**AV1:** has best efficiency but requires Nvidia 4000 or AMD 7000 series GPU and a Quest 3\n**10-bit encoding:** improves color gradients, recommended for darker/slower games"
+      "description": "Best to leave the Preferred Codec to Automatic, but if you want to try different ones, here's which is best for what:\n\n**H.264:** has the lowest latency but not as efficient as the other codecs\n**H.264+:** has higher bitrate limit; good for racing or fast-paced games but requires ideal network conditions\n**HEVC:** has improved efficiency (looks better at the same bitrate compared to H.264) but takes a bit more time to encode/decode\n**AV1:** has best efficiency (~30% better than HEVC) but requires Nvidia 4000 or AMD 7000 series GPU and a Quest 3\n**10-bit encoding:** improves color gradients, recommended for darker/slower games"
     }
   },
   {
