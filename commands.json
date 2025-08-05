@@ -486,12 +486,16 @@
     "description": "Minimum PC Specs",
     "ephemeral": false,
     "embed": {
-      "title": "General Minimum Specs for VR",
-      "description": "OS: Windows 10\nCPU: Intel i5-7500 / AMD Ryzen 5 1600 or greater\nRAM: 12GB+ RAM\nGPU: NVIDIA GTX 1660 Super / AMD Radeon RX 5600XT or greater\nUSB Ports: 1x 3.1 port\nFree Space: 35GB on C:",
+      "title": "PC Requirements",
+      "description": "OS: Windows 10 or 11\nCPU: Intel i5-7500 / AMD Ryzen 5 1600 or greater\nRAM: 12GB+ (16GB recommended)\nGPU: NVIDIA GTX 1660 Super / AMD Radeon RX 5600XT or greater",
       "fields": [
         {
-          "name": "Detailed Info",
-          "value": "You can find detailed minimums below. Please note that minimum does not mean you can play every game.\n[Oculus Rift S Supported Specs](https://store.facebook.com/help/quest/articles/getting-started/getting-started-with-rift/rift-s-minimum-requirements/)\n[Oculus Link Supported Specs](https://store.facebook.com/help/quest/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)\n[Valve Index Supported Specs](https://support.steampowered.com/kb_article.php?ref=4061-QUZB-4602)"
+          "name": "Network Requirements",
+          "value": "PC must be wired to router via Gigabit Ethernet\n5GHz AC/AX or 6GHz AXE (Wi-Fi 6E) router recommended\nHeadset connects wirelessly to same router"
+        },
+        {
+          "name": "Additional Resources",
+          "value": "Compare minimum specs for other VR headsets:\n[Oculus Rift S Supported Specs](https://store.facebook.com/help/quest/articles/getting-started/getting-started-with-rift/rift-s-minimum-requirements/)\n[Oculus Link Supported Specs](https://store.facebook.com/help/quest/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)\n[Valve Index Supported Specs](https://support.steampowered.com/kb_article.php?ref=4061-QUZB-4602)"
         }
       ]
     }
