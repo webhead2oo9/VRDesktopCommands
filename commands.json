@@ -288,28 +288,28 @@
     "description": "Valve Index Controller Emulation",
     "ephemeral": false,
     "embed": {
-      "title": "Valve Index Controller Emulation",
-      "description": "Virtual Desktop allows you to emulate Index Controllers for full hand tracking support, as well as Skeletal Input in SteamVR.",
+      "title": "Broken on SteamVR 2.12 - Valve Index Controller Emulation",
+      "description": "Virtual Desktop allows you to emulate Index Controllers for hand tracking support, as well as Skeletal Input in SteamVR. This feature is currently broken on SteamVR 2.12, and users are recommended to switch to native hand tracking support which was added in SteamVR 2.8.",
       "fields": [
         {
           "name": "Where can I use it?",
-          "value": "Not all games will support it, but in supported games in scenes that do not require buttons such as stationary VRChat."
+          "value": "Not all games will support it, but in supported games in scenes that do not require buttons such as stationary VRChat.\nNote: VRChat has implemented native hand tracking since, users are recommended to switch to that where possible."
         },
         {
           "name": "How do I use it?",
-          "value": "Make sure Hand Tracking is enabled in the Quest in 'Movement Tracking'\n Enable Forward Data to PC in the 'Streaming' Tab in Virtual Desktop\n\nSkeletal Input: No other changes, this will pass through as expected.\nRegular Hand Tracking: Check 'Index Controller Emulation'."
+          "value": "Make sure Hand Tracking is enabled in the Quest in 'Movement Tracking'\n Enable Forward Data to PC in the 'Streaming' Tab in Virtual Desktop\n\nSkeletal Input and Regular Hand Tracking: No other changes, this will pass through as expected.\nIndex-Simulated Hand Tracking: Check 'Index Controller Emulation'."
         },
         {
           "name": "What is Tracked on Index Controller Emulation?",
-          "value": "On all Quests, you can pass through your hand tracking as index controller emulation, allowing you to use full finger movement on hand tracking in supported games.\n\n If the game supports Skeletal Input, you do not need to enable this option and will have full Skeletal including Splay in supported titles."
+          "value": "On all Quests, hand tracking data will be converted into Valve Knuckles controller data, allowing you to use full finger movement on hand tracking in supported games.\n\nIf the game supports Skeletal Input (which VRChat now does), you do not need to enable this option and will have full Skeletal including Splay in supported titles."
         },
         {
           "name": "It's not working?",
-          "value": "Make sure the SteamVR Addon for Virtual Desktop is enabled, if disabled this will not work as expected."
+          "value": "This feature is currently broken on SteamVR 2.12 and partially doesn't work. Users are recommended to switch the feature off and make use of SteamVR and VRchat's native hand tracking support instead. If you still wish to use the feature in it's broken state, make sure the SteamVR Addon for Virtual Desktop is enabled."
         },
         {
           "name": "How do I move?",
-          "value": "While using hand tracking, you cannot move however you can pick up a controller at any time for movement."
+          "value": "While using index controller emulation, you cannot move. Controller joystick input is broken as of SteamVR 2.12 due to changes on SteamVR's end.\nIf you disable index controller emulation, VRchat's native hand tracking has movement pinch features (tutorials are in-game) and pressing buttons on the Quest controller will switch you back to controller stick movement."
         }
       ]
     }
