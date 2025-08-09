@@ -515,7 +515,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Play Roblox in VR",
-      "description": "1. Set SteamVR as default OpenXR Runtime.\n2. Launch SteamVR from the button in the Virtual Desktop menu in VR.\n3. Open SteamVR settings, go to OpenXR, then disable \"oculus plugin compatibility\".\n4. Switch back to desktop and Launch Roblox.\n5. Toggle VR mode in Roblox.",
+      "description": "1. Set SteamVR as default OpenXR Runtime.\n2. Launch SteamVR from the button in the Virtual Desktop menu in VR.\n3. Open SteamVR settings, go to OpenXR, then manage OpenXR API layers, then disable \"Compatibility layer for OpenXR Plugin\".\n4. Switch back to desktop and Launch Roblox.\n5. Toggle VR mode in Roblox.",
       "footer": {
         "text": "Please note, Roblox's VR support is quite buggy."
       }
