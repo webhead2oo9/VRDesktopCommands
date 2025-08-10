@@ -678,8 +678,8 @@
     "description": "WiFi Standards and Bands Explained",
     "ephemeral": false,
     "embed": {
-      "title": "WiFi Standards and Bands Explained",
-      "description": "**IMPORTANT: WiFi Numbers ≠ GHz Bands!**\nThe WiFi version number (5, 6, 6E, 7) does NOT match the GHz frequency:\n• WiFi 5 uses 2.4GHz and 5GHz\n• WiFi 6 uses 2.4GHz and 5GHz (NOT 6GHz!)\n• WiFi 6E adds 6GHz band (first to actually use 6GHz)\n• WiFi 7 uses all three bands (2.4/5/6GHz)\n\n**Recommended WiFi for Virtual Desktop:**\n• **WiFi 5 (AC, 2.4/5GHz)** - Minimum required, Max Link: 867 Mbps\n• **WiFi 6 (AX, 2.4/5GHz)** - Good performance, Max Link: 1200 Mbps\n• **WiFi 6E (AXE, adds 6GHz)** - Best choice, Max Link: 2400 Mbps\n• **WiFi 7 (BE, all bands)** - Future-proof, Max Link: 5800 Mbps\n\n**Key Requirements:**\n• Use 5GHz or 6GHz bands only (2.4GHz too slow for VR)\n• Set router to 80MHz channel width minimum\n• 160MHz not recommended for 5GHz (use for 6GHz only due to congestion)\n• PC must be wired to router via Gigabit Ethernet\n• Place router in same room as play space\n\n**Quick Tips:**\n• 6GHz (WiFi 6E/7) has less interference but shorter range\n• Check `/routers` for tested router recommendations\n• Actual speeds vary based on environment and setup"
+      "title": "WiFi Standards for VR",
+      "description": "**IMPORTANT: WiFi Numbers ≠ GHz Bands!**\nThe WiFi version number (5, 6, 6E, 7) does NOT match the GHz frequency:\n• WiFi 5 uses 2.4GHz and 5GHz\n• WiFi 6 uses 2.4GHz and 5GHz (NOT 6GHz!)\n• WiFi 6E adds 6GHz band\n• WiFi 7 uses all three bands (2.4/5/6GHz)\n\nNote: Some WiFi 7 routers do not have 6GHz band - these are not recommended.\n\n**WiFi Standards for Gaming with Virtual Desktop:**\n• **WiFi 5 (AC, 2.4/5GHz)** - Minimum required, Max Link: 867 Mbps\n• **WiFi 6 (AX, 2.4/5GHz)** - Good performance, Max Link: 1200 Mbps\n• **WiFi 6E (AXE, adds 6GHz)** - Best choice, Max Link: 2400 Mbps\n• **WiFi 7 (BE, all bands)** - Future-proof, Max Link: 5800 Mbps\n\nNote: 2.4GHz is not supported for gaming but may be suitable for desktop viewing."
     }
   },
   {
