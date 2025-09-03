@@ -486,12 +486,16 @@
     "description": "Minimum PC Specs",
     "ephemeral": false,
     "embed": {
-      "title": "General Minimum Specs for VR",
-      "description": "OS: Windows 10\nCPU: Intel i5-7500 / AMD Ryzen 5 1600 or greater\nRAM: 12GB+ RAM\nGPU: NVIDIA GTX 1660 Super / AMD Radeon RX 5600XT or greater\nUSB Ports: 1x 3.1 port\nFree Space: 35GB on C:",
+      "title": "PC Requirements",
+      "description": "OS: Windows 10 or 11\nCPU: Intel i5-7500 / AMD Ryzen 5 1600 or greater\nRAM: 12GB+ (16GB recommended)\nGPU: NVIDIA GTX 1660 Super / AMD Radeon RX 5600XT or greater",
       "fields": [
         {
-          "name": "Detailed Info",
-          "value": "You can find detailed minimums below. Please note that minimum does not mean you can play every game.\n[Oculus Rift S Supported Specs](https://store.facebook.com/help/quest/articles/getting-started/getting-started-with-rift/rift-s-minimum-requirements/)\n[Oculus Link Supported Specs](https://store.facebook.com/help/quest/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)\n[Valve Index Supported Specs](https://support.steampowered.com/kb_article.php?ref=4061-QUZB-4602)"
+          "name": "Network Requirements",
+          "value": "PC must be wired to router via Gigabit Ethernet\n5GHz AC/AX or 6GHz AXE (Wi-Fi 6E) router recommended\nHeadset connects wirelessly to same router"
+        },
+        {
+          "name": "Additional Resources",
+          "value": "Compare minimum specs for other VR headsets:\n[Oculus Rift S Supported Specs](https://store.facebook.com/help/quest/articles/getting-started/getting-started-with-rift/rift-s-minimum-requirements/)\n[Oculus Link Supported Specs](https://store.facebook.com/help/quest/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)\n[Valve Index Supported Specs](https://support.steampowered.com/kb_article.php?ref=4061-QUZB-4602)"
         }
       ]
     }
@@ -511,7 +515,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Play Roblox in VR",
-      "description": "1. Set SteamVR as default OpenXR Runtime.\n2. Launch SteamVR from the button in the Virtual Desktop menu in VR.\n3. Switch back to desktop and Launch Roblox.\n4. Toggle VR mode in Roblox.",
+      "description": "1. Set SteamVR as default OpenXR Runtime.\n2. Launch SteamVR from the button in the Virtual Desktop menu in VR.\n3. Open SteamVR settings, go to OpenXR, then manage OpenXR API layers, then disable \"Compatibility layer for OpenXR Plugin\".\n4. Switch back to desktop and Launch Roblox.\n5. Toggle VR mode in Roblox.",
       "footer": {
         "text": "Please note, Roblox's VR support is quite buggy."
       }
@@ -545,7 +549,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
-      "description": "NVIDIA RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nNVIDIA: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000/9000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html)"
+      "description": "NVIDIA RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nAll Other NVIDIA GPUs: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000/9000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html)"
     }
   },
   {
@@ -559,7 +563,7 @@
       "fields": [
         {
           "name": "**Connection Requirements**",
-          "value": "• Gigabit Ethernet from PC to router\n• AC or AX router\n\nWireless PC connections cause instability and are NOT supported, even if they worked temporarily in the past.",
+          "value": "â€¢ Gigabit Ethernet from PC to router\nâ€¢ AC or AX router\n\nWireless PC connections cause instability and are NOT supported, even if they worked temporarily in the past.",
           "inline": false
         },
         {
@@ -667,6 +671,15 @@
     "embed": {
       "title": "PTC",
       "description": "Here's how you can opt-out of the Public Test Channel (PTC):\n\n1. Open your Quest mobile app on your phone.\n2. Go to 'Devices', then 'Headset Settings', and then 'Advanced Settings'.\n3. If 'Public Test Channel' is enabled, click on it to disable.\n\nRemember, it's usually better to avoid opting in for public test versions unless you're ready to deal with potential bugs. While these test builds can have exciting new features, they can also have unresolved issues, sometimes even game-breaking ones."
+    }
+  },
+  {
+    "name": "wifistandards",
+    "description": "WiFi Standards and Bands Explained",
+    "ephemeral": false,
+    "embed": {
+      "title": "WiFi Standards for VR",
+      "description": "**IMPORTANT: WiFi Numbers â‰  GHz Bands!**\nThe WiFi version number (5, 6, 6E, 7) does NOT match the GHz frequency:\nâ€¢ WiFi 5 uses 2.4GHz and 5GHz\nâ€¢ WiFi 6 uses 2.4GHz and 5GHz (NOT 6GHz!)\nâ€¢ WiFi 6E adds 6GHz band\nâ€¢ WiFi 7 uses all three bands (2.4/5/6GHz)\n\nNote: Some WiFi 7 routers do not have 6GHz band - these are not recommended.\n\n**WiFi Standards for Gaming with Virtual Desktop:**\nâ€¢ **WiFi 5 (AC, 2.4/5GHz)** - Minimum required, Max Link: 867 Mbps\nâ€¢ **WiFi 6 (AX, 2.4/5GHz)** - Good performance, Max Link: 1200 Mbps\nâ€¢ **WiFi 6E (AXE, adds 6GHz)** - Best choice, Max Link: 2400 Mbps\nâ€¢ **WiFi 7 (BE, all bands)** - Future-proof, Max Link: 5800 Mbps\n\nNote: 2.4GHz is not supported for gaming but may be suitable for desktop viewing."
     }
   },
   {
@@ -880,7 +893,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Beat Saber Troubleshooting",
-      "description": "Having stutters in Beat Saber? Try these changes to optimize your performance and reduce latency.\n\n**For Beat Saber versions 1.30+**\n- **Enable VDXR** in the Virtual Desktop PC Streamer App. This will bypass SteamVR and run Beat Saber with slightly more performance.\n\n**For all other Beat Saber versions**\n- **Adjust SteamVR render resolution** to Custom 100%. Ensure this applies to global and per-app Beat Saber settings in SteamVR.\n\n**Beat Saber graphics options**\n- **Reduce MSAA** to 2x (or disabled). In some cases, this will default to 4x or 8x and incur heavy performance penalties on most systems.\n- **Adjust render scale** to 1.0. This ensures that Beat Saber is not supersampling your game, but rather rendering at your chosen Virtual Desktop resolution preset."
+      "description": "Having stutters in Beat Saber? Try these changes to optimize your performance and reduce latency:\n\n**For Lower Latency**\n- For lowest latency, use the **H.264** codec in the Streamer Options tab. Type /codec here in the channel to learn more about codecs.\n\n**For Beat Saber versions 1.30+**\n- **Enable VDXR** in the Virtual Desktop PC Streamer App. This will bypass SteamVR and run Beat Saber with slightly more performance.\n\n**For all other Beat Saber versions**\n- **Adjust SteamVR render resolution** to Custom 100%. Ensure this applies to global and per-app Beat Saber settings in SteamVR.\n\n**Beat Saber graphics options**\n- **Reduce MSAA** to 2x (or disabled). In some cases, this will default to 4x or 8x and incur heavy performance penalties on most systems.\n- **Adjust render scale** to 1.0. This ensures that Beat Saber is not supersampling your game, but rather rendering at your chosen Virtual Desktop resolution preset."
     }
   },
   {
@@ -1122,7 +1135,7 @@
     "ephemeral": false,
     "embed": {
       "title": "VR Desktop Optimization Guide",
-      "description": "This comprehensive guide covers network setup, Wi-Fi optimization, and software configuration to optimize your Virtual Desktop experience.\n\nUse the navigation buttons below to view:\n• **Part 1**: Network & Wi-Fi Setup (Steps 1-6)\n• **Part 2**: Software Configuration (Steps 7-13)"
+      "description": "This comprehensive guide covers network setup, Wi-Fi optimization, and software configuration to optimize your Virtual Desktop experience.\n\nUse the navigation buttons below to view:\nâ€¢ **Part 1**: Network & Wi-Fi Setup (Steps 1-6)\nâ€¢ **Part 2**: Software Configuration (Steps 7-13)"
     },
     "pages": [
       {
