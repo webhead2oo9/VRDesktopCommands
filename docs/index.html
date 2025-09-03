@@ -1,0 +1,373 @@
+---
+layout: default
+title: Commands Reference
+---
+
+<style>
+  /* Clean, modern styling */
+  .vd-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e1e4e8;
+  }
+  
+  .vd-header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .vd-search {
+    margin: 2rem 0;
+  }
+  
+  .vd-search-box {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 2px solid #e8e8e8;
+    border-radius: 4px;
+    font-family: inherit;
+  }
+  
+  .vd-search-box:focus {
+    outline: none;
+    border-color: #2a7ae4;
+    box-shadow: 0 0 0 3px rgba(42, 122, 228, 0.1);
+  }
+  
+  .vd-commands-list {
+    margin: 2rem 0;
+  }
+  
+  .vd-command {
+    background: white;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  
+  .vd-command:hover {
+    border-color: #2a7ae4;
+  }
+  
+  .vd-command-header {
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s;
+    user-select: none;
+  }
+  
+  .vd-command-header:hover {
+    background: #f6f8fa;
+  }
+  
+  .vd-command-name {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-weight: 600;
+    color: #0366d6;
+    font-size: 1rem;
+  }
+  
+  .vd-command-desc {
+    color: #586069;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    font-weight: normal !important;
+  }
+  
+  .vd-expand-icon {
+    color: #959da5;
+    font-size: 0.75rem;
+    transition: transform 0.2s;
+  }
+  
+  .vd-command.expanded .vd-expand-icon {
+    transform: rotate(90deg);
+  }
+  
+  .vd-command-details {
+    display: none;
+    padding: 0 1rem 1rem 1rem;
+    border-top: 1px solid #e1e4e8;
+    animation: slideDown 0.2s ease-out;
+  }
+  
+  .vd-command.expanded .vd-command-details {
+    display: block;
+  }
+  
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .vd-embed {
+    margin-top: 1rem;
+  }
+  
+  .vd-embed-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: #24292e;
+  }
+  
+  .vd-embed-desc {
+    color: #24292e;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-weight: normal !important;
+  }
+  
+  /* Format the description text properly */
+  .vd-formatted-text {
+    white-space: pre-line;
+    word-wrap: break-word;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: normal !important;
+  }
+  
+  .vd-formatted-text strong {
+    font-weight: normal !important;
+  }
+  
+  .vd-formatted-text a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  
+  .vd-formatted-text a:hover {
+    text-decoration: underline;
+  }
+  
+  .vd-formatted-text code {
+    padding: 0.2em 0.4em;
+    background: #f6f8fa;
+    border-radius: 3px;
+    font-size: 85%;
+    font-family: 'SFMono-Regular', Consolas, monospace;
+  }
+  
+  .vd-field {
+    margin: 1rem 0;
+    padding: 0.75rem;
+    background: #f6f8fa;
+    border-left: 3px solid #0366d6;
+    border-radius: 3px;
+  }
+  
+  .vd-field-name {
+    font-weight: 600;
+    color: #24292e;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+  
+  .vd-field-value {
+    color: #24292e;
+    line-height: 1.6;
+    font-size: 0.875rem;
+    font-weight: normal !important;
+  }
+  
+  /* Additional pages styling */
+  .vd-pages {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: #fafbfc;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+  }
+  
+  .vd-pages summary {
+    cursor: pointer;
+    font-weight: 500;
+    color: #24292e;
+    user-select: none;
+  }
+  
+  .vd-pages summary:hover {
+    color: #0366d6;
+  }
+  
+  .vd-page-item {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: white;
+    border: 1px solid #e1e4e8;
+    border-radius: 3px;
+  }
+  
+  /* Hide image fields that contain URLs */
+  .vd-field-value img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+</style>
+
+<div class="vd-header">
+  <h1>Virtual Desktop Discord Commands</h1>
+  <p style="color: #586069;">Complete reference for all Discord support commands</p>
+</div>
+
+<div class="vd-search">
+  <input 
+    type="text" 
+    class="vd-search-box" 
+    id="searchBox" 
+    placeholder="Search commands (e.g., 'router', 'ethernet', 'specs')..."
+    onkeyup="filterCommands()"
+  />
+</div>
+
+<div class="vd-commands-list">
+  {% for cmd in site.data.commands %}
+  <div class="vd-command" data-search="{{ cmd.name | downcase }} {{ cmd.description | downcase }} {{ cmd.embed.description | downcase }}">
+    <div class="vd-command-header" onclick="toggleCommand(this)">
+      <div>
+        <div class="vd-command-name">/{{ cmd.name }}</div>
+        <div class="vd-command-desc">{{ cmd.description | strip_html | escape }}</div>
+      </div>
+      <span class="vd-expand-icon">▶</span>
+    </div>
+    
+    <div class="vd-command-details">
+      {% if cmd.embed %}
+        <div class="vd-embed">
+          {% if cmd.embed.title %}
+            <div class="vd-embed-title">{{ cmd.embed.title | replace: '**', '' | replace: '__', '' | replace: '*', '' }}</div>
+          {% endif %}
+          
+          {% if cmd.embed.description %}
+            <div class="vd-embed-desc vd-formatted-text">{{ cmd.embed.description | replace: '**', '' | replace: '__', '' | replace: '*', '' | replace: '_', '' | newline_to_br }}</div>
+          {% endif %}
+          
+          {% if cmd.embed.image %}
+            {% if cmd.embed.image.url %}
+              <img src="{{ cmd.embed.image.url }}" alt="{{ cmd.embed.title }}" style="max-width: 100%; height: auto; margin: 1rem 0; border-radius: 4px;">
+            {% endif %}
+          {% endif %}
+          
+          {% if cmd.embed.fields %}
+            {% for field in cmd.embed.fields %}
+              <div class="vd-field">
+                <div class="vd-field-name">{{ field.name | replace: '**', '' | replace: '__', '' }}</div>
+                <div class="vd-field-value vd-formatted-text">
+                  {{ field.value | replace: '**', '' | replace: '__', '' | replace: '*', '' | replace: '_', '' | newline_to_br }}
+                </div>
+              </div>
+            {% endfor %}
+          {% endif %}
+        </div>
+      {% endif %}
+      
+      {% if cmd.pages and cmd.pages.size > 1 %}
+        <details class="vd-pages">
+          <summary>📄 {{ cmd.pages.size | minus: 1 }} Additional Page(s)</summary>
+          {% for page in cmd.pages offset:1 %}
+            <div class="vd-page-item">
+              <strong>{{ page.title | default: page.name }}</strong>
+              {% if page.description %}
+                <div style="margin-top: 0.25rem; color: #586069; font-size: 0.875rem;">
+                  {{ page.description }}
+                </div>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </details>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<script>
+function toggleCommand(header) {
+  const command = header.parentElement;
+  command.classList.toggle('expanded');
+}
+
+function filterCommands() {
+  const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+  const commands = document.querySelectorAll('.vd-command');
+  let visibleCount = 0;
+  
+  commands.forEach(cmd => {
+    const searchData = cmd.dataset.search;
+    if (searchData.includes(searchTerm)) {
+      cmd.style.display = '';
+      visibleCount++;
+    } else {
+      cmd.style.display = 'none';
+    }
+  });
+}
+
+// Convert URLs to clickable links
+document.addEventListener('DOMContentLoaded', function() {
+  const textElements = document.querySelectorAll('.vd-formatted-text');
+  textElements.forEach(el => {
+    let html = el.innerHTML;
+    
+    // First, store existing anchor tags to avoid double-processing
+    const placeholders = [];
+    let placeholderIndex = 0;
+    html = html.replace(/<a[^>]*>.*?<\/a>/g, function(match) {
+      const placeholder = `__PLACEHOLDER_${placeholderIndex}__`;
+      placeholders.push(match);
+      placeholderIndex++;
+      return placeholder;
+    });
+    
+    // Convert markdown [text](url) links to HTML
+    html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+    
+    // Convert plain URLs to clickable links (but not those already in href attributes)
+    html = html.replace(/(?:^|[^"'>])(https?:\/\/[^\s<]+)/g, function(match, url, offset) {
+      // If the URL is preceded by a quote or >, it's likely already in an attribute
+      if (match.startsWith('http')) {
+        return '<a href="' + match + '" target="_blank" rel="noopener">' + match + '</a>';
+      }
+      return match.charAt(0) + '<a href="' + url + '" target="_blank" rel="noopener">' + url + '</a>';
+    });
+    
+    // Restore the placeholders
+    placeholders.forEach((original, index) => {
+      html = html.replace(`__PLACEHOLDER_${index}__`, original);
+    });
+    
+    el.innerHTML = html;
+  });
+});
+
+// Keyboard shortcut to expand/collapse all (Ctrl+E)
+document.addEventListener('keydown', function(e) {
+  if (e.ctrlKey && e.key === 'e') {
+    e.preventDefault();
+    const commands = document.querySelectorAll('.vd-command');
+    const allExpanded = Array.from(commands).every(c => c.classList.contains('expanded'));
+    commands.forEach(c => {
+      if (allExpanded) {
+        c.classList.remove('expanded');
+      } else {
+        c.classList.add('expanded');
+      }
+    });
+  }
+});
+</script>
+
+<div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e1e4e8; color: #586069; font-size: 0.875rem;">
+  <p>Press <kbd>Ctrl</kbd> + <kbd>E</kbd> to expand/collapse all commands</p>
+</div>
