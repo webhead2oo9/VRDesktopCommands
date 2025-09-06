@@ -563,7 +563,7 @@
       "fields": [
         {
           "name": "**Connection Requirements**",
-          "value": "â€¢ Gigabit Ethernet from PC to router\nâ€¢ AC or AX router\n\nWireless PC connections cause instability and are NOT supported, even if they worked temporarily in the past.",
+          "value": "- Gigabit Ethernet from PC to router\n- AC or AX router\n\nWireless PC connections cause instability and are NOT supported, even if they worked temporarily in the past.",
           "inline": false
         },
         {
@@ -679,7 +679,7 @@
     "ephemeral": false,
     "embed": {
       "title": "WiFi Standards for VR",
-      "description": "**IMPORTANT: WiFi Numbers â‰  GHz Bands!**\nThe WiFi version number (5, 6, 6E, 7) does NOT match the GHz frequency:\nâ€¢ WiFi 5 uses 2.4GHz and 5GHz\nâ€¢ WiFi 6 uses 2.4GHz and 5GHz (NOT 6GHz!)\nâ€¢ WiFi 6E adds 6GHz band\nâ€¢ WiFi 7 uses all three bands (2.4/5/6GHz)\n\nNote: Some WiFi 7 routers do not have 6GHz band - these are not recommended.\n\n**WiFi Standards for Gaming with Virtual Desktop:**\nâ€¢ **WiFi 5 (AC, 2.4/5GHz)** - Minimum required, Max Link: 867 Mbps\nâ€¢ **WiFi 6 (AX, 2.4/5GHz)** - Good performance, Max Link: 1200 Mbps\nâ€¢ **WiFi 6E (AXE, adds 6GHz)** - Best choice, Max Link: 2400 Mbps\nâ€¢ **WiFi 7 (BE, all bands)** - Future-proof, Max Link: 5800 Mbps\n\nNote: 2.4GHz is not supported for gaming but may be suitable for desktop viewing."
+      "description": "**IMPORTANT: WiFi Numbers â‰  GHz Bands!**\nThe WiFi version number (5, 6, 6E, 7) does NOT match the GHz frequency:\n- WiFi 5 uses 2.4GHz and 5GHz\n- WiFi 6 uses 2.4GHz and 5GHz (NOT 6GHz!)\n- WiFi 6E adds 6GHz band\n- WiFi 7 uses all three bands (2.4/5/6GHz)\n\nNote: Some WiFi 7 routers do not have 6GHz band - these are not recommended.\n\n**WiFi Standards for Gaming with Virtual Desktop:**\n- **WiFi 5 (AC, 2.4/5GHz)** - Minimum required, Max Link: 867 Mbps\n- **WiFi 6 (AX, 2.4/5GHz)** - Good performance, Max Link: 1200 Mbps\n- **WiFi 6E (AXE, adds 6GHz)** - Best choice, Max Link: 2400 Mbps\n- **WiFi 7 (BE, all bands)** - Future-proof, Max Link: 5800 Mbps\n\nNote: 2.4GHz is not supported for gaming but may be suitable for desktop viewing."
     }
   },
   {
@@ -1135,7 +1135,7 @@
     "ephemeral": false,
     "embed": {
       "title": "VR Desktop Optimization Guide",
-      "description": "This comprehensive guide covers network setup, Wi-Fi optimization, and software configuration to optimize your Virtual Desktop experience.\n\nUse the navigation buttons below to view:\nâ€¢ **Part 1**: Network & Wi-Fi Setup (Steps 1-6)\nâ€¢ **Part 2**: Software Configuration (Steps 7-13)"
+      "description": "This comprehensive guide covers network setup, Wi-Fi optimization, and software configuration to optimize your Virtual Desktop experience.\n\nUse the navigation buttons below to view:\n- **Part 1**: Network & Wi-Fi Setup (Steps 1-6)\n- **Part 2**: Software Configuration (Steps 7-13)"
     },
     "pages": [
       {
