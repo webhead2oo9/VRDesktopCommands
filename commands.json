@@ -775,7 +775,7 @@
     "ephemeral": false,
     "embed": {
       "title": "How to test if your PC and VR Headset can communicate",
-      "description": "To verify that your computer can communicate with your headset, note down the IP address of your headset, which is displayed at the top of the Computers tab in VR.\nOnce you have it, open a command prompt on your computer by clicking Start and typing: cmd\nIn the command prompt, type: ping x.x.x.x (where x.x.x.x is the IP address of your headset) and press Enter.\nThen type: ipconfig and press Enter.\nShare the results here."
+      "description": "To verify that your computer can communicate with your headset, note down the IP address of your headset, which is displayed at the top of the Computers tab in VR.\nOnce you have it, open a command prompt on your computer by clicking Start and typing: cmd\nIn the command prompt, type: ping x.x.x.x (where x.x.x.x is the IP address of your headset) and press Enter.\nThen type: ipconfig and press Enter.\n**Share a screenshot of the full results of both command here in the channel.**"
     }
   },
   {
