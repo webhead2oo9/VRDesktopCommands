@@ -2,7 +2,6 @@
   {
     "name": "routers",
     "description": "Community Tested Routers",
-    "ephemeral": false,
     "embed": {
       "title": "Community Tested Routers",
       "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($179-$299 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 (~$190 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
@@ -17,7 +16,6 @@
           {
             "title": "Community Tested Routers",
             "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($179-$299 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 (~$190 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
-            
           }
         ]
       },
@@ -129,7 +127,7 @@
                 "name": "Dedicated Bridging Setup",
                 "value": "Follow the [Opal Travel Router Setup Guide](https://discord.com/channels/564087419918483486/692030889932095529/1081059165713207326) or use r/opal for further information.",
                 "inline": true
-              },     
+              },
               {
                 "name": "Store Links",
                 "value": "[USA](https://www.amazon.com/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [Canada](https://www.amazon.ca/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [UK](https://www.amazon.co.uk/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/)",
@@ -192,7 +190,7 @@
                 "name": "Dedicated Bridging Setup",
                 "value": "Follow the [Opal Travel Router Setup Guide](https://discord.com/channels/564087419918483486/692030889932095529/1081059165713207326) or use r/opal for further information.",
                 "inline": true
-              },     
+              },
               {
                 "name": "Store Links",
                 "value": "[USA](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5)",
@@ -239,7 +237,6 @@
   {
     "name": "tplink",
     "description": "TP-Link Models and Routers with Known Issues",
-    "ephemeral": false,
     "embed": {
       "title": "TP-Link Models and Routers with Known Issues",
       "description": "TP-Link **AX** (not to be confused with AXE), Huawei and Tenda routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected. The AXE5400 can be sold with one of two different chassis as shown in the image below\n",
@@ -247,11 +244,10 @@
         "url": "https://cdn.discordapp.com/attachments/682369095798489129/1390667850833858610/image.png?ex=68802a1c&is=687ed89c&hm=9a0d26d5d0a5f18539825d3adb57330201721f4921ef71c4a0307220be8b55c3&"
       }
     }
-  }, 
+  },
   {
     "name": "iobt",
     "description": "Information about IOBT and Forwarded Data",
-    "ephemeral": false,
     "embed": {
       "title": "Inside Out Body Tracking",
       "description": "Virtual Desktop supports passing through upper body tracking (Q3) and estimation using Meta IOBT (All Quests).",
@@ -286,7 +282,6 @@
   {
     "name": "indexemulation",
     "description": "Valve Index Controller Emulation",
-    "ephemeral": false,
     "embed": {
       "title": "Valve Index Controller Emulation",
       "description": "Virtual Desktop allows you to emulate Index Controllers for full hand tracking support, as well as Skeletal Input in SteamVR.",
@@ -317,7 +312,6 @@
   {
     "name": "opalsetup",
     "description": "GL.iNet Opal Setup Guide",
-    "ephemeral": false,
     "embed": {
       "title": "Opal Setup Guide",
       "description": "You can follow a video guide on how to setup your Opal [here](https://youtu.be/1HwT-Own6vo).",
@@ -457,7 +451,6 @@
   {
     "name": "resolution",
     "description": "Render Resolution Per Eye for Each Device",
-    "ephemeral": false,
     "embed": {
       "title": "Render Resolution",
       "description": "Render Resolution __Per Eye__",
@@ -484,7 +477,6 @@
   {
     "name": "specs",
     "description": "Minimum PC Specs",
-    "ephemeral": false,
     "embed": {
       "title": "PC Requirements",
       "description": "OS: Windows 10 or 11\nCPU: Intel i5-7500 / AMD Ryzen 5 1600 or greater\nRAM: 12GB+ (16GB recommended)\nGPU: NVIDIA GTX 1660 Super / AMD Radeon RX 5600XT or greater",
@@ -503,16 +495,14 @@
   {
     "name": "vcredist",
     "description": "Reinstall Visual C++",
-    "ephemeral": false,
     "embed": {
       "title": "Reinstall Visual C++ Redistributable",
       "description": "If you're experiencing issues launching SteamVR, reinstalling the Visual C++ Redistributable might help. Follow these steps:\n\n1. Download the Visual C++ Redistributable from [this link](https://aka.ms/vs/17/release/vc_redist.x86.exe).\n2. Close SteamVR and the Virtual Desktop Streamer if they're running.\n3. Run the downloaded installer and follow the prompts to install.\n4. Restart your computer after the installation is complete.\n5. Try launching SteamVR again.\n\nIf the issue persists, please provide more details about the specific error you're encountering."
     }
-  },  
+  },
   {
     "name": "roblox",
     "description": "Play Roblox in VR",
-    "ephemeral": false,
     "embed": {
       "title": "Play Roblox in VR",
       "description": "1. Set SteamVR as default OpenXR Runtime.\n2. Launch SteamVR from the button in the Virtual Desktop menu in VR.\n3. Open SteamVR settings, go to OpenXR, then manage OpenXR API layers, then disable \"Compatibility layer for OpenXR Plugin\".\n4. Switch back to desktop and Launch Roblox.\n5. Toggle VR mode in Roblox.",
@@ -524,7 +514,6 @@
   {
     "name": "previous",
     "description": "How to Install the Previous Version",
-    "ephemeral": false,
     "embed": {
       "title": "How to Install the Previous Version",
       "description": "If you suspect that a newer version is causing issues, you can install the previous version at any time by uninstalling the current version from your device and following the instructions below.",
@@ -546,7 +535,6 @@
   {
     "name": "drivers",
     "description": "Recommended GPU Drivers",
-    "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
       "description": "NVIDIA RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nAll Other NVIDIA GPUs: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000/9000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html)"
@@ -555,7 +543,6 @@
   {
     "name": "ethernetalt",
     "description": "Ethernet requirement",
-    "ephemeral": false,
     "embed": {
       "title": "Ethernet Connection Required",
       "description": "Virtual Desktop requires a Gigabit Ethernet connection from your PC to your router. This is required for support.",
@@ -577,7 +564,6 @@
   {
     "name": "voicemeeter",
     "description": "VoiceMeeter Mode",
-    "ephemeral": false,
     "embed": {
       "title": "VoiceMeeter Mode",
       "description": "**VoiceMeeter Mode** (with VR Headset only selected) restricts audio reaching the headset to only the Virtual Desktop Audio device. The Virtual Desktop Audio device can then be used in a software app such as VB Audio's VoiceMeeter for routing audio directly to the headset.\n\nThis mode does not perform any other function. The best place for support with VoiceMeeter is [VB Audio's Discord server](https://discord.com/invite/TF42rahAXS)."
@@ -586,16 +572,20 @@
   {
     "name": "ethernet",
     "description": "Ethernet requirement",
-    "ephemeral": false,
-    "embed":{
+    "embed": {
       "title": "**__Ethernet is required__**",
-      "description": "Rebooting your router can provide a temporary fix for certain issues you may be experiencing. Please note that since 2018, a Gigabit Ethernet or better connection between your PC and an AC, AX or better router is mandatory for support. Past success with other setups does not guarantee stability, and these configurations are not supported due to frequent complications.\n\nVirtual Desktop always recommends the PC be connected via Ethernet (exception: PrismXR Puppis S1 connects directly via USB).\n\nIf your router is too far away to establish an Ethernet connection, use the command '/routers' to view a list of dedicated routers that have been tested by the community."
-    }
+      "description": "Rebooting your router can provide a temporary fix for certain issues you may be experiencing. Please note that since 2018, a Gigabit Ethernet or better connection between your PC and an AC, AX or better router is mandatory for support. Past success with other setups does not guarantee stability, and these configurations are not supported due to frequent complications.\n\nVirtual Desktop always recommends the PC be connected via Ethernet (exception: PrismXR Puppis S1 connects directly via USB).\n\nIf your router is too far away to establish an Ethernet connection, use the command '/routers' to view a list of routers that have been tested by the community."
+    },
+    "embeds": [
+      {
+        "title": "**__Ethernet is required__**",
+        "description": "Rebooting your router can provide a temporary fix for certain issues you may be experiencing. Please note that since 2018, a Gigabit Ethernet or better connection between your PC and an AC, AX or better router is mandatory for support. Past success with other setups does not guarantee stability, and these configurations are not supported due to frequent complications.\n\nVirtual Desktop always recommends the PC be connected via Ethernet (exception: PrismXR Puppis S1 connects directly via USB).\n\nIf your router is too far away to establish an Ethernet connection, use the command '/routers' to view a list of routers that have been tested by the community."
+      }
+    ]
   },
   {
     "name": "remote",
     "description": "Connecting to your computer remotely over the internet",
-    "ephemeral": false,
     "embed": {
       "title": "Connecting to your computer remotely over the internet",
       "description": "Make sure 'Allow remote connections' is checked in the Streamer window, Options tab on your computer.\n\nYou'll also need to enable UPnP on your router and the Streamer App will forward the required ports automatically.\n\nIf you want to manually configure your router, forward TCP ports 38810, 38820, 38830, and 38840. All traffic uses end-to-end encryption."
@@ -604,7 +594,6 @@
   {
     "name": "justask",
     "description": "Don't ask to ask",
-    "ephemeral": false,
     "embed": {
       "title": "Don't ask to ask; just ask",
       "description": "Asking 'Hey, can anyone help me?' can be seen as bad form. The best way to get assistance is to ask your entire question, with all the necessary details, in a relevant channel. There are many reasons why knowledgeable people might not offer help upfront, but by asking the full question, you're inviting people to provide an answer, not asking them to commit to solving a problem they might not know how to solve."
@@ -613,7 +602,6 @@
   {
     "name": "ddu",
     "description": "DDU - Uninstall and Reinstall Drivers",
-    "ephemeral": false,
     "embed": {
       "title": "Uninstall and Reinstall GPU Drivers",
       "description": "Follow these steps to uninstall GPU drivers using DDU (Display Driver Uninstaller):\n1. Download DDU from the [official website](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) and download the GPU driver you intend to install (see below).\n2. Reboot your PC into [Safe Mode](https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234)\n3. Launch DDU and select the GPU from the list.\n4. Click on 'Clean and restart'.\n5. After the process and restart, the GPU drivers will be uninstalled.\n\nYou can then reinstall the recommended drivers, to check the latest recommendations type /drivers."
@@ -622,7 +610,6 @@
   {
     "name": "internet",
     "description": "Internet isn't used when streaming",
-    "ephemeral": false,
     "embed": {
       "title": "Internet isn't used when streaming",
       "image": {
@@ -634,31 +621,28 @@
   {
     "name": "potentiallyunwantedapps",
     "description": "Potentially Unwanted Apps",
-    "ephemeral": false,
     "embed": {
       "title": "PUA",
       "image": {
         "url": "https://vrdiscord.com/screenshots/vd/pua.jpg"
-      },      
+      },
       "description": "Microsoft's Windows Defender includes a feature called 'Potentially Unwanted App (PUA) Protection' or 'Reputation-based Protection'. This can sometimes flag new installers incorrectly. To disable it:\n\n1. Open your Start menu\n2. Type 'reputation'\n3. Click on 'Reputation-based Protection' (should be the top result)\n4. Scroll down to 'Potentially Unwanted App Blocking'\n5. Turn this setting off."
     }
   },
   {
     "name": "msappinstall",
     "description": "App Recommendation Settings",
-    "ephemeral": false,
     "embed": {
       "title": "App Recommendation Settings",
       "image": {
         "url": "https://vrdiscord.com/screenshots/vd/choosewheretoget.jpg"
-      },      
+      },
       "description": "To bypass Microsoft's restrictive app installation policy:\n\n1. Open Start menu\n2. Search 'Choose where to get apps'\n3. In 'Apps & features', set to 'Anywhere'\n\nThis allows installing apps from any source. You may still see warnings, but can select 'Install anyway'."
     }
   },
   {
     "name": "wifi",
     "description": "Wi-Fi link speed doesn't mean actual data speed",
-    "ephemeral": false,
     "embed": {
       "title": "Wi-Fi link speed doesn't mean actual data speed",
       "description": "Think of Wi-Fi link speed as a pipe's size and data as water. The link speed is the maximum water that can flow through the pipe. However, the actual flow can be slower due to several reasons: \n1. Shared bandwidth - it's like too many taps drawing water from the same pipe, slowing down the flow at each tap. \n2. Interference - it's like dirt in the pipe blocking the flow of water. Other devices can interfere with your Wi-Fi signal. \n3. Distance and obstacles - it's like the pipe being longer or having turns, slowing down the water. Being further from the router or having walls in between can slow down your Wi-Fi. \nSo, a big pipe (high link speed) doesn't always mean fast water flow (high data speed)."
@@ -667,7 +651,6 @@
   {
     "name": "ptc",
     "description": "Opting Out of Public Test Channel (PTC)",
-    "ephemeral": false,
     "embed": {
       "title": "PTC",
       "description": "Here's how you can opt-out of the Public Test Channel (PTC):\n\n1. Open your Quest mobile app on your phone.\n2. Go to 'Devices', then 'Headset Settings', and then 'Advanced Settings'.\n3. If 'Public Test Channel' is enabled, click on it to disable.\n\nRemember, it's usually better to avoid opting in for public test versions unless you're ready to deal with potential bugs. While these test builds can have exciting new features, they can also have unresolved issues, sometimes even game-breaking ones."
@@ -676,7 +659,6 @@
   {
     "name": "wifistandards",
     "description": "WiFi Standards and Bands Explained",
-    "ephemeral": false,
     "embed": {
       "title": "WiFi Standards for VR",
       "description": "**IMPORTANT: WiFi Numbers â‰  GHz Bands!**\nThe WiFi version number (5, 6, 6E, 7) does NOT match the GHz frequency:\n- WiFi 5 uses 2.4GHz and 5GHz\n- WiFi 6 uses 2.4GHz and 5GHz (NOT 6GHz!)\n- WiFi 6E adds 6GHz band\n- WiFi 7 uses all three bands (2.4/5/6GHz)\n\nNote: Some WiFi 7 routers do not have 6GHz band - these are not recommended.\n\n**WiFi Standards for Gaming with Virtual Desktop:**\n- **WiFi 5 (AC, 2.4/5GHz)** - Minimum required, Max Link: 867 Mbps\n- **WiFi 6 (AX, 2.4/5GHz)** - Good performance, Max Link: 1200 Mbps\n- **WiFi 6E (AXE, adds 6GHz)** - Best choice, Max Link: 2400 Mbps\n- **WiFi 7 (BE, all bands)** - Future-proof, Max Link: 5800 Mbps\n\nNote: 2.4GHz is not supported for gaming but may be suitable for desktop viewing."
@@ -685,7 +667,6 @@
   {
     "name": "limit",
     "description": "Limitations",
-    "ephemeral": false,
     "embed": {
       "title": "Limitations",
       "description": "Virtual Desktop does not stop or hinder you from using it with a network or PC setup that does not meet minimum requirements. Also, not meeting the minimum requirements doesn't necessarily mean that VRD or your game won't work.\nHowever, because VRD wasn't designed to work on setups that don't meet the requirements, we can't actively support those setups and we cannot guarantee the app will work."
@@ -694,9 +675,8 @@
   {
     "name": "ics",
     "description": "Internet Connection Sharing",
-    "ephemeral": false,
     "embed": {
-      "title": "Internet Connection Sharing",              
+      "title": "Internet Connection Sharing",
       "image": {
         "url": "https://vrdiscord.com/images/virtualdesktop/discord/ics.png"
       },
@@ -706,7 +686,6 @@
   {
     "name": "autobitrate",
     "description": "Automatic Bitrate",
-    "ephemeral": false,
     "embed": {
       "title": "Automatic Bitrate",
       "description": "Automatic Bitrate conducts a small 10MB speed test when you first connect to determine your maximum stable bitrate. While it can be disabled in the VRD Streamer in the Options tab, we recommend leaving it on in order to help in detecting network issues."
@@ -715,7 +694,6 @@
   {
     "name": "doublenat",
     "description": "Test for a double NAT",
-    "ephemeral": false,
     "embed": {
       "title": "Test for a double NAT",
       "description": "The simplest way to test for a double NAT is to check the IP assigned to WAN on your router and compare it to the result when you Google \"what is my IP\". If they are not the same, that means you have a double NAT. Another, less reliable, method is to open a command prompt on a computer in your home and type: tracert 8.8.8.8. If you see multiple private IP addresses, it means you have a double NAT. For more information, visit: https://windowsreport.com/double-nat/"
@@ -724,7 +702,6 @@
   {
     "name": "oculusgo",
     "description": "Streamer Version for Oculus Go & GearVR Users",
-    "ephemeral": false,
     "embed": {
       "title": "Streamer Version for Oculus Go & GearVR",
       "description": "If you're using Oculus Go or GearVR, you need to use version 1.20.38 of the Streamer. This is the last version that is compatible with these devices. You can download it from [here](https://download.vrdesktop.net/files/go/VirtualDesktop.Streamer.Setup.exe)."
@@ -733,7 +710,6 @@
   {
     "name": "33fps",
     "description": "Fixing 33fps issue in SteamVR Games",
-    "ephemeral": false,
     "embed": {
       "title": "Stuck at 33fps in SteamVR Games",
       "description": "If you're stuck at 33fps in SteamVR Games, follow these steps:\n\n1. Completely close Steam and SteamVR.\n2. Navigate to the following paths and delete these files:\n    a. 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\SteamVR\\resources\\settings\\default.vrsettings'\n    b. 'C:\\Program Files (x86)\\Steam\\config\\steamvr.vrsettings'\n    c. 'C:\\Program Files (x86)\\Steam\\config\\lighthouse\\lighthousedb.json'\n\nNext, uninstall SteamVR:\n1. Right click the SteamVR tool from the Steam Library and select 'Uninstall'.\n2. Follow the on-screen prompts to complete the uninstallation of the SteamVR tool.\n3. Make sure to delete any leftover files in the installation directory by deleting the contents in the folder 'SteamVR'. The default path for that folder is '%ProgramFiles(x86)%\\Steam\\steamapps\\common\\SteamVR'.\n\nFinally, reinstall SteamVR."
@@ -742,7 +718,6 @@
   {
     "name": "tasklist",
     "description": "Provide a TaskList",
-    "ephemeral": false,
     "embed": {
       "title": "Provide a TaskList",
       "description": "Open a command prompt as an Administrator on your computer and type: tasklist > C:\\list.txt\n\nThen, navigate to your C drive and attach the list.txt file here."
@@ -751,7 +726,6 @@
   {
     "name": "overlay",
     "description": "Sharing Screenshots of the Performance Overlay",
-    "ephemeral": false,
     "embed": {
       "title": "Sharing Screenshots of the Performance Overlay",
       "image": {
@@ -763,7 +737,6 @@
   {
     "name": "uninstall",
     "description": "Unable to Uninstall/Reinstall Streamer App",
-    "ephemeral": false,
     "embed": {
       "title": "Unable to Uninstall/Reinstall Streamer App",
       "description": "If you're unable to uninstall or reinstall the Streamer App, you can use this [tool](https://download.vrdesktop.net/files/MicrosoftProgram_Install_and_Uninstall.meta.diagcab) for assistance."
@@ -772,7 +745,6 @@
   {
     "name": "connect",
     "description": "How to test if your PC and VR Headset can communicate",
-    "ephemeral": false,
     "embed": {
       "title": "How to test if your PC and VR Headset can communicate",
       "description": "To verify that your computer can communicate with your headset, note down the IP address of your headset, which is displayed at the top of the Computers tab in VR.\nOnce you have it, open a command prompt on your computer by clicking Start and typing: cmd\nIn the command prompt, type: ping x.x.x.x (where x.x.x.x is the IP address of your headset) and press Enter.\nThen type: ipconfig and press Enter.\n**Share a screenshot of the full results of both commands here in the channel.**"
@@ -781,7 +753,6 @@
   {
     "name": "windows",
     "description": "Guide to upgrade to Windows 10/11 while retaining files and apps",
-    "ephemeral": false,
     "embed": {
       "title": "Upgrade/Reinstall Windows 10/11 & Keep Your Files and Apps",
       "description": "Follow the steps below to upgrade or reinstall your Windows:\n\n**Windows 10**:\n1. Download the latest Windows 10 ISO from [Microsoft's website](https://www.microsoft.com/en-us/software-download/windows10ISO).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and select 'Keep files and programs'.\n\nNote: Always back up important data before an OS reinstall.\n\n**Windows 11**:\n1. Download the Windows 11 ISO from [Microsoft's website](https://www.microsoft.com/software-download/windows11).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and ensure to keep your data and applications.\n\nNote: Ensure compatibility and back up important data before upgrading if you are on Windows 10."
@@ -790,7 +761,6 @@
   {
     "name": "download",
     "description": "How to manually update the Streamer app",
-    "ephemeral": false,
     "embed": {
       "title": "How to manually update the Streamer app",
       "image": {
@@ -802,7 +772,6 @@
   {
     "name": "store",
     "description": "Can I Transfer My License When I Purchased on Store x?",
-    "ephemeral": false,
     "embed": {
       "title": "Purchasing Virtual Desktop",
       "description": "Virtual Desktop is available on supported headset's **official** stores. Since they're different stores from different companies, it needs to be purchased again if you bought it for one headset and not the other (cross-buy is not possible). It is compatible with multiple headsets released using the same store though, for example, if you bought Virtual Desktop for the Pico Neo 3 and then you buy the Pico 4, you do not need to purchase Virtual Desktop again. Same for if you purchase on the Meta store you can use it for Quest 1/2/3/Pro without repurchasing.\n\nThe app on each of the stores all have the same core features, allowing you to stream your desktop, videos, or PCVR games from your computer(s). The app is available in all markets, except for China.\n\n**Do not** buy Virtual Desktop Classic on Steam, it is not intended for use with a standalone VR headset."
@@ -811,7 +780,6 @@
   {
     "name": "oculusserver",
     "description": "Oculus Servers Unreachable",
-    "ephemeral": false,
     "embed": {
       "title": "Oculus Servers Unreachable",
       "description": "This could likely be a DNS issue or a bug associated with a recent Quest OS update. If your internet is working well from your Quest (you can check via store and web browser) and you've already rebooted your headset a few times, here are a few steps to try:\n\n**Step 1:** You might want to change the assigned DNS in your router WAN settings (NOT LAN). This tends to be the quickest fix. We suggest using either 8.8.8.8 or 1.1.1.1, or both.\n\n**Step 2:** Don't forget to reboot your router after making these changes. It's a small step that could make a big difference.\n\nIf all else fails, some users have resolved this issue by performing a factory reset on their Quest. However, be aware that this is due to a bug encountered with the recent Quest OS update, and this method may not work for everyone."
@@ -820,7 +788,6 @@
   {
     "name": "falsepositive",
     "description": "Virtual Desktop False Positive",
-    "ephemeral": false,
     "embed": {
       "title": "Virtual Desktop False Positive",
       "description": "The Virtual Desktop installer might be flagged as suspicious by some antivirus programs. Don't worry, this is a false positive. The developer updated the AdvancedInstaller version, which can trigger some security alerts.\n\n The installer is safe and properly signed with Virtual Desktop's digital signature. You can safely proceed with the installation if you see any warnings."
@@ -829,16 +796,14 @@
   {
     "name": "repair",
     "description": "Virtual Desktop Repair",
-    "ephemeral": false,
     "embed": {
       "title": "Virtual Desktop Repair",
       "description": "If you are experiencing issues installing or updating Virtual Desktop, [please use this repair installer](https://download.vrdesktop.net/files/VirtualDesktop.Streamer.Repair.exe) to fix the problem."
     }
-  },  
+  },
   {
     "name": "china",
     "description": "China Store",
-    "ephemeral": false,
     "embed": {
       "title": "China Store",
       "description": "Virtual Desktop is not available in China because it is impossible for us to provide support through the Great Firewall. It would require a separate cloud infrastructure, separate builds of the app and Streamer, etc. We do not have the team or the time for this."
@@ -847,7 +812,6 @@
   {
     "name": "halflifealyx",
     "description": "Half-Life: Alyx - Stutter Fix",
-    "ephemeral": false,
     "embed": {
       "title": "Half-Life: Alyx - Stutter Fix",
       "description": "Right-click on Half-Life: Alyx in Steam, then click Properties. In the 'General' tab, click on 'Launch Options', and paste the following: ```+vr_fidelity_level_auto 0 +vr_fidelity_level 3```"
@@ -856,7 +820,6 @@
   {
     "name": "rsetup",
     "description": "Dedicated Router Setup Diagram",
-    "ephemeral": false,
     "embed": {
       "title": "Dedicated Router Setup Diagram",
       "image": {
@@ -867,7 +830,6 @@
   {
     "name": "altsetup",
     "description": "Alternate Dedicated Router Setup Diagrams",
-    "ephemeral": false,
     "embed": {
       "title": "Alternate Dedicated Router Setup Diagrams",
       "image": {
@@ -881,7 +843,6 @@
   {
     "name": "codec",
     "description": "Scenarios for best codec use",
-    "ephemeral": false,
     "embed": {
       "title": "Which codec should I use?",
       "description": "Best to leave the Preferred Codec to Automatic, but if you want to try different ones, here's which is best for what:\n\n**H.264:** has the lowest latency but not as efficient as the other codecs\n**H.264+:** has higher bitrate limit; good for racing or fast-paced games but requires ideal network conditions\n**HEVC:** has improved efficiency (looks better at the same bitrate compared to H.264) but takes a bit more time to encode/decode\n**AV1:** has best efficiency (~30% better than HEVC) but requires Nvidia 4000 or AMD 7000 series GPU and a Quest 3\n**10-bit encoding:** improves color gradients, recommended for darker/slower games"
@@ -890,7 +851,6 @@
   {
     "name": "beatsaber",
     "description": "Beat Saber Troubleshooting",
-    "ephemeral": false,
     "embed": {
       "title": "Beat Saber Troubleshooting",
       "description": "Having stutters in Beat Saber? Try these changes to optimize your performance and reduce latency:\n\n**For Lower Latency**\n- For lowest latency, use the **H.264** codec in the Streamer Options tab. Type /codec here in the channel to learn more about codecs.\n\n**For Beat Saber versions 1.30+**\n- **Enable VDXR** in the Virtual Desktop PC Streamer App. This will bypass SteamVR and run Beat Saber with slightly more performance.\n\n**For all other Beat Saber versions**\n- **Adjust SteamVR render resolution** to Custom 100%. Ensure this applies to global and per-app Beat Saber settings in SteamVR.\n\n**Beat Saber graphics options**\n- **Reduce MSAA** to 2x (or disabled). In some cases, this will default to 4x or 8x and incur heavy performance penalties on most systems.\n- **Adjust render scale** to 1.0. This ensures that Beat Saber is not supersampling your game, but rather rendering at your chosen Virtual Desktop resolution preset."
@@ -899,7 +859,6 @@
   {
     "name": "steamvr",
     "description": "SteamVR clean reinstall",
-    "ephemeral": false,
     "embed": {
       "title": "Clean Reinstall SteamVR",
       "description": "**1).** Uninstall the Virtual Desktop Streamer app from Windows\n**2).** Cleanly reinstall SteamVR using the [manual method](https://steamcommunity.com/app/250820/discussions/2/1640917625015598552/) or the [automated script](https://github.com/GeoMaciolek/steamvr-clean-reinstall)\n**3).** Reinstall the [Virtual Desktop Streamer app](https://www.vrdesktop.net/)"
@@ -908,7 +867,6 @@
   {
     "name": "external",
     "description": "How to Launch External Games",
-    "ephemeral": false,
     "embed": {
       "title": "How to Launch External Games",
       "description": "**Method 1).** Once connected to your computer in VR, right-click the Virtual Desktop Streamer icon next to the clock at the bottom right of your screen and click `Launch game` then locate the executable of the game.\n\n**Method 2).** Create a .bat file with the following content: `\"C:\\Program Files\\Virtual Desktop Streamer\\VirtualDesktop.Streamer.exe\"` `[Path to game executable]` `[optional game arguments]`\n\nBe aware that if you installed the Virtual Desktop Streamer elsewhere you will have to modify the location in the commands above."
@@ -917,7 +875,6 @@
   {
     "name": "stats",
     "description": "What the different latency figures mean",
-    "ephemeral": false,
     "embed": {
       "title": "Latency Figures in the Performance Overlay",
       "description": "**Game** is your computer's CPU/GPU rendering the game\n**Encoding** is your GPU encoding the video\n**Networking** is your router and network\n**Decoding** is the headset GPU decoding the image"
@@ -926,7 +883,6 @@
   {
     "name": "channels",
     "description": "Wireless Survey and Channel Allocation",
-    "ephemeral": false,
     "embed": {
       "title": "Wireless Survey and Channel Allocation",
       "description": "For determining available channels on an Android device, [the open source version of Wifi Analyzer is the recommended app.](https://play.google.com/store/apps/details?id=com.vrem.wifianalyzer) (Please avoid Ad supported imitations).\n\nIf you do not have an android phone but your pc has a WiFi adapter you can [use this application instead.](https://lizardsystems.com/wi-fi-scanner/)\n\nFor channel allocation reference, please see the image below:",
@@ -938,7 +894,6 @@
   {
     "name": "hotspot",
     "description": "Windows hotspot",
-    "ephemeral": false,
     "embed": {
       "title": "Windows Mobile Hotspots Are Not Supported",
       "description": "We won't stop you from trying to use a Windows hotspot but we don't provide any support for setups that attempt to utilise them due to their inconsistency, unreliability, limitations and just because Windows performs poorly as a router/router replacement.",
@@ -950,7 +905,6 @@
   {
     "name": "uh-oh",
     "description": "Your PC Isn't Connected by an Ethernet Cable?",
-    "ephemeral": false,
     "embed": {
       "title": "Your PC Isn't Connected by an Ethernet Cable?",
       "image": {
@@ -961,7 +915,6 @@
   {
     "name": "about",
     "description": "Share the Details From Your About Tab",
-    "ephemeral": false,
     "embed": {
       "title": "Share the Details From Your About Tab",
       "description": "**1).** Share a screenshot of your About tab from the Virtual Desktop Streamer app installed on your PC. **Please do not crop the screenshot. The entire streamer window must be visible for support.**\n**2).** Click \"Check for Interfering Apps\" and share a screenshot of the popup that appears here."
@@ -970,7 +923,6 @@
   {
     "name": "6e",
     "description": "Do I need a Wifi 6E Router?",
-    "ephemeral": false,
     "embed": {
       "title": "Do I need a Wifi 6E Router?",
       "description": "If you have a lot of congestion at your location, it could help. Type /channels and hit enter in the chat here to see the channels list and a link to an Android tool for surveying the surrounding wifi.\n\n**Is Wifi 6E FASTER than Wifi 6?**\nNo. The hardware for both wifi protocols are rated at the same speeds. HOWEVER, wifi 6E uses the 6Ghz band which is primarily not used by other devices and will not suffer from as much interference and congestion as Wifi 6 which should mean it performs better.\nIn the first image below I had two machines, both using Wifi 6 (5Ghz) and I was transferring a file between them. In the second image the exact same machines were connected to the same router with Wifi 6E (6Ghz). As you can see, the Wifi 6E connection was much more stable and nearly twice as fast because of a lack of interference!\nNote: For some the 6Ghz band does not work as well over longer distances. Be sure your 6E router is in the room with your headset.",
@@ -982,7 +934,6 @@
   {
     "name": "intel",
     "description": "Intel Driver and Support Assistant",
-    "ephemeral": false,
     "embed": {
       "title": "Intel Driver and Support Assistant",
       "description": "Make sure your Intel drivers are up-to-date by [clicking here](https://www.intel.com/content/www/us/en/support/intel-driver-support-assistant.html) to download and install the Intel Driver and Support Assistant.",
@@ -994,7 +945,6 @@
   {
     "name": "usb",
     "description": "Virtual Desktop Does Not Support Streaming Over a USB Cable",
-    "ephemeral": false,
     "embed": {
       "title": "Virtual Desktop Does Not Support Streaming Over a USB Cable",
       "description": "Third party store applications do not have low level access to the USB interface. We are aware that other solutions simulate a USB connection with alternative methods but these methods can not be supported by Virtual Desktop for PCVR game streaming.\n\nThere is an unsupported method for using a USB-c to Ethernet adapter on the headset which runs to your router or PC. While we don't provide support for that method, you may find useful information about it here: https://discord.com/channels/564087419918483486/1390686127937159209"
@@ -1003,7 +953,6 @@
   {
     "name": "runtimes",
     "description": "What is a \"Runtime\" and How Does it Relate to Virtual Desktop",
-    "ephemeral": false,
     "embed": {
       "title": "What is a \"Runtime\" and How Does it Relate to Virtual Desktop",
       "description": "For a comprehensive explanation on what a \"runtime\" is and how it relates to Virtual Desktop, [please click here](https://github.com/mbucchia/VirtualDesktop-OpenXR/wiki/Oculus-%22Runtimes%22)",
@@ -1015,7 +964,6 @@
   {
     "name": "sgsr",
     "description": "SGSR (Snapdragon Game Super Resolution)",
-    "ephemeral": false,
     "embed": {
       "title": "SGSR (Snapdragon Game Super Resolution)",
       "description": "Qualcomm's SGSR (Snapdragon Game Super Resolution) implemented by Virtual Desktop is headset-side resolution upscaling performed on the headset after the video/image has been streamed from the PC.\n\nThe upscaling for each headset is as follows:\n\n**Pico Neo 3, Pico 4, HTC Vive XR Elite and HTC Vive Focus 3:** Upscales to Ultra on settings up to High and 90Hz\n**Quest 2, Quest Pro:** Only works on settings up to High and 90Hz\n**Quest 3:** Works on all settings including Godlike 120Hz\n**Quest 2, Quest Pro, Quest 3:** Upscales to the panel maximum\n\n**SGSR not compatible with Chromakey Passthrough except on Quest 3. You will only be able to enable one or the other on all headsets other than Quest 3.**",
@@ -1027,7 +975,6 @@
   {
     "name": "support",
     "description": "Staff are only volunteers, please be respectful",
-    "ephemeral": false,
     "embed": {
       "title": "Staff are only volunteers, please be respectful",
       "description": "**Virtual Desktop support personnel are volunteers.** They will answer your questions based on their availability and the clarity of your request. Please be patient, courteous, clear and understand that there are limitations to their scope of support. 'screen black how fix?' Will likely go unanswered. A complete question with detail will likely be answered.\n\nHere are examples on how to ask questions with proper etiquette: [LINK](https://dontasktoask.com/)"
@@ -1036,7 +983,6 @@
   {
     "name": "installer",
     "description": "Streamer fails to install with installer not found error",
-    "ephemeral": false,
     "embed": {
       "title": "Streamer fails to install with installer not found error",
       "description": "If you are experiencing issues with installing or updating the streamer, try using the `Fix Problems Using Windows Update` option within windows recovery settings.\n\n__It will NOT remove any personal files or applications__",
@@ -1048,43 +994,38 @@
   {
     "name": "spacewarp",
     "description": "Explanation on how Synchronous SpaceWarp functions",
-    "ephemeral": false,
     "embed": {
       "title": "Synchronous SpaceWarp",
       "description": "Synchronous SpaceWarp (SSW), developed in collaboration with Qualcomm, is Virtual Desktop's 3D **reprojection technology** designed to **halve the rendering load on PCs** by extrapolating every alternate frame directly on the headset. For instance, if your PC can only render **45fps**, the headset will fill in the gaps, keeping a smooth **90fps** experience.\n\nSSW can introduce graphical **artifacts** that may appear as warping or straight lines bending, so if possible it's **preferable for your pc to render the full fps.** However SSW is **beneficial on lower end systems**, or when you want to **push higher graphical settings** than your PC is capable of normally.\n\nThis is **different** to PC technologies like DLSS 3 which ***interpolate*** frames as opposed to ***extrapolating*** frames. The difference being that **DLSS 3 increases latency** while **SSW reduces perceived latency**"
     }
   },
   {
-  "name": "wrc",
-  "description": "WRC Troubleshooting",
-  "ephemeral": false,
-  "embed": {
-        "title": "WRC Troubleshooting",
-        "description": "**Jittering/stuttering**\n- In the Virtual Desktop PC streamer app, change your OpenXR runtime selection to VDXR. This will bypass SteamVR and increase your performance and eliminate jittering/stuttering when moving your head.\n\n**False/poor Controller Inputs**\n- WRC accepts VR controllers as inputs, and thus Virtual Desktop's hand tracking feature can interfere with inputs even when holding a regular gamepad. Disable hand tracking in Virtual Desktop Input settings to avoid this conflict."
+    "name": "wrc",
+    "description": "WRC Troubleshooting",
+    "embed": {
+      "title": "WRC Troubleshooting",
+      "description": "**Jittering/stuttering**\n- In the Virtual Desktop PC streamer app, change your OpenXR runtime selection to VDXR. This will bypass SteamVR and increase your performance and eliminate jittering/stuttering when moving your head.\n\n**False/poor Controller Inputs**\n- WRC accepts VR controllers as inputs, and thus Virtual Desktop's hand tracking feature can interfere with inputs even when holding a regular gamepad. Disable hand tracking in Virtual Desktop Input settings to avoid this conflict."
     }
   },
   {
-  "name": "beta",
-  "description": "Beta Feedback",
-  "ephemeral": false,
-  "embed": {
-        "title": "Beta Feedback",
-        "description": "Questions, concerns or reports about issues involving the **BETA** should be addressed in the <#952979951286628362> channel."
+    "name": "beta",
+    "description": "Beta Feedback",
+    "embed": {
+      "title": "Beta Feedback",
+      "description": "Questions, concerns or reports about issues involving the **BETA** should be addressed in the <#952979951286628362> channel."
     }
   },
   {
-  "name": "avast",
-  "description": "Avast Ruled as Spyware by FTC",
-  "ephemeral": false,
-  "embed": {
-        "title": "Avast Ruled as Spyware by FTC",
-        "description": "Avast was recently [sued by the FTC](https://consumer.ftc.gov/consumer-alerts/2024/02/software-provider-avast-will-pay-165-million-compromising-consumers-privacy) for selling private user data. We recommend removing Avast from your system, as it can now be considered spyware."
+    "name": "avast",
+    "description": "Avast Ruled as Spyware by FTC",
+    "embed": {
+      "title": "Avast Ruled as Spyware by FTC",
+      "description": "Avast was recently [sued by the FTC](https://consumer.ftc.gov/consumer-alerts/2024/02/software-provider-avast-will-pay-165-million-compromising-consumers-privacy) for selling private user data. We recommend removing Avast from your system, as it can now be considered spyware."
     }
   },
   {
     "name": "multimonitor",
     "description": "Explanation of the multimonitor feature",
-    "ephemeral": false,
     "embed": {
       "title": "Multi-Monitor",
       "description": "**Supported Headsets**\n* **Meta Quest 3, Pico 4 Ultra:** Up to 3 monitors.\n* **Meta Quest 2, Meta Quest Pro, Pico Neo 3, Pico 4, Vive Focus 3, Vive XR Elite:** Up to 2 monitors.\n* **Meta Quest 1:** Only 1 monitor is supported\n\n**Resolution Limits**\n* **Meta Quest 3:**\n * **Single monitor:** Up to 3840x2160.\n * **Multiple monitors:** Up to 2560x1440 per monitor.\n* **All other headsets:**\n * **Single monitor:** Up to 2560x1440.\n * **Multiple monitors:** Up to 1920x1080 per monitor.\n\n**Streaming Quality**\nThe monitor stream has a maximum bitrate of 120mbps, shared between all active monitors:\n* **1 monitor:** 120mbps\n* **2 monitors:** 60mbps each\n* **3 monitors:** 40mbps each\n\n**Platform Specific**\n**Windows:**\n* Supports creating virtual monitors up to the maximum supported by your headset.\n* You can mix both physical and virtual monitors (e.g., on Quest 3, you can have 2 physical monitors and 1 virtual monitor for a total of 3 monitors).\n\n**MacOS:**\n* The same monitor limits per headset apply as listed above.\n",
@@ -1096,8 +1037,7 @@
   {
     "name": "dongle",
     "description": "Connecting the Quest 3 directly with ethernet",
-    "ephemeral": false,
-    "embed":{
+    "embed": {
       "title": "**__Using a USB Dongle/Adapter on your Meta Quest__**",
       "description": "While it's **unsupported here and by Meta**, it is possible to use a USB to Ethernet adapter or hub attached to your Quest 3 headset.\n\nThere are a few conditions that must be met:\n1. This is a not officially supported feature and can be removed by Meta at any time. (Meta removed this feature from the Quest 2 and the Quest 3 in the past)\n2. Many USB to Ethernet devices simply will not work. You'll need to research which ones will work.\n3. Developer mode and an adb command from a connected PC is required to make this work with the Quest 2 `adb shell setprop debug.usb.ethernet.enabled 1`\n4. The headset will give you no indication that it's using the Ethernet connection other than that it simply works.\n5. **Neither Meta nor Virtual Desktop provide support for this feature. If it doesn't work properly, you'll need to do your own research to figure out why and how to fix it.**\n"
     }
@@ -1105,8 +1045,7 @@
   {
     "name": "openxrtoolkit",
     "description": "Note about OpenXR Toolkit being deprecated",
-    "ephemeral": false,
-    "embed":{
+    "embed": {
       "title": "**__OpenXR Toolkit is deprecated__**",
       "description": "Support will not be provided for use of the tool in any support channels\n\nNothing in the tool has been changed in over a year and the developer recommends if you experience new issues with it you follow the official troubleshooting and [reset your settings](https://mbucchia.github.io/OpenXR-Toolkit/troubleshooting.html#reset-all-the-settings)\n"
     }
@@ -1114,8 +1053,7 @@
   {
     "name": "opencomposite",
     "description": "OpenComposite not supported",
-    "ephemeral": false,
-    "embed":{
+    "embed": {
       "title": "**__OpenComposite not supported__**",
       "description": "OpenComposite overwrites OpenVR API calls and tries to redirect them to OpenXR, however it's an imperfect process and often uses unsupported and unreliable methods which can cause issues and incompatibilities. So sometimes it will work and sometimes it won't and because it's impossible to tell what's due to an issue with OpenComposite or VDXR we don't provide any support for it"
     }
@@ -1123,7 +1061,6 @@
   {
     "name": "latency",
     "description": "Get help with Latency, Stutter and Optimizing Configuration",
-    "ephemeral": false,
     "embed": {
       "title": "Latency, Stutter and Optimizing Configuration",
       "description": "For help with  Latency, Stutter and Optimizing your Configuration read the following: https://discord.com/channels/564087419918483486/586993452185681946/624135826435211265"
@@ -1132,7 +1069,6 @@
   {
     "name": "optimize",
     "description": "VR Desktop Optimization Guide",
-    "ephemeral": false,
     "embed": {
       "title": "VR Desktop Optimization Guide",
       "description": "This comprehensive guide covers network setup, Wi-Fi optimization, and software configuration to optimize your Virtual Desktop experience.\n\nUse the navigation buttons below to view:\n- **Part 1**: Network & Wi-Fi Setup (Steps 1-6)\n- **Part 2**: Software Configuration (Steps 7-13)"
