@@ -324,7 +324,7 @@
     },
     "pages": [
       {
-        "name": "Main Page",
+        "name": "mainpage",
         "title": "Main Page - Text Guide",
         "description": "Main Page Introduction",
         "embeds": [
