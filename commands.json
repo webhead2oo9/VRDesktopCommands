@@ -778,12 +778,18 @@
     }
   },
   {
-    "name": "oculusserver",
-    "description": "Oculus Servers Unreachable",
+    "name": "metaserver",
+    "description": "Meta Servers Unreachable",
     "embed": {
-      "title": "Oculus Servers Unreachable",
+      "title": "Meta Servers Unreachable",
       "description": "This could likely be a DNS issue or a bug associated with a recent Quest OS update. If your internet is working well from your Quest (you can check via store and web browser) and you've already rebooted your headset a few times, here are a few steps to try:\n\n**Step 1:** You might want to change the assigned DNS in your router WAN settings (NOT LAN). This tends to be the quickest fix. We suggest using either 8.8.8.8 or 1.1.1.1, or both.\n\n**Step 2:** Don't forget to reboot your router after making these changes. It's a small step that could make a big difference.\n\nIf all else fails, some users have resolved this issue by performing a factory reset on their Quest. However, be aware that this is due to a bug encountered with the recent Quest OS update, and this method may not work for everyone."
-    }
+    },
+    "embeds": [
+      {
+        "title": "Meta Servers Unreachable",
+        "description": "This could likely be a DNS issue or a bug associated with a recent Quest OS update. If your internet is working well from your Quest (you can check via store and web browser) and you've already rebooted your headset a few times, here are a few steps to try:\n\n**Step 1:** You might want to change the assigned DNS in your router WAN settings (NOT LAN). This tends to be the quickest fix. We suggest using either 8.8.8.8 or 1.1.1.1, or both.\n\n**Step 2:** Don't forget to reboot your router after making these changes. It's a small step that could make a big difference.\n\nIf all else fails, some users have resolved this issue by performing a factory reset on their Quest. However, be aware that this is due to a bug encountered with the recent Quest OS update, and this method may not work for everyone."
+      }
+    ]
   },
   {
     "name": "falsepositive",
