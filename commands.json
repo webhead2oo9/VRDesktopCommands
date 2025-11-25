@@ -20,7 +20,7 @@
         ]
       },
       {
-        "name": "TPLinkBE9300",
+        "name": "tplinkbe9300",
         "title": "TP-Link BE9300/BE550",
         "description": "(*Preferred* BE/Wifi 7) - TP-Link BE9300/BE550",
         "emoji": "",
@@ -49,7 +49,7 @@
         ]
       },
       {
-        "name": "TPLinkAXE5400",
+        "name": "tplinkaxe5400",
         "title": "TP-Link Archer AXE75/AXE5400",
         "description": "(*Preferred* AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400",
         "emoji": "",
@@ -107,7 +107,7 @@
         ]
       },
       {
-        "name": "BerylGLMT3000",
+        "name": "berylglmt3000",
         "title": "GL.iNet Beryl GL-MT3000",
         "description": "(AX/Wifi 6) GL.iNet Beryl GL-MT3000",
         "emoji": "",
@@ -170,7 +170,7 @@
         ]
       },
       {
-        "name": "OpalGLSFT1200",
+        "name": "opalglsft1200",
         "title": "GL.iNet Opal GL-SFT1200",
         "description": "(Last Resort AC/Wifi 5) - Opal GL-SFT1200",
         "emoji": "",
@@ -204,7 +204,7 @@
         ]
       },
       {
-        "name": "TPLinkC6",
+        "name": "tplinkc6",
         "title": "TP-Link Archer C6 or A6",
         "description": "(Last Resort AC/Wifi 5) - TP-Link C6 or A6",
         "emoji": "",
@@ -349,7 +349,7 @@
         ]
       },
       {
-        "name": "SetupWifi",
+        "name": "setupwifi",
         "title": "Set up your new GL.iNet Opal Wi-Fi network.",
         "description": "If you have already set up your GL.iNet Opal, please review steps 4-5.",
         "embeds": [
@@ -382,7 +382,7 @@
         ]
       },
       {
-        "name": "ConnectToInternet",
+        "name": "connecttointernet",
         "title": "Connect your GL.iNet Opal to the Internet.",
         "description": "Connect your GL.iNet Opal to the Internet.",
         "embeds": [
@@ -403,7 +403,7 @@
         ]
       },
       {
-        "name": "ConnectVRToOpal",
+        "name": "connectvrtoopal",
         "title": "Connect your VR Headset to the GL.iNet Opal.",
         "description": "Connect your VR headset to the GL.iNet Opal.",
         "embeds": [
@@ -561,8 +561,14 @@
     "description": "Recommended GPU Drivers",
     "embed": {
       "title": "Recommended GPU Drivers",
-      "description": "NVIDIA RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nAll Other NVIDIA GPUs: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000/9000 series: [25.10.2](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-10-2.html)"
-    }
+      "description": "NVIDIA RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nAll Other NVIDIA GPUs: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html#Download)\n\nAMD 7000/9000 series: [25.10.2](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-10-2.html#Download)"
+    },
+    "embeds": [
+      {
+        "title": "Recommended GPU Drivers",
+        "description": "NVIDIA RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nAll Other NVIDIA GPUs: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html#Download)\n\nAMD 7000/9000 series: [25.10.2](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-10-2.html#Download)"
+      }
+    ]
   },
   {
     "name": "ethernetalt",
