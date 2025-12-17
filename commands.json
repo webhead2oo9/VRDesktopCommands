@@ -461,7 +461,7 @@
         },
         {
           "name": "Quest 2/Quest 3S/Pico Neo 3/Quest Pro/Quest 3/Galaxy XR",
-          "value": "Potato: 1344x1440\nLow: 1728x1824\nMedium: 2112x2304\nHigh: 2496x2688\nUltra: 2688x2880\nGodlike: 3072x3264 (Quest Pro/Quest 3/Galaxy XR)"
+          "value": "Potato: 1344x1440\nLow: 1728x1824\nMedium: 2112x2304\nHigh: 2496x2688\nUltra: 2688x2880\nGodlike: 3072x3264 (Quest Pro/Quest 3/Galaxy XR)\nMonster: 3648x3936 (Galaxy XR)"
         },
         {
           "name": "Vive XR Elite/Pico 4 / Pico 4 Ultra",
@@ -484,7 +484,7 @@
           },
           {
             "name": "Quest 2/Quest 3S/Pico Neo 3/Quest Pro/Quest 3/Galaxy XR",
-            "value": "Potato: 1344x1440\nLow: 1728x1824\nMedium: 2112x2304\nHigh: 2496x2688\nUltra: 2688x2880\nGodlike: 3072x3264 (Quest Pro/Quest 3/Galaxy XR)"
+            "value": "Potato: 1344x1440\nLow: 1728x1824\nMedium: 2112x2304\nHigh: 2496x2688\nUltra: 2688x2880\nGodlike: 3072x3264 (Quest Pro/Quest 3/Galaxy XR)\nMonster: 3648x3936 (Galaxy XR)"
           },
           {
             "name": "Vive XR Elite/Pico 4 / Pico 4 Ultra",
