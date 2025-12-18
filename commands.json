@@ -231,6 +231,21 @@
             }
           }
         ]
+      },
+      {
+        "name": "arrissurfboardthruster",
+        "title": "ARRIS Surfboard Thruster",
+        "description": "(*Preferred* AXE/Wifi 6E) - ARRIS Surfboard Thruster",
+        "embed": {
+          "title": "ARRIS Surfboard Thruster",
+          "description": "(*Preferred* AXE/Wifi 6E) - ARRIS Surfboard Thruster"
+        },
+        "embeds": [
+          {
+            "title": "ARRIS Surfboard Thruster",
+            "description": "(*Preferred* AXE/Wifi 6E) - ARRIS Surfboard Thruster"
+          }
+        ]
       }
     ],
     "embeds": [
