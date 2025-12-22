@@ -714,8 +714,14 @@
     "description": "WiFi Standards and Bands Explained",
     "embed": {
       "title": "WiFi Standards for VR",
-      "description": "**IMPORTANT: WiFi Numbers â‰  GHz Bands!**\nThe WiFi version number (5, 6, 6E, 7) does NOT match the GHz frequency:\n- WiFi 5 uses 2.4GHz and 5GHz\n- WiFi 6 uses 2.4GHz and 5GHz (NOT 6GHz!)\n- WiFi 6E adds 6GHz band\n- WiFi 7 uses all three bands (2.4/5/6GHz)\n\nNote: Some WiFi 7 routers do not have 6GHz band - these are not recommended.\n\n**WiFi Standards for Gaming with Virtual Desktop:**\n- **WiFi 5 (AC, 2.4/5GHz)** - Minimum required, Max Link: 867 Mbps\n- **WiFi 6 (AX, 2.4/5GHz)** - Good performance, Max Link: 1200 Mbps\n- **WiFi 6E (AXE, adds 6GHz)** - Best choice, Max Link: 2400 Mbps\n- **WiFi 7 (BE, all bands)** - Future-proof, Max Link: 5800 Mbps\n\nNote: 2.4GHz is not supported for gaming but may be suitable for desktop viewing."
-    }
+      "description": "**IMPORTANT: WiFi Numbers are not GHz Bands!**\nThe WiFi version number (5, 6, 6E, 7) does NOT match the GHz frequency:\n- WiFi 5 uses 2.4GHz and 5GHz\n- WiFi 6 uses 2.4GHz and 5GHz (NOT 6GHz!)\n- WiFi 6E adds 6GHz band\n- WiFi 7 uses all three bands (2.4/5/6GHz)\n\nNote: Some WiFi 7 routers do not have 6GHz band - these are not recommended.\n\n**WiFi Standards for Gaming with Virtual Desktop:**\n- **WiFi 5 (AC, 2.4/5GHz)** - Minimum required, Max Link: 867 Mbps\n- **WiFi 6 (AX, 2.4/5GHz)** - Good performance, Max Link: 1200 Mbps\n- **WiFi 6E (AXE, adds 6GHz)** - Best choice, Max Link: 2400 Mbps\n- **WiFi 7 (BE, all bands)** - Future-proof, Max Link: 5800 Mbps\n\nNote: 2.4GHz is not supported for gaming but may be suitable for desktop viewing."
+    },
+    "embeds": [
+      {
+        "title": "WiFi Standards for VR",
+        "description": "**IMPORTANT: WiFi Numbers are not GHz Bands!**\nThe WiFi version number (5, 6, 6E, 7) does NOT match the GHz frequency:\n- WiFi 5 uses 2.4GHz and 5GHz\n- WiFi 6 uses 2.4GHz and 5GHz (NOT 6GHz!)\n- WiFi 6E adds 6GHz band\n- WiFi 7 uses all three bands (2.4/5/6GHz)\n\nNote: Some WiFi 7 routers do not have 6GHz band - these are not recommended.\n\n**WiFi Standards for Gaming with Virtual Desktop:**\n- **WiFi 5 (AC, 2.4/5GHz)** - Minimum required, Max Link: 867 Mbps\n- **WiFi 6 (AX, 2.4/5GHz)** - Good performance, Max Link: 1200 Mbps\n- **WiFi 6E (AXE, adds 6GHz)** - Best choice, Max Link: 2400 Mbps\n- **WiFi 7 (BE, all bands)** - Future-proof, Max Link: 5800 Mbps\n\nNote: 2.4GHz is not supported for gaming but may be suitable for desktop viewing."
+      }
+    ]
   },
   {
     "name": "limit",
