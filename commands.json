@@ -273,7 +273,7 @@
     "description": "Information about IOBT and Forwarded Data",
     "embed": {
       "title": "Inside Out Body Tracking",
-      "description": "Virtual Desktop supports passing through upper body tracking (Q3) and estimation using Meta IOBT (All Quests).",
+      "description": "Virtual Desktop supports passing through upper body tracking (Q3) and estimation using Meta IOBT (All Quests). To enable the feature, go into the menu in VR, select the Streaming tab and check the following options: \n- Forward tracking data to PC\n- Emulate Vive trackers",
       "fields": [
         {
           "name": "What is IOBT?",
@@ -300,7 +300,39 @@
           "value": "Verify the 'Vive Tracker Emulation' is enabled in the VD Streaming tab which is an option once 'Forward Tracking Data to PC' is enabled.\n\n Once enabled, verify SteamVR Addons has the Virtual Desktop addon enabled."
         }
       ]
-    }
+    },
+    "embeds": [
+      {
+        "title": "Inside Out Body Tracking",
+        "description": "Virtual Desktop supports passing through upper body tracking (Q3) and estimation using Meta IOBT (All Quests). To enable the feature, go into the menu in VR, select the Streaming tab and check the following options: \n- Forward tracking data to PC\n- Emulate Vive trackers",
+        "fields": [
+          {
+            "name": "What is IOBT?",
+            "value": "Inside out Body Tracking is a [feature provided by Meta](https://developer.oculus.com/blog/inside-out-body-tracking-and-generative-legs/) that allows you to use the Quest for Full Body Tracking/Estimation."
+          },
+          {
+            "name": "Supported Devices",
+            "value": "All Quest devices are supported, at this time no other devices have this feature available on native openXR."
+          },
+          {
+            "name": "What is Tracked on IOBT?",
+            "value": "**Quest 3**: Upper Body is tracked using the cameras, waist and legs are estimated based on upper body positioning.\n **Quest 2/Pro/1**: All estimation based on head and hand pose. Cameras do not track your body. [You can see a demo of estimation here](https://www.youtube.com/watch?v=lkDW5yuQnvQ)"
+          },
+          {
+            "name": "Are my feet tracked?",
+            "value": "Meta does not provide feet tracking, only feet estimation based on upper body pose."
+          },
+          {
+            "name": "Can I use this with other trackers?",
+            "value": "Yes, you can disable specific trackers at any time by setting the individual tracker to 'Held In Hand' or using [Dentech's configuration tool](https://github.com/DenTechs/Virtual_Desktop_Body_Tracking_Configurator/releases).\n This will allow you to use Slime/Vive trackers with IOBT."
+          },
+          {
+            "name": "Hand Tracking/Body Tracking not showing up in SteamVR",
+            "value": "Verify the 'Vive Tracker Emulation' is enabled in the VD Streaming tab which is an option once 'Forward Tracking Data to PC' is enabled.\n\n Once enabled, verify SteamVR Addons has the Virtual Desktop addon enabled."
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "indexemulation",
