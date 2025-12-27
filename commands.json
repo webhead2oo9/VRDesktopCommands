@@ -238,13 +238,13 @@
         "description": "(*Preferred* AXE/Wifi 6E) - ARRIS Surfboard Thruster",
         "embed": {
           "title": "ARRIS Surfboard Thruster",
-          "description": "The ARRIS Surfboard Thruster Wi-Fi 6E Gaming Router Acceleration Kit is an excellent dedicated router that has been tested for wireless VR streaming. It has a single 2.5GbE LAN port to connect to your computer. Amazon US: <https://www.amazon.com/ARRIS-Surfboard-Acceleration-W6B-Connectivity/>",
+          "description": "The ARRIS Surfboard Thruster Wi-Fi 6E Gaming Router Acceleration Kit is an excellent dedicated access point that has been tested for wireless VR streaming. It has a single 2.5GbE LAN port to connect to your computer. Note that it can’t act as a regular router with other devices; it will only work as an access point for a single computer for VR streaming. Amazon US: <https://www.amazon.com/ARRIS-Surfboard-Acceleration-W6B-Connectivity/>",
           "url": "https://www.amazon.com/ARRIS-Surfboard-Acceleration-W6B-Connectivity"
         },
         "embeds": [
           {
             "title": "ARRIS Surfboard Thruster",
-            "description": "The ARRIS Surfboard Thruster Wi-Fi 6E Gaming Router Acceleration Kit is an excellent dedicated router that has been tested for wireless VR streaming. It has a single 2.5GbE LAN port to connect to your computer. Amazon US: <https://www.amazon.com/ARRIS-Surfboard-Acceleration-W6B-Connectivity/>",
+            "description": "The ARRIS Surfboard Thruster Wi-Fi 6E Gaming Router Acceleration Kit is an excellent dedicated access point that has been tested for wireless VR streaming. It has a single 2.5GbE LAN port to connect to your computer. Note that it can’t act as a regular router with other devices; it will only work as an access point for a single computer for VR streaming. Amazon US: <https://www.amazon.com/ARRIS-Surfboard-Acceleration-W6B-Connectivity/>",
             "url": "https://www.amazon.com/ARRIS-Surfboard-Acceleration-W6B-Connectivity"
           }
         ]
