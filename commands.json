@@ -4,7 +4,7 @@
     "description": "Community Tested Routers",
     "embed": {
       "title": "Community Tested Routers",
-      "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($179-$299 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 (~$190 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(**Preferred** AXE/Wifi 6E) - ARRIS Surfboard Thruster ($37 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
+      "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($179-$299 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 (~$190 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(**Preferred** AXE/Wifi 6E) - ARRIS Surfboard W6U ($29 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
     },
     "pages": [
       {
@@ -253,7 +253,7 @@
     "embeds": [
       {
         "title": "Community Tested Routers",
-        "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($179-$299 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 (~$190 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(**Preferred** AXE/Wifi 6E) - ARRIS Surfboard Thruster ($37 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
+        "description": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($179-$299 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 (~$190 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(**Preferred** AXE/Wifi 6E) - ARRIS Surfboard W6U ($29 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
       }
     ]
   },
