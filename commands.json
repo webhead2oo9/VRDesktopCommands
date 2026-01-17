@@ -238,13 +238,13 @@
         "description": "(*Preferred* AXE/Wifi 6E) - ARRIS Surfboard 6E AP",
         "embed": {
           "title": "ARRIS Surfboard 6E AP",
-          "description": "The ARRIS Surfboard Wi-Fi 6E AP is an excellent dedicated access point that has been tested for wireless VR streaming. It has a single 2.5GbE LAN port to connect to your network. Note that it can’t act as a regular router with other devices; it will only work as an access point for a single computer for VR streaming.",
+          "description": "The ARRIS Surfboard Wi-Fi 6E AP is an excellent dedicated access point that has been tested for wireless VR streaming. It has a single 2.5GbE LAN port to connect to your network. Note that it can’t act as a regular router with other devices; it will only work as an access point for a single computer for VR streaming. Please note this only provides a 6E broadcast",
           "url": "https://www.amazon.com/ARRIS-Surfboard-W6U-Dedicated-Compatible/dp/B09XWMCV9H/"
         },
         "embeds": [
           {
             "title": "ARRIS Surfboard 6E AP",
-            "description": "The ARRIS Surfboard Wi-Fi 6E AP is an excellent dedicated access point that has been tested for wireless VR streaming. It has a single 2.5GbE LAN port to connect to your network. Note that it can’t act as a regular router with other devices; it will only work as an access point for a single computer for VR streaming.",
+            "description": "The ARRIS Surfboard Wi-Fi 6E AP is an excellent dedicated access point that has been tested for wireless VR streaming. It has a single 2.5GbE LAN port to connect to your network. Note that it can’t act as a regular router with other devices; it will only work as an access point for a single computer for VR streaming. Please note this only provides a 6E broadcast",
             "url": "https://www.amazon.com/ARRIS-Surfboard-W6U-Dedicated-Compatible/dp/B09XWMCV9H/"
           }
         ]
