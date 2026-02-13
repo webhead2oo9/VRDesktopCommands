@@ -1325,12 +1325,12 @@
     "description": "Smart App Control",
     "embed": {
       "title": "Smart App Control",
-      "description": "If you get an error installing the latest Virtual Desktop Streamer, disable Smart App Control in Windows Security"
+      "description": "If you get an error installing the latest Virtual Desktop Streamer, disable Smart App Control in Windows Security.\nClick the Windows icon at the bottom of your screen, then type: `Smart App Control`. Set Smart App Control to `Off’ and run the setup again."
     },
     "embeds": [
       {
         "title": "Smart App Control",
-        "description": "If you get an error installing the latest Virtual Desktop Streamer, disable Smart App Control in Windows Security"
+        "description": "If you get an error installing the latest Virtual Desktop Streamer, disable Smart App Control in Windows Security.\nClick the Windows icon at the bottom of your screen, then type: `Smart App Control`. Set Smart App Control to `Off’ and run the setup again."
       }
     ],
     "pages": []
