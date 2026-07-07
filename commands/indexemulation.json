@@ -1,0 +1,40 @@
+{
+  "format": 2,
+  "name": "indexemulation",
+  "description": "Valve Index Controller Emulation",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Valve Index Controller Emulation"
+    },
+    {
+      "type": "text",
+      "text": "Virtual Desktop allows you to emulate Index Controllers for full hand tracking support, as well as Skeletal Input in SteamVR."
+    },
+    {
+      "type": "field",
+      "name": "Where can I use it?",
+      "value": "Not all games will support it, but in supported games in scenes that do not require buttons such as stationary VRChat."
+    },
+    {
+      "type": "field",
+      "name": "How do I use it?",
+      "value": "Make sure Hand Tracking is enabled in the Quest in 'Movement Tracking'\n Enable Forward Data to PC in the 'Streaming' Tab in Virtual Desktop\n\nSkeletal Input: No other changes, this will pass through as expected.\nRegular Hand Tracking: Check 'Index Controller Emulation'."
+    },
+    {
+      "type": "field",
+      "name": "What is Tracked on Index Controller Emulation?",
+      "value": "On all Quests, you can pass through your hand tracking as index controller emulation, allowing you to use full finger movement on hand tracking in supported games.\n\n If the game supports Skeletal Input, you do not need to enable this option and will have full Skeletal including Splay in supported titles."
+    },
+    {
+      "type": "field",
+      "name": "It's not working?",
+      "value": "Make sure the SteamVR Addon for Virtual Desktop is enabled, if disabled this will not work as expected."
+    },
+    {
+      "type": "field",
+      "name": "How do I move?",
+      "value": "While using hand tracking, you cannot move however you can pick up a controller at any time for movement."
+    }
+  ]
+}

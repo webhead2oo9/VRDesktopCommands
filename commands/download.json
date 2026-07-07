@@ -1,0 +1,21 @@
+{
+  "format": 2,
+  "name": "download",
+  "description": "How to manually update the Streamer app",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "How to manually update the Streamer app"
+    },
+    {
+      "type": "text",
+      "text": "To update, [download the Streamer from the website](https://www.vrdesktop.net/) and install it over the existing installation."
+    },
+    {
+      "type": "images",
+      "urls": [
+        "https://cdn.discordapp.com/attachments/586993452185681946/1010006469913088070/unknown.png"
+      ]
+    }
+  ]
+}

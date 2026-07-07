@@ -1,0 +1,21 @@
+{
+  "format": 2,
+  "name": "hotspot",
+  "description": "Windows hotspot",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Windows Mobile Hotspots Are Not Supported"
+    },
+    {
+      "type": "text",
+      "text": "We won't stop you from trying to use a Windows hotspot but we don't provide any support for setups that attempt to utilise them due to their inconsistency, unreliability, limitations and just because Windows performs poorly as a router/router replacement."
+    },
+    {
+      "type": "images",
+      "urls": [
+        "https://cdn.discordapp.com/attachments/692030889932095529/1181278404427923648/image.png?ex=6589b4be&is=65773fbe&hm=ef0cf33b31a3fd0112e5fcffe7e6e37bc53c90ad7dc5b291aebfdbdb16347fe3&"
+      ]
+    }
+  ]
+}

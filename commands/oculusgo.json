@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "oculusgo",
+  "description": "Streamer Version for Oculus Go & GearVR Users",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Streamer Version for Oculus Go & GearVR"
+    },
+    {
+      "type": "text",
+      "text": "If you're using Oculus Go or GearVR, you need to use version 1.20.38 of the Streamer. This is the last version that is compatible with these devices. You can download it from [here](https://download.vrdesktop.net/files/go/VirtualDesktop.Streamer.Setup.exe)."
+    }
+  ]
+}

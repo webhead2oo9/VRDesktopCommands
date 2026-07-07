@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "halflifealyx",
+  "description": "Half-Life: Alyx - Stutter Fix",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Half-Life: Alyx - Stutter Fix"
+    },
+    {
+      "type": "text",
+      "text": "Right-click on Half-Life: Alyx in Steam, then click Properties. In the 'General' tab, click on 'Launch Options', and paste the following: ```+vr_fidelity_level_auto 0 +vr_fidelity_level 3```"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "beta",
+  "description": "Beta Feedback",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Beta Feedback"
+    },
+    {
+      "type": "text",
+      "text": "Questions, concerns or reports about issues involving the **BETA** should be addressed in the <#952979951286628362> channel."
+    }
+  ]
+}

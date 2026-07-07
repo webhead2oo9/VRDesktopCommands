@@ -1,0 +1,21 @@
+{
+  "format": 2,
+  "name": "potentiallyunwantedapps",
+  "description": "Potentially Unwanted Apps",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "PUA"
+    },
+    {
+      "type": "text",
+      "text": "Microsoft's Windows Defender includes a feature called 'Potentially Unwanted App (PUA) Protection' or 'Reputation-based Protection'. This can sometimes flag new installers incorrectly. To disable it:\n\n1. Open your Start menu\n2. Type 'reputation'\n3. Click on 'Reputation-based Protection' (should be the top result)\n4. Scroll down to 'Potentially Unwanted App Blocking'\n5. Turn this setting off."
+    },
+    {
+      "type": "images",
+      "urls": [
+        "https://vrdiscord.com/screenshots/vd/pua.jpg"
+      ]
+    }
+  ]
+}

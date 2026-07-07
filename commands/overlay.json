@@ -1,0 +1,21 @@
+{
+  "format": 2,
+  "name": "overlay",
+  "description": "Sharing Screenshots of the Performance Overlay",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Sharing Screenshots of the Performance Overlay"
+    },
+    {
+      "type": "text",
+      "text": "1.) Go into the Settings tab in the Virtual Desktop menu in VR and ensure \"copy screenshots to desktop\" is enabled.\n2.) Navigate to the Streaming tab and enable \"Show performance overlay\".\n3.) Launch your VR game.\n4.) Look for numbers that are turning orange.\n5.) When you see this, hold the right Oculus button and press either the right or left trigger to take a screenshot.\nIf the screenshot shortcut does not work, press the Oculus button once and press the camera icon on the Oculus menu to take a screenshot.\n\nOn Pico Neo 3, press the Pico button on your controller, then click the screenshot (scissors) button.\n\nOn Pico 4, press the screenshot button on your right controller.\n\nThe screenshot will be found on your desktop, and you can share it here."
+    },
+    {
+      "type": "images",
+      "urls": [
+        "https://cdn.discordapp.com/attachments/830109245642899496/893921627153240064/vdoverlay.gif"
+      ]
+    }
+  ]
+}

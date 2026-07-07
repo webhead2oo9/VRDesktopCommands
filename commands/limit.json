@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "limit",
+  "description": "Limitations",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Limitations"
+    },
+    {
+      "type": "text",
+      "text": "Virtual Desktop does not stop or hinder you from using it with a network or PC setup that does not meet minimum requirements. Also, not meeting the minimum requirements doesn't necessarily mean that VRD or your game won't work.\nHowever, because VRD wasn't designed to work on setups that don't meet the requirements, we can't actively support those setups and we cannot guarantee the app will work."
+    }
+  ]
+}

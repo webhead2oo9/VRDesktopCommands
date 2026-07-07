@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "justask",
+  "description": "Don't ask to ask",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Don't ask to ask; just ask"
+    },
+    {
+      "type": "text",
+      "text": "Asking 'Hey, can anyone help me?' can be seen as bad form. The best way to get assistance is to ask your entire question, with all the necessary details, in a relevant channel. There are many reasons why knowledgeable people might not offer help upfront, but by asking the full question, you're inviting people to provide an answer, not asking them to commit to solving a problem they might not know how to solve."
+    }
+  ]
+}

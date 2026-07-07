@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "doublenat",
+  "description": "Test for a double NAT",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Test for a double NAT"
+    },
+    {
+      "type": "text",
+      "text": "The simplest way to test for a double NAT is to check the IP assigned to WAN on your router and compare it to the result when you Google \"what is my IP\". If they are not the same, that means you have a double NAT. Another, less reliable, method is to open a command prompt on a computer in your home and type: tracert 8.8.8.8. If you see multiple private IP addresses, it means you have a double NAT. For more information, visit: https://windowsreport.com/double-nat/"
+    }
+  ]
+}

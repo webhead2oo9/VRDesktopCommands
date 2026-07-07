@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "tasklist",
+  "description": "Provide a TaskList",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Provide a TaskList"
+    },
+    {
+      "type": "text",
+      "text": "Open a command prompt as an Administrator on your computer and type: tasklist > C:\\list.txt\n\nThen, navigate to your C drive and attach the list.txt file here."
+    }
+  ]
+}

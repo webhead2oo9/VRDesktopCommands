@@ -1,0 +1,125 @@
+// Validate every commands/*.json against commands.schema.json plus the
+// repo invariants ajv can't express: filename === name, page names unique
+// within each command, and (format 2) each render unit's total rendered
+// text within the Components-V2 message budget. Exits 1 with a per-file
+// issue list.
+const fs = require("fs");
+const path = require("path");
+const Ajv = require("ajv");
+
+const NAME_PATTERN = /^[a-z0-9_-]{1,32}$/;
+const COMMANDS_DIR = "commands";
+
+// Components V2 caps a message at 4000 characters across all text
+// components; 3800 leaves headroom for the page dropdown & bot chrome.
+// Must match the bot's renderer: heading -> "## text" or "## [text](url)",
+// field -> "**name**\nvalue", small -> "-# text".
+const UNIT_TEXT_BUDGET = 3800;
+
+function renderedBlockChars(block) {
+  switch (block.type) {
+    case "heading":
+      return 3 + block.text.length + (block.url ? block.url.length + 4 : 0);
+    case "text":
+      return block.text.length;
+    case "field":
+      return block.name.length + 5 + block.value.length;
+    case "small":
+      return 3 + block.text.length;
+    default:
+      return 0; // divider, images
+  }
+}
+
+function checkUnitBudget(filePath, label, blocks, issues) {
+  const total = blocks.reduce((sum, block) => sum + renderedBlockChars(block), 0);
+  if (total > UNIT_TEXT_BUDGET) {
+    issues.push(
+      `${filePath}: ${label} renders ${total} text characters (max ${UNIT_TEXT_BUDGET} per view) — split content across pages`,
+    );
+  }
+}
+
+// A thumbnail renders as a Section accessory beside the view's first run of
+// text blocks — with no text block the bot strips it at load with only a
+// warning, so CI is the loud gate against authoring one.
+const TEXT_BLOCK_TYPES = new Set(["heading", "text", "field", "small"]);
+
+function checkThumbnail(filePath, label, unit, issues) {
+  if (unit.thumbnail_url === undefined) return;
+  const blocks = Array.isArray(unit.blocks) ? unit.blocks : [];
+  if (!blocks.some(block => block && TEXT_BLOCK_TYPES.has(block.type))) {
+    issues.push(
+      `${filePath}: ${label} sets 'thumbnail_url' but has no text block (heading/text/field/small) to attach it to`,
+    );
+  }
+}
+
+const ajv = new Ajv({ allErrors: true });
+const validate = ajv.compile(JSON.parse(fs.readFileSync("commands.schema.json", "utf8")));
+
+const issues = [];
+const files = fs
+  .readdirSync(COMMANDS_DIR)
+  .filter(f => f.endsWith(".json"))
+  .sort();
+
+if (files.length === 0) {
+  issues.push(`${COMMANDS_DIR}/ contains no .json files`);
+}
+
+for (const file of files) {
+  const filePath = path.join(COMMANDS_DIR, file);
+  let command;
+  try {
+    command = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch (err) {
+    issues.push(`${filePath}: invalid JSON (${err.message})`);
+    continue;
+  }
+
+  if (!validate(command)) {
+    for (const err of validate.errors) {
+      issues.push(`${filePath}: ${err.instancePath || "/"} ${err.message}`);
+    }
+  }
+
+  const expectedName = path.basename(file, ".json");
+  if (command.name !== expectedName) {
+    issues.push(`${filePath}: name '${command.name}' does not match filename '${expectedName}'`);
+  }
+  if (!NAME_PATTERN.test(expectedName)) {
+    issues.push(`${filePath}: filename is not a valid command name`);
+  }
+
+  if (Array.isArray(command.pages)) {
+    const seen = new Set();
+    for (const page of command.pages) {
+      if (typeof page.name !== "string") continue;
+      if (seen.has(page.name)) {
+        issues.push(`${filePath}: duplicate page name '${page.name}'`);
+      }
+      seen.add(page.name);
+    }
+  }
+
+  if (command.format === 2) {
+    if (Array.isArray(command.blocks)) {
+      checkUnitBudget(filePath, "top-level blocks", command.blocks, issues);
+    }
+    checkThumbnail(filePath, "the command", command, issues);
+    for (const page of command.pages ?? []) {
+      if (Array.isArray(page.blocks)) {
+        checkUnitBudget(filePath, `page '${page.name}'`, page.blocks, issues);
+      }
+      checkThumbnail(filePath, `page '${page.name}'`, page, issues);
+    }
+  }
+}
+
+if (issues.length > 0) {
+  console.error(`Found ${issues.length} issue(s):`);
+  for (const issue of issues) console.error(`  - ${issue}`);
+  process.exit(1);
+}
+console.log(`OK: ${files.length} command files valid.`);

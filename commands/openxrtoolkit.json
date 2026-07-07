@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "openxrtoolkit",
+  "description": "Note about OpenXR Toolkit being deprecated",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "**__OpenXR Toolkit is deprecated__**"
+    },
+    {
+      "type": "text",
+      "text": "Support will not be provided for use of the tool in any support channels\n\nNothing in the tool has been changed in over a year and the developer recommends if you experience new issues with it you follow the official troubleshooting and [reset your settings](https://mbucchia.github.io/OpenXR-Toolkit/troubleshooting.html#reset-all-the-settings)\n"
+    }
+  ]
+}

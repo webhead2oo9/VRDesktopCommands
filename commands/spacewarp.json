@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "spacewarp",
+  "description": "Explanation on how Synchronous SpaceWarp functions",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Synchronous SpaceWarp"
+    },
+    {
+      "type": "text",
+      "text": "Synchronous SpaceWarp (SSW), developed in collaboration with Qualcomm, is Virtual Desktop's 3D **reprojection technology** designed to **halve the rendering load on PCs** by extrapolating every alternate frame directly on the headset. For instance, if your PC can only render **45fps**, the headset will fill in the gaps, keeping a smooth **90fps** experience.\n\nSSW can introduce graphical **artifacts** that may appear as warping or straight lines bending, so if possible it's **preferable for your pc to render the full fps.** However SSW is **beneficial on lower end systems**, or when you want to **push higher graphical settings** than your PC is capable of normally.\n\nThis is **different** to PC technologies like DLSS 3 which ***interpolate*** frames as opposed to ***extrapolating*** frames. The difference being that **DLSS 3 increases latency** while **SSW reduces perceived latency**"
+    }
+  ]
+}

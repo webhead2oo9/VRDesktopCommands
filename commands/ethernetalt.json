@@ -1,0 +1,26 @@
+{
+  "format": 2,
+  "name": "ethernetalt",
+  "description": "Ethernet requirement",
+  "accent_color": 15158332,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Ethernet Connection Required"
+    },
+    {
+      "type": "text",
+      "text": "Virtual Desktop requires a Gigabit Ethernet connection from your PC to your router. This is required for support."
+    },
+    {
+      "type": "field",
+      "name": "**Connection Requirements**",
+      "value": "- Gigabit Ethernet from PC to router\n- AC or AX router\n\nWireless PC connections cause instability and are NOT supported, even if they worked temporarily in the past."
+    },
+    {
+      "type": "field",
+      "name": "**Router Too Far?**",
+      "value": "Check `/routers` for a list of tested dedicated streaming routers that can be placed closer to your play space."
+    }
+  ]
+}

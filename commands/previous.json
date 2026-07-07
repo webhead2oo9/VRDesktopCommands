@@ -1,0 +1,26 @@
+{
+  "format": 2,
+  "name": "previous",
+  "description": "How to Install the Previous Version",
+  "accent_color": 15158332,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "How to Install the Previous Version"
+    },
+    {
+      "type": "text",
+      "text": "If you suspect that a newer version is causing issues, you can install the previous version at any time by uninstalling the current version from your device and following the instructions below."
+    },
+    {
+      "type": "field",
+      "name": "**Quest**",
+      "value": "Download the previous version using the [Release Channel](https://vrdiscord.com/screenshots/vd/releasechannel/release.jpg) option to choose 'Previous' within your Quest by clicking the [three dots](https://vrdiscord.com/screenshots/vd/releasechannel/apps.jpg) and selecting [settings](https://vrdiscord.com/screenshots/vd/releasechannel/settings.jpg).\n Download the previous Streamer from [GitHub](https://github.com/guygodin/VirtualDesktop/releases/) for the version you are installing."
+    },
+    {
+      "type": "field",
+      "name": "**Pico**",
+      "value": "Download the previous version APK and Streamer from [GitHub](https://github.com/guygodin/VirtualDesktop/releases/) for the version you are installing. Copy the APK to your Pico or download using the browser and install with File Browser, and reinstall the correct streamer."
+    }
+  ]
+}

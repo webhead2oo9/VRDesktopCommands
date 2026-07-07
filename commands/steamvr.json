@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "steamvr",
+  "description": "SteamVR clean reinstall",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Clean Reinstall SteamVR"
+    },
+    {
+      "type": "text",
+      "text": "**1).** Uninstall the Virtual Desktop Streamer app from Windows\n**2).** Cleanly reinstall SteamVR using the [manual method](https://steamcommunity.com/app/250820/discussions/2/1640917625015598552/) or the [automated script](https://github.com/GeoMaciolek/steamvr-clean-reinstall)\n**3).** Reinstall the [Virtual Desktop Streamer app](https://www.vrdesktop.net/)"
+    }
+  ]
+}

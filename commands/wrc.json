@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "wrc",
+  "description": "WRC Troubleshooting",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "WRC Troubleshooting"
+    },
+    {
+      "type": "text",
+      "text": "**Jittering/stuttering**\n- In the Virtual Desktop PC streamer app, change your OpenXR runtime selection to VDXR. This will bypass SteamVR and increase your performance and eliminate jittering/stuttering when moving your head.\n\n**False/poor Controller Inputs**\n- WRC accepts VR controllers as inputs, and thus Virtual Desktop's hand tracking feature can interfere with inputs even when holding a regular gamepad. Disable hand tracking in Virtual Desktop Input settings to avoid this conflict."
+    }
+  ]
+}

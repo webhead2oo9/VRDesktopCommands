@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "remote",
+  "description": "Connecting to your computer remotely over the internet",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Connecting to your computer remotely over the internet"
+    },
+    {
+      "type": "text",
+      "text": "Make sure 'Allow remote connections' is checked in the Streamer window, Options tab on your computer.\n\nYou'll also need to enable UPnP on your router and the Streamer App will forward the required ports automatically.\n\nIf you want to manually configure your router, forward TCP ports 38810, 38820, 38830, and 38840. All traffic uses end-to-end encryption."
+    }
+  ]
+}

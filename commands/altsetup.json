@@ -1,0 +1,21 @@
+{
+  "format": 2,
+  "name": "altsetup",
+  "description": "Alternate Dedicated Router Setup Diagrams",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Alternate Dedicated Router Setup Diagrams"
+    },
+    {
+      "type": "images",
+      "urls": [
+        "https://vrdiscord.com/screenshots/vd/network_setups.png"
+      ]
+    },
+    {
+      "type": "small",
+      "text": "Check the /ics command for a guide on how to set up like the lower diagram"
+    }
+  ]
+}

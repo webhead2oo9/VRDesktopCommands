@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "ptc",
+  "description": "Opting Out of Public Test Channel (PTC)",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "PTC"
+    },
+    {
+      "type": "text",
+      "text": "Here's how you can opt-out of the Public Test Channel (PTC):\n\n1. Open your Quest mobile app on your phone.\n2. Go to 'Devices', then 'Headset Settings', and then 'Advanced Settings'.\n3. If 'Public Test Channel' is enabled, click on it to disable.\n\nRemember, it's usually better to avoid opting in for public test versions unless you're ready to deal with potential bugs. While these test builds can have exciting new features, they can also have unresolved issues, sometimes even game-breaking ones."
+    }
+  ]
+}

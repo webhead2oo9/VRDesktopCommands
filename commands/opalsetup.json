@@ -1,0 +1,189 @@
+{
+  "format": 2,
+  "name": "opalsetup",
+  "description": "GL.iNet Opal Setup Guide",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Opal Setup Guide"
+    },
+    {
+      "type": "text",
+      "text": "You can follow a video guide on how to setup your Opal [here](https://youtu.be/1HwT-Own6vo)."
+    },
+    {
+      "type": "images",
+      "urls": [
+        "https://vrdiscord.com/images/virtualdesktop/discord/opalsetup.png"
+      ]
+    },
+    {
+      "type": "small",
+      "text": "Thanks Dylan!"
+    }
+  ],
+  "pages": [
+    {
+      "name": "mainpage",
+      "title": "Main Page - Text Guide",
+      "description": "Main Page Introduction",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Introduction"
+        },
+        {
+          "type": "text",
+          "text": "The following chain of messages is a setup guide specifically designed for owners of the GL.iNet Opal router (model GL-SFT1200) with no way to directly wire it to both their PC and home router as an access point for Virtual Desktop, you can follow a video guide on how to setup your Opal [here](https://youtu.be/1HwT-Own6vo) as well. Traditionally, network bridges for Virtual Desktop are set up by using Internet Connection Sharing on Windows to feed Internet to a router in Access Point mode by the WAN port. The Opal can repeat an Internet connection wirelessly while transmitting its own Wi-Fi signal, as shown in the !opalsetup diagram drawn by @DenTechs.\n\nIn this guide, we will set up the GL.iNet Opal to use Repeater Mode, which takes your existing home Wi-Fi connection and repeats it to your PC over Ethernet and your VR headset over its own Wi-Fi signal. This means the Opal router will be able take video data from your PC by Ethernet and send it over Wi-Fi to your VR headset, while also providing an Internet connection to each device. This is both less expensive and more versatile than the D-Link AirBridge solution. The setup process is very easy and should take no longer than 20 minutes to complete."
+        },
+        {
+          "type": "field",
+          "name": "Requirements",
+          "value": "- [GL.iNet Opal](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5)\n- Ethernet Cable\n- VR Ready PC with Virtual Desktop Streamer installed\n- VR Headset with Virtual Desktop installed\n- Your current home router (2.4GHz sufficient. Internet speed irrelevant)"
+        },
+        {
+          "type": "field",
+          "name": "Note",
+          "value": "The Opal includes a very short Ethernet cable. For best results, use a long cable to clear the router of other electronics.\n\nOwners of the GL.iNet Slate AX (model GL-AXT1800) and Opal owners using the experimental GL.iNet firmware v4 from the firmware download page may use this guide, as the UI and functionality are very similar, with the exception of channel optimization."
+        },
+        {
+          "type": "field",
+          "name": "Caution",
+          "value": "Always use the included power brick or equivalent. The Opal's power input spec is 5V/3A."
+        }
+      ]
+    },
+    {
+      "name": "setupwifi",
+      "title": "Set up your new GL.iNet Opal Wi-Fi network.",
+      "description": "If you have already set up your GL.iNet Opal, please review steps 4-5.",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Set up your new GL.iNet Opal Wi-Fi network."
+        },
+        {
+          "type": "text",
+          "text": "If you have already set up your GL.iNet Opal, please review steps 4-5."
+        },
+        {
+          "type": "field",
+          "name": "Step 1",
+          "value": "Power up your GL.iNet Opal and connect your PCs Ethernet cable to one of the LAN ports. Avoid using the WAN port during setup."
+        },
+        {
+          "type": "field",
+          "name": "Step 2",
+          "value": "In your browser URL bar, enter 192.168.8.1 to access the GL.iNet Admin Panel. This is the router's LOCAL IP address; no one can access it from outside your network."
+        },
+        {
+          "type": "field",
+          "name": "Step 3",
+          "value": "If you have not done so, perform first-time setup and set the admin password. You may want to write this down, as you will need to enter it every time you access the Admin Panel from now on. This password can be changed later without impacting connected devices."
+        },
+        {
+          "type": "field",
+          "name": "Step 4",
+          "value": "Go to the Wireless tab. From here, you can set up the Wi-Fi name and password for your VR headset to connect to. Perform the next set of steps for both the 2.4G and 5G networks."
+        },
+        {
+          "type": "field",
+          "name": "Step 5",
+          "value": "On both networks, click Channel Optimization and wait for it to complete. The router will scan Wi-Fi channels in your area and select the least congested one.\n\nMake sure Guest Networks are disabled, as they may cause issues for Virtual Desktop if enabled."
+        }
+      ]
+    },
+    {
+      "name": "connecttointernet",
+      "title": "Connect your GL.iNet Opal to the Internet.",
+      "description": "Connect your GL.iNet Opal to the Internet.",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Phase 2: Connect your GL.iNet Opal to the Internet."
+        },
+        {
+          "type": "text",
+          "text": "In this phase, we will connect your GL.iNet Opal to the Internet."
+        },
+        {
+          "type": "field",
+          "name": "Step 1",
+          "value": "Set up Repeater Mode."
+        },
+        {
+          "type": "field",
+          "name": "Step 2",
+          "value": "Set up Extender Mode (optional, but recommended if you find the Internet connection is a bit slow or you need your PC to see other devices on the home network.)"
+        }
+      ]
+    },
+    {
+      "name": "connectvrtoopal",
+      "title": "Connect your VR Headset to the GL.iNet Opal.",
+      "description": "Connect your VR headset to the GL.iNet Opal.",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Phase 3: Connect your VR Headset to the GL.iNet Opal."
+        },
+        {
+          "type": "text",
+          "text": "In this phase, we will connect your VR headset to the GL.iNet Opal."
+        },
+        {
+          "type": "field",
+          "name": "Step 1",
+          "value": "Connect your VR headset to your new Wi-Fi."
+        },
+        {
+          "type": "field",
+          "name": "Step 2",
+          "value": "Open Virtual Desktop."
+        },
+        {
+          "type": "field",
+          "name": "Step 3",
+          "value": "Launch a game."
+        }
+      ]
+    },
+    {
+      "name": "notes",
+      "title": "Notes and Miscellaneous Information",
+      "description": "Additional information and notes for the setup process.",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Phase 1 Notes"
+        },
+        {
+          "type": "text",
+          "text": "You can disable the 2.4GHz network if you wish, by turning it off in the Wireless tab, but any time you perform a router reset, it will turn on again. All GL.iNet Opal routers have the same default Wi-Fi passwords, which is why Step 4e is required. Fortunately, router resets do not revert your passwords or network names.\n\nTurning down the TX Power of your Opal Wi-Fi will reduce the range at which your devices can connect to it. While this may seem counterintuitive, it may be a courteous gesture to do so, as your neighbors will have less wireless interference. However, do this at your own risk. It may slow your connection down.\n\nDo not use the guest networks on the GL.iNet Opal if you plan to use Virtual Desktop. Having guest networks enabled is unnecessary and can lead to problems connecting or using VR. This does not apply to the Opal exclusively; guest networks should be avoided generally for Virtual Desktop."
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "heading",
+          "text": "Phase 2 Notes"
+        },
+        {
+          "type": "text",
+          "text": "Soft Reset: If you experience a problem (lose Internet, can no longer connect to your GL.iNet Wi-Fi or lose access to the admin panel), hold the button on the side of the router for 4 seconds. The light will slowly blink blue 3 times. Let go as soon as it starts to blink faster. If the light stays solid while holding the button, leave the router alone for 5 minutes, as it may be recovering from a crash. Avoid unplugging the router until you have access to the admin panel. This soft reset will restore access to the admin panel and re-enable your Wi-Fi, but you will need to reconnect Repeater Mode.\n\n?? CAUTION: Do not hold the reset button for longer than the suggested time, as a 10 second hold WILL cause a FACTORY RESET!\n\nWhen this guide was originally written, it was thought that Repeater Mode was too slow to be used for VR and that connecting the GL.iNet router to the home Wi-Fi over 5GHz would cause Virtual Desktop to underperform. This is no longer the case. Testing has proven that Repeater Mode can handle VR just fine and using 5GHz may actually be beneficial in some situations. Depending on your situation, it may even give your PC full speed Internet.\n\nChoosing Extender Mode may be helpful if you need to use local connections with other devices."
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "heading",
+          "text": "Phase 3 Notes"
+        },
+        {
+          "type": "text",
+          "text": "While it is absolutely not required, it may help to tell your headset to treat the Wi-Fi connection as unmetered. There have been no confirmed cases (to my knowledge) of this actually helping or solving any particular issue, but it is something to keep in mind.\n\nSometimes you may see an orange warning when Virtual Desktop connects, even if nothing is wrong. Ive seen this happen frequently after making changes to my router. If it fails to connect after two or three attempts, restart your PC and headset. If it fails again, restart the router by disconnecting it from power for 10 seconds."
+        }
+      ]
+    }
+  ]
+}

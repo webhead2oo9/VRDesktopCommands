@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "autobitrate",
+  "description": "Automatic Bitrate",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Automatic Bitrate"
+    },
+    {
+      "type": "text",
+      "text": "Automatic Bitrate conducts a small 10MB speed test when you first connect to determine your maximum stable bitrate. While it can be disabled in the VRD Streamer in the Options tab, we recommend leaving it on in order to help in detecting network issues."
+    }
+  ]
+}

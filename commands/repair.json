@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "repair",
+  "description": "Virtual Desktop Repair",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Virtual Desktop Repair"
+    },
+    {
+      "type": "text",
+      "text": "If you are experiencing issues installing or updating Virtual Desktop, [please use this repair installer](https://download.vrdesktop.net/files/VirtualDesktop.Streamer.Repair.exe) to fix the problem."
+    }
+  ]
+}

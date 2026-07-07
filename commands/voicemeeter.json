@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "voicemeeter",
+  "description": "VoiceMeeter Mode",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VoiceMeeter Mode"
+    },
+    {
+      "type": "text",
+      "text": "**VoiceMeeter Mode** (with VR Headset only selected) restricts audio reaching the headset to only the Virtual Desktop Audio device. The Virtual Desktop Audio device can then be used in a software app such as VB Audio's VoiceMeeter for routing audio directly to the headset.\n\nThis mode does not perform any other function. The best place for support with VoiceMeeter is [VB Audio's Discord server](https://discord.com/invite/TF42rahAXS)."
+    }
+  ]
+}

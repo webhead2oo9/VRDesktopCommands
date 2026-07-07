@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "wifi",
+  "description": "Wi-Fi link speed doesn't mean actual data speed",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Wi-Fi link speed doesn't mean actual data speed"
+    },
+    {
+      "type": "text",
+      "text": "Think of Wi-Fi link speed as a pipe's size and data as water. The link speed is the maximum water that can flow through the pipe. However, the actual flow can be slower due to several reasons: \n1. Shared bandwidth - it's like too many taps drawing water from the same pipe, slowing down the flow at each tap. \n2. Interference - it's like dirt in the pipe blocking the flow of water. Other devices can interfere with your Wi-Fi signal. \n3. Distance and obstacles - it's like the pipe being longer or having turns, slowing down the water. Being further from the router or having walls in between can slow down your Wi-Fi. \nSo, a big pipe (high link speed) doesn't always mean fast water flow (high data speed)."
+    }
+  ]
+}

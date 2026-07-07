@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "latency",
+  "description": "Get help with Latency, Stutter and Optimizing Configuration",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Latency, Stutter and Optimizing Configuration"
+    },
+    {
+      "type": "text",
+      "text": "For help with  Latency, Stutter and Optimizing your Configuration read the following: https://discord.com/channels/564087419918483486/586993452185681946/624135826435211265"
+    }
+  ]
+}

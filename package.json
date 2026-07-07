@@ -1,0 +1,11 @@
+{
+  "name": "vdhelpjson",
+  "private": true,
+  "description": "Virtual Desktop Discord help-center commands (one JSON per command)",
+  "scripts": {
+    "validate": "node validate-schema.js"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1"
+  }
+}

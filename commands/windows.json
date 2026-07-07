@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "windows",
+  "description": "Guide to upgrade to Windows 10/11 while retaining files and apps",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Upgrade/Reinstall Windows 10/11 & Keep Your Files and Apps"
+    },
+    {
+      "type": "text",
+      "text": "Follow the steps below to upgrade or reinstall your Windows:\n\n**Windows 10**:\n1. Download the latest Windows 10 ISO from [Microsoft's website](https://www.microsoft.com/en-us/software-download/windows10ISO).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and select 'Keep files and programs'.\n\nNote: Always back up important data before an OS reinstall.\n\n**Windows 11**:\n1. Download the Windows 11 ISO from [Microsoft's website](https://www.microsoft.com/software-download/windows11).\n2. Open the downloaded ISO.\n3. Follow on-screen prompts and ensure to keep your data and applications.\n\nNote: Ensure compatibility and back up important data before upgrading if you are on Windows 10."
+    }
+  ]
+}

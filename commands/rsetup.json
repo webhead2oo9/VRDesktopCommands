@@ -1,0 +1,17 @@
+{
+  "format": 2,
+  "name": "rsetup",
+  "description": "Dedicated Router Setup Diagram",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Dedicated Router Setup Diagram"
+    },
+    {
+      "type": "images",
+      "urls": [
+        "https://vrdiscord.com/images/routersetup.png"
+      ]
+    }
+  ]
+}

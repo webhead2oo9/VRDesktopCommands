@@ -1,0 +1,21 @@
+{
+  "format": 2,
+  "name": "runtimes",
+  "description": "What is a \"Runtime\" and How Does it Relate to Virtual Desktop",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "What is a \"Runtime\" and How Does it Relate to Virtual Desktop"
+    },
+    {
+      "type": "text",
+      "text": "For a comprehensive explanation on what a \"runtime\" is and how it relates to Virtual Desktop, [please click here](https://github.com/mbucchia/VirtualDesktop-OpenXR/wiki/Oculus-%22Runtimes%22)"
+    },
+    {
+      "type": "images",
+      "urls": [
+        "https://cdn.discordapp.com/attachments/830109388927926282/1189437278548918322/287508481-7a29cdc1-023b-4612-9f07-3e92e8fea648.png"
+      ]
+    }
+  ]
+}

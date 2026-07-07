@@ -1,0 +1,21 @@
+{
+  "format": 2,
+  "name": "microphone",
+  "description": "Headset microphone isn't capturing audio",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Headset microphone isn't capturing audio"
+    },
+    {
+      "type": "text",
+      "text": "If your headset mic has stopped capturing audio unexpectedly, check that Microphone Passthrough is __enabled__ in the Settings tab of the Virtual Desktop headset app.\nSome headsets will occasionally turn this setting off during boot without warning."
+    },
+    {
+      "type": "images",
+      "urls": [
+        "https://cdn.discordapp.com/attachments/588170196968013845/1425580876473040946/image.png?ex=68e81b26&is=68e6c9a6&hm=c42a250c849b83f7065ef136f966f927fb67d2cb17cadf680936bd8f0cbc0179"
+      ]
+    }
+  ]
+}

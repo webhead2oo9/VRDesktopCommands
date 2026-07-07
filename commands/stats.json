@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "stats",
+  "description": "What the different latency figures mean",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Latency Figures in the Performance Overlay"
+    },
+    {
+      "type": "text",
+      "text": "**Game** is your computer's CPU/GPU rendering the game\n**Encoding** is your GPU encoding the video\n**Networking** is your router and network\n**Decoding** is the headset GPU decoding the image"
+    }
+  ]
+}

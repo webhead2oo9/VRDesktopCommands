@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - 'commands.json'
+      - 'commands/**'
       - 'docs/**'
   workflow_dispatch: {}
 
@@ -24,10 +24,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         
-      - name: Copy commands.json to _data
+      - name: Aggregate command files into _data
         run: |
           mkdir -p docs/_data
-          cp commands.json docs/_data/commands.json
+          # Slurp every format-2 command file into one sorted array the Jekyll template reads.
+          jq -s 'sort_by(.name)' commands/*.json > docs/_data/commands.json
+          echo "Aggregated $(jq length docs/_data/commands.json) commands."
           
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1

@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "codec",
+  "description": "Scenarios for best codec use",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Which codec should I use?"
+    },
+    {
+      "type": "text",
+      "text": "Best to leave the Preferred Codec to Automatic, but if you want to try different ones, here's which is best for what:\n\n**H.264:** has the lowest latency but not as efficient as the other codecs\n**H.264+:** has higher bitrate limit; good for racing or fast-paced games but requires ideal network conditions\n**HEVC:** has improved efficiency (looks better at the same bitrate compared to H.264) but takes a bit more time to encode/decode\n**AV1:** has best efficiency (~30% better than HEVC) but requires Nvidia 4000 or AMD 7000 series GPU and a Quest 3\n**10-bit encoding:** improves color gradients, recommended for darker/slower games"
+    }
+  ]
+}

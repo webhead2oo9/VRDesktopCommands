@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "ethernet",
+  "description": "Ethernet requirement",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "**__Ethernet is required__**"
+    },
+    {
+      "type": "text",
+      "text": "Rebooting your router can provide a temporary fix for certain issues you may be experiencing. Please note that since 2018, a Gigabit Ethernet or better connection between your PC and an AC, AX or better router is mandatory for support. Past success with other setups does not guarantee stability, and these configurations are not supported due to frequent complications.\n\nVirtual Desktop always recommends the PC be connected via Ethernet (exception: PrismXR Puppis S1 connects directly via USB).\n\nIf your router is too far away to establish an Ethernet connection, use the command '/routers' to view a list of routers that have been tested by the community."
+    }
+  ]
+}

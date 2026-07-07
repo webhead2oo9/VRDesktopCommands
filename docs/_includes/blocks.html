@@ -1,0 +1,19 @@
+{% comment %}
+  Renders a format-2 block array (heading/text/field/divider/images/small).
+  Usage: {% include blocks.html blocks=cmd.blocks %}
+  Bold/italic markers are stripped to match the flat docs styling; markdown
+  links and bare URLs are turned into anchors by the page's JS.
+{% endcomment %}
+{% for block in include.blocks %}{% case block.type %}{% when 'heading' %}
+<div class="vd-block-heading">{% if block.url %}<a href="{{ block.url }}" target="_blank" rel="noopener">{{ block.text | replace: '**', '' | replace: '__', '' | replace: '*', '' }}</a>{% else %}{{ block.text | replace: '**', '' | replace: '__', '' | replace: '*', '' }}{% endif %}</div>
+{% when 'text' %}
+<div class="vd-block-text vd-formatted-text">{{ block.text | replace: '**', '' | replace: '__', '' | replace: '*', '' | replace: '_', '' | newline_to_br }}</div>
+{% when 'field' %}
+<div class="vd-field"><div class="vd-field-name">{{ block.name | replace: '**', '' | replace: '__', '' }}</div><div class="vd-field-value vd-formatted-text">{{ block.value | replace: '**', '' | replace: '__', '' | replace: '*', '' | replace: '_', '' | newline_to_br }}</div></div>
+{% when 'divider' %}
+<hr class="vd-divider">
+{% when 'images' %}
+<div class="vd-images">{% for u in block.urls %}<img src="{{ u }}" alt="" loading="lazy">{% endfor %}</div>
+{% when 'small' %}
+<div class="vd-block-small vd-formatted-text">{{ block.text | replace: '**', '' | replace: '__', '' | replace: '*', '' | replace: '_', '' | newline_to_br }}</div>
+{% endcase %}{% endfor %}

@@ -1,0 +1,17 @@
+{
+  "format": 2,
+  "name": "uh-oh",
+  "description": "Your PC Isn't Connected by an Ethernet Cable?",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Your PC Isn't Connected by an Ethernet Cable?"
+    },
+    {
+      "type": "images",
+      "urls": [
+        "https://cdn.discordapp.com/attachments/588170196968013845/1183567730100682923/image.png?ex=6588ce58&is=65765958&hm=67feb42bc49f4249ca2b3e6b59099b1af97e31af650cb9e14d1b9b2378a6768b&"
+      ]
+    }
+  ]
+}

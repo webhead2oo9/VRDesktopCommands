@@ -1,0 +1,21 @@
+{
+  "format": 2,
+  "name": "msappinstall",
+  "description": "App Recommendation Settings",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "App Recommendation Settings"
+    },
+    {
+      "type": "text",
+      "text": "To bypass Microsoft's restrictive app installation policy:\n\n1. Open Start menu\n2. Search 'Choose where to get apps'\n3. In 'Apps & features', set to 'Anywhere'\n\nThis allows installing apps from any source. You may still see warnings, but can select 'Install anyway'."
+    },
+    {
+      "type": "images",
+      "urls": [
+        "https://vrdiscord.com/screenshots/vd/choosewheretoget.jpg"
+      ]
+    }
+  ]
+}

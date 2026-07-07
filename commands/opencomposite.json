@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "opencomposite",
+  "description": "OpenComposite not supported",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "**__OpenComposite not supported__**"
+    },
+    {
+      "type": "text",
+      "text": "OpenComposite overwrites OpenVR API calls and tries to redirect them to OpenXR, however it's an imperfect process and often uses unsupported and unreliable methods which can cause issues and incompatibilities. So sometimes it will work and sometimes it won't and because it's impossible to tell what's due to an issue with OpenComposite or VDXR we don't provide any support for it"
+    }
+  ]
+}

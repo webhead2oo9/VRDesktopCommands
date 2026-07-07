@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "bonelab",
+  "description": "Workaround for Bonelab on the Oculus store",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Bonelab issues on Oculus store"
+    },
+    {
+      "type": "text",
+      "text": "After the OpenXR merge in Bonelab Patch 3, the Oculus build may not work as expected on non‑Oculus OpenXR runtimes; the Steam build was fixed in Patch 6 but the Oculus version hasn’t yet, so as a temporary workaround please use the community “HandsStuck” mod: <https://thunderstore.io/c/bonelab/p/HAHOOS/HandsStuck/.>"
+    }
+  ]
+}

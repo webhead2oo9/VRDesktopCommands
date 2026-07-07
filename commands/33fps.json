@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "33fps",
+  "description": "Fixing 33fps issue in SteamVR Games",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Stuck at 33fps in SteamVR Games"
+    },
+    {
+      "type": "text",
+      "text": "If you're stuck at 33fps in SteamVR Games, follow these steps:\n\n1. Completely close Steam and SteamVR.\n2. Navigate to the following paths and delete these files:\n    a. 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\SteamVR\\resources\\settings\\default.vrsettings'\n    b. 'C:\\Program Files (x86)\\Steam\\config\\steamvr.vrsettings'\n    c. 'C:\\Program Files (x86)\\Steam\\config\\lighthouse\\lighthousedb.json'\n\nNext, uninstall SteamVR:\n1. Right click the SteamVR tool from the Steam Library and select 'Uninstall'.\n2. Follow the on-screen prompts to complete the uninstallation of the SteamVR tool.\n3. Make sure to delete any leftover files in the installation directory by deleting the contents in the folder 'SteamVR'. The default path for that folder is '%ProgramFiles(x86)%\\Steam\\steamapps\\common\\SteamVR'.\n\nFinally, reinstall SteamVR."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "format": 2,
+  "name": "installer",
+  "description": "Streamer fails to install with installer not found error",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Streamer fails to install with installer not found error"
+    },
+    {
+      "type": "text",
+      "text": "If you are experiencing issues with installing or updating the streamer, try using the `Fix Problems Using Windows Update` option within windows recovery settings.\n\n__It will NOT remove any personal files or applications__"
+    },
+    {
+      "type": "images",
+      "urls": [
+        "https://cdn.discordapp.com/attachments/1179623061692088382/1249439937871220786/Screenshot_2024-06-09_150444.png?"
+      ]
+    }
+  ]
+}

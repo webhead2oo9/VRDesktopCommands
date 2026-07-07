@@ -1,0 +1,246 @@
+{
+  "format": 2,
+  "name": "routers",
+  "description": "Community Tested Routers",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Community Tested Routers"
+    },
+    {
+      "type": "text",
+      "text": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($179-$299 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 (~$190 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(**Preferred** AXE/Wifi 6E) - ARRIS Surfboard W6U ($29 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
+    }
+  ],
+  "pages": [
+    {
+      "name": "main",
+      "title": "Main Page",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Community Tested Routers"
+        },
+        {
+          "type": "text",
+          "text": "The following routers have been reported to work reliably from a number of users:\n(**Preferred** BE/Wifi 7) - TP-Link BE9300/BE550 ($179-$299 US)\n(**Preferred** AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400 (~$190 US)\n(**Preferred** AXE/Wifi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\n(**Preferred** AXE/Wifi 6E) - ARRIS Surfboard W6U ($29 US)\n(AX/Wifi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\n(AX/Wifi 6) - PRISMXR Puppis S1 ($80 US)\n(Last Resort AC/Wifi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\n(Last Resort AC/Wifi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nAchievable rates are subject to your specific setup, headset, wireless environment and could vary considerably. With a good setup you can expect:\nAXE/BE (up to ~600Mbps)\nAX (up to ~400Mbps)\nAC (up to ~200Mbps)"
+        }
+      ]
+    },
+    {
+      "name": "tplinkbe9300",
+      "title": "TP-Link BE9300/BE550",
+      "description": "(*Preferred* BE/Wifi 7) - TP-Link BE9300/BE550",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "TP-Link BE9300/BE550",
+          "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-be9300/"
+        },
+        {
+          "type": "text",
+          "text": "The TP-Link BE9300/BE550 is a Wi-Fi 7 (Works for Wi-Fi 6e) router that has been tested as a good dedicated router for wireless VR streaming. It has 4 2.5GbE LAN ports and 1 2.5GbE WAN port.\n*Note: Headsets do not support Wi-Fi 7 but Wi-Fi 7 routers function as Wi-Fi 6e as well*"
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Wireless Type__: Wifi 6/6e/7 5/6Ghz\n__Supports DFS__: Yes"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[USA Amazon](https://www.amazon.com/gp/product/B0CJSNSVMR/) [USA Walmart](https://www.walmart.com/ip/TP-Link-Archer-BE9300-Router-Tri-Band-WiFi-7-Wireless-Router-up-to-9-2-Gbps-Speeds-Easy-Setup-Parental-Controls/3339006219) [EU Amazon](https://www.amazon.de/-/en/Archer-BE550/dp/B0CJSNSVMR/)"
+        }
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/682369095798489129/1224843314860265584/61Uj6QU3jBL.png?ex=661ef73a&is=660c823a&hm=6949b4ed6de752b8f09c80967deb5a509dcdc15eb945a307895500e38ea76229&"
+    },
+    {
+      "name": "tplinkaxe5400",
+      "title": "TP-Link Archer AXE75/AXE5400",
+      "description": "(*Preferred* AXE/Wifi 6E) - TP-Link Archer AXE75/AXE5400",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "TP-Link Archer AXE75/AXE5400",
+          "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe5400/"
+        },
+        {
+          "type": "text",
+          "text": "The TP-Link Archer AXE75/AXE5400 is a Wi-Fi 6e router that has been tested as a good dedicated router for wireless VR streaming."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[USA Walmart](https://www.walmart.com/ip/TP-Link-Tri-Band-6-Stream-Wi-Fi-6E-Router-6-Ghz-Band-Speed-up-to-5-4-Gbps-Archer-AXE5400/1853029190) [USA Amazon](https://www.amazon.com/TP-Link-Tri-Band-Archer-AXE75-Wireless/dp/B0B3SQK74L/) [USA TPLink](https://us.store.tp-link.com/collections/router-x/products/archer-axe75-axe5400-tri-band-gigabit-wi-fi-6e-router)"
+        }
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/682369095798489129/1132126125754167346/Archer_AXE5400_Tri-Band_6-Stream_WiFi_6E_Router-01_normal_20221227005559i.png"
+    },
+    {
+      "name": "minion6e",
+      "title": "Davolink Minion 6E",
+      "description": "(*Preferred* AXE/Wifi 6E) - Davolink Minion 6E",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Davolink Minion 6E",
+          "url": "http://www.davolink.co.kr/"
+        },
+        {
+          "type": "text",
+          "text": "The 'Kevin' Router is a good dedicated 6E Router, offering one of the best prices on a 6E Router/AP that has been tested."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Wireless Type__: Wi-Fi 6E / AC\n__Supports DFS__: Yes"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[USA Amazon](https://www.amazon.com/Davolink-Minions-Kevin-Wi-Fi-Router/dp/B0CJXZSLNM?)"
+        }
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/875149053221019668/1211527202085015572/Kevin.png"
+    },
+    {
+      "name": "berylglmt3000",
+      "title": "GL.iNet Beryl GL-MT3000",
+      "description": "(AX/Wifi 6) GL.iNet Beryl GL-MT3000",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "GL.iNet Beryl GL-MT3000",
+          "url": "https://www.gl-inet.com/products/gl-mt3000/"
+        },
+        {
+          "type": "text",
+          "text": "The GL.iNet Beryl GL-MT3000 is a good dedicated router for bridging and repeating an existing wireless network. Unlike the GL.iNet Opal GL-SFT1200, the Beryl supports DFS channels which can be useful when there are limited clear 5ghz channels. Currently you will need to update this to stable firmware 4.6.2 or later for proper performance."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: Yes"
+        },
+        {
+          "type": "field",
+          "name": "Dedicated Bridging Setup",
+          "value": "Follow the [Opal Travel Router Setup Guide](https://discord.com/channels/564087419918483486/692030889932095529/1081059165713207326) or use r/opal for further information."
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[USA](https://www.amazon.com/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [Canada](https://www.amazon.ca/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [UK](https://www.amazon.co.uk/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/)"
+        }
+      ],
+      "thumbnail_url": "https://m.media-amazon.com/images/I/41IiLQJghoL._AC_SX679_.jpg"
+    },
+    {
+      "name": "puppiss1",
+      "title": "PRISMXR Puppis S1",
+      "description": "(AX/Wifi 6) - PRISMXR Puppis S1",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "PRISMXR Puppis S1",
+          "url": "https://www.prismxr.com/products/prismxr-puppis-s1-ax3000-wifi6-router-for-pc-vr-streaming-quest-3-compatible"
+        },
+        {
+          "type": "text",
+          "text": "The Puppis is a small USB connected device that uses a mobile device to set up a connection to your existing network. It can't be used for multiple devices but is a very solid option for just a VR device connected to it."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Wireless Type__: Wifi 6 / AX"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[USA](https://www.amazon.com/PRISMXR-Streaming-Compatible-Accessories-Wireless/dp/B0CFDL5Y7F)"
+        }
+      ],
+      "thumbnail_url": "https://images-ext-1.discordapp.net/external/rRFkGCfqqhBfuQ0_wnX6IQWwXb3fdaj41iLEg4Ty1LM/https/m.media-amazon.com/images/I/51vTZVO%2BbUL._AC_SL1500_.jpg"
+    },
+    {
+      "name": "opalglsft1200",
+      "title": "GL.iNet Opal GL-SFT1200",
+      "description": "(Last Resort AC/Wifi 5) - Opal GL-SFT1200",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "GL.iNet Opal GL-SFT1200",
+          "url": "https://www.gl-inet.com/products/gl-sft1200/"
+        },
+        {
+          "type": "text",
+          "text": "The GL.iNet Opal GL-SFT1200 can be used as a dedicated router for bridging and repeating an existing wireless network."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No"
+        },
+        {
+          "type": "field",
+          "name": "Dedicated Bridging Setup",
+          "value": "Follow the [Opal Travel Router Setup Guide](https://discord.com/channels/564087419918483486/692030889932095529/1081059165713207326) or use r/opal for further information."
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[USA](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5)"
+        }
+      ],
+      "thumbnail_url": "https://m.media-amazon.com/images/I/41sKZ-x0NDL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "name": "tplinkc6",
+      "title": "TP-Link Archer C6 or A6",
+      "description": "(Last Resort AC/Wifi 5) - TP-Link C6 or A6",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "TP-Link Archer C6 or A6",
+          "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c6/"
+        },
+        {
+          "type": "text",
+          "text": "The TPLink C6/A6 can be used as a dedicated router specifically for wireless VR usage, it is a budget router that works competently with Virtual Desktop at lower bitrates."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[USA Amazon](https://www.amazon.com/Dual-band-Gigabit-WiFi-Internet-Router/dp/B08KJF5BS7) [Canada Amazon](https://www.amazon.ca/ROUTER-TP-LINK-ARCHER-AC1200-MU-MIMO/dp/B08GDC3534/) [UK](https://www.amazon.co.uk/TP-Link-AC1200-Wireless-Wi-Fi-Router/dp/B07L5YRYF4)"
+        }
+      ],
+      "thumbnail_url": "https://static.tp-link.com/Archer-C6-1_normal_1533257570157g.jpg"
+    },
+    {
+      "name": "arrissurfboard6e",
+      "title": "ARRIS Surfboard 6e",
+      "description": "(*Preferred* AXE/Wifi 6E) - ARRIS Surfboard 6E AP",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "ARRIS Surfboard 6E AP",
+          "url": "https://www.amazon.com/ARRIS-Surfboard-W6U-Dedicated-Compatible/dp/B09XWMCV9H/"
+        },
+        {
+          "type": "text",
+          "text": "The ARRIS Surfboard Wi-Fi 6E AP is an excellent dedicated access point that has been tested for wireless VR streaming. It has a single 2.5GbE LAN port to connect to your network. Note that it can’t act as a regular router with other devices; it will only work as an access point for a single computer for VR streaming. Please note this only provides a 6E broadcast"
+        }
+      ]
+    }
+  ]
+}

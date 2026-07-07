@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "uninstall",
+  "description": "Unable to Uninstall/Reinstall Streamer App",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Unable to Uninstall/Reinstall Streamer App"
+    },
+    {
+      "type": "text",
+      "text": "If you're unable to uninstall or reinstall the Streamer App, you can use this [tool](https://download.vrdesktop.net/files/MicrosoftProgram_Install_and_Uninstall.meta.diagcab) for assistance."
+    }
+  ]
+}

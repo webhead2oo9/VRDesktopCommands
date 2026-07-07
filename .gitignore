@@ -1,5 +1,10 @@
+# Jekyll (docs/) build artifacts
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
+docs/_data/commands.json
+
+# Node (schema validation)
+node_modules
