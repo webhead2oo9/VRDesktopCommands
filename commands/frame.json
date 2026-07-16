@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "frame",
+  "description": "Describe this command",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Steam Frame support"
+    },
+    {
+      "type": "text",
+      "text": "We know many of you expect to have Virtual Desktop available for the Steam Frame when it launches but Valve chose to not send us a devkit despite our multiple requests (no idea why). It should be possible, in theory, to bring the app over but we don’t know when that will be possible. Virtual Desktop is a native app developed on top of Android and OpenXR. It uses many extensions that are not commonly used by VR games so it often requires new platforms to implement those OpenXR extensions in order to get Virtual Desktop to work. Pico, HTC, PlayForDream and AndroidXR all did a lot of work before their standalone headsets launched to make sure Virtual Desktop would work well with their headsets. Whether this will happen with Valve or not is still unknown. We can always work around missing extensions to some degree but that often means the quality of the experience will be degraded or some features will be unavailable. We obviously don’t like shipping an inferior experience because of platform constraints but we will do our best. We will have a better idea once we get a headset (likely through the order lottery system as everyone else)."
+    }
+  ]
+}
