@@ -1,0 +1,23 @@
+{
+  "format": 2,
+  "name": "isprouter",
+  "description": "Routers provided by your ISP",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "isprouter"
+    },
+    {
+      "type": "text",
+      "text": "Update this description."
+    },
+    {
+      "type": "heading",
+      "text": "Router provided by your ISP"
+    },
+    {
+      "type": "text",
+      "text": "Something we've learned over the years is that a router provided to you by your internet service provider (ISP) is often:\n﻿\n* Mass produced by the lowest bidder \n* Made from the cheapest components available\n* Made in a big hurry (to beat a deadline)\n* May be updated with firmware that causes issues\n* Fine for normal daily internet use (Web surfing, email, etc)\n* Not suitable for PCVR streaming.\n﻿\nNot *every* ISP provided router but more often than not.\n﻿\nAdding your own router usually fixes any router related network issues. Type /routers to see a list of community tested routers."
+    }
+  ]
+}
