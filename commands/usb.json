@@ -1,7 +1,7 @@
 {
   "format": 2,
   "name": "usb",
-  "description": "Virtual Desktop Does Not Support Streaming Over a USB Cable",
+  "description": "Virtual Desktop Supports Streaming Over a USB Cable on Quest",
   "blocks": [
     {
       "type": "heading",
