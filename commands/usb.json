@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "text": "You can connect your headset to your computer via a USB cable to connect and stream your desktop, videos or PCVR games. This feature only works on Quest (currently in Beta, see #annoucements). You can also use a USB-To-Ethernet cable/adapter on all platforms (you may find useful information about this here: https://discord.com/channels/564087419918483486/1390686127937159209).\n\nIf you get disconnected or get freezes while streaming over USB, try plugging the cable into a different USB port on your PC (ideally at the back) or trying another USB cable. The stability of the experience will depend on the quality of your cable and quality of the USB controller on your motherboard."
+      "text": "You can connect your headset to your computer via a USB cable to connect and stream your desktop, videos or PCVR games. This feature only works on Quest. You can also use a USB-To-Ethernet cable/adapter on all platforms (you may find useful information about this here: https://discord.com/channels/564087419918483486/1390686127937159209).\n\nIf you get disconnected or get freezes while streaming over USB, try plugging the cable into a different USB port on your PC (ideally at the back) or trying another USB cable. The stability of the experience will depend on the quality of your cable and quality of the USB controller on your motherboard."
     }
   ]
 }
