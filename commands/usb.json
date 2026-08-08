@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "text": "You can connect your headset to your computer via a USB cable. You can also use a USB-To-Ethernet cable/adapter and that works with all platforms (see here: https://discord.com/channels/564087419918483486/1390686127937159209).\n\nIf you get disconnected or get freezes while streaming over USB, try plugging the cable into a different USB port on your PC (ideally at the back) or trying another USB cable. The stability of the experience will depend on the quality of your cable and quality of the USB controller on your motherboard."
+      "text": "You can connect your headset to your computer via a USB cable on Quest. You can also use a USB-To-Ethernet cable/adapter and that works with all platforms (see here: https://discord.com/channels/564087419918483486/1390686127937159209).\n\nIf you get disconnected or get freezes while streaming over USB, try plugging the cable into a different USB port on your PC (ideally at the back) or trying another USB cable. The stability of the experience will depend on the quality of your cable and quality of the USB controller on your motherboard."
     }
   ]
 }
