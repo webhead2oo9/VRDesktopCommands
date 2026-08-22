@@ -5,11 +5,11 @@
   "blocks": [
     {
       "type": "heading",
-      "text": "wired"
+      "text": "**Your PC must be Wired (one way or another)**"
     },
     {
       "type": "text",
-      "text": "If your Headset connects with Wifi, then your PC must connect with Ethernet to the same Gigabit (or better) router that your Headset connects to.\n\nOtherwise, Quest headsets can connect directly to the PC via USB if you install the Virtual Desktop Beta. \n\nAlso, Quest headsets are able to use an Ethernet to USB adapter to connect directly to the PC."
+      "text": "If your Headset connects with Wifi, then your PC must connect with Ethernet to the same Gigabit (or better) router that your Headset connects to. Connecting your PC and you headset with Wifi at the same time causes too many issues and is not supported. Visit #start-here for more information.\n\nOtherwise, Quest headsets can connect directly to the PC via USB if you install the Virtual Desktop Beta. Visit #announcements for more information.\n\nAlso, Quest headsets are able to use an Ethernet to USB adapter to connect directly to the PC. Visit https://discord.com/channels/564087419918483486/1390686127937159209 for more information."
     }
   ]
 }
