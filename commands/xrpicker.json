@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "text": "To make sure your OpenXR runtime is set to the correct option, you can use this tool by RPavlik:\n[This one is better](https://github.com/rpavlik/xr-picker/releases/download/2.2.1/xr-picker-2.2.1-windows-build.zip)"
+      "text": "To make sure your OpenXR runtime is set to the correct option, you can use this tool by RPavlik: [Here](https://github.com/rpavlik/xr-picker/releases/download/2.2.1/xr-picker-2.2.1-windows-build.zip)"
     }
   ]
 }
