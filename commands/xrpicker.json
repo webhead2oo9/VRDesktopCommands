@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "xrpicker",
+  "description": "Describe this command",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "XR Picker to determine and/or set OpenXR runtime"
+    },
+    {
+      "type": "text",
+      "text": "To make sure your OpenXR runtime is set to the correct option, you can use this tool by RPavlik:\nThis one is better\nhttps://github.com/rpavlik/xr-picker/releases/download/2.2.1/xr-picker-2.2.1-windows-build.zip"
+    }
+  ]
+}
