@@ -1,7 +1,7 @@
 {
   "format": 2,
   "name": "xrpicker",
-  "description": "Describe this command",
+  "description": "XR Picker by rpavlik link/description",
   "blocks": [
     {
       "type": "heading",
