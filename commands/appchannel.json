@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "appchannel",
+  "description": "Describe this command",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Changing your app channel"
+    },
+    {
+      "type": "text",
+      "text": "Watch the following video to see how to change your Virtual Desktop app channel to try a current Beta.\nhttps://cdn.discordapp.com/attachments/588170196968013845/1534619613294231643/ScreenRecording_08-05-2026_12-49-51_1.mov"
+    }
+  ]
+}
