@@ -1,7 +1,7 @@
 {
   "format": 2,
   "name": "appchannel",
-  "description": "Describe this command",
+  "description": "Video of changing the app channel in the Meta app",
   "blocks": [
     {
       "type": "heading",
