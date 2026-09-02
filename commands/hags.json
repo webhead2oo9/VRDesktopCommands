@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "hags",
+  "description": "Disable HAGS/What is HAGS?",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Why is your Virtual Desktop screen black? (HAGS & Nvidia 616 Drivers)"
+    },
+    {
+      "type": "text",
+      "text": "Hardware-Accelerated GPU Scheduling (HAGS) is a Windows feature that hands VRAM management directly to your GPU which should help reduce CPU bottleneck.\n\nA bug in the Nvidia 616.xx driver branch seems to break Virtual Desktop's display driver when HAGS is active, causing the headset screen to render as completely black while audio and tracking continue to work normally.\n\nHow to fix it:\n\n* Automated Fix: Click the Disable HAGS link directly inside the Virtual Desktop Streamer app About screen on your PC and restart your PC.\n\n* Manual Alternative: Downgrade your Nvidia graphics driver to the recommended driver (`/drivers`)."
+    }
+  ]
+}
