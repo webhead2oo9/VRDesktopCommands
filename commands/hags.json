@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "text": "Hardware-Accelerated GPU Scheduling (HAGS) is a Windows feature that hands VRAM management directly to your GPU which should help reduce CPU bottleneck.\n\nA bug in the Nvidia 616.xx driver branch seems to break virtual monitors when HAGS is active, causing the headset screen to render as completely black while audio and tracking continue to work normally.\n\nIt's also known to either improve or degrade performance in some games as well.\n\n**How to disable HAGS:**\n1. Open Windows Settings > System > Display > Graphics (or Graphics Settings).\n\n2. Click Advanced Graphics Settings.\n\n3. Toggle Hardware-accelerated GPU scheduling to Off.\n\n4. Restart your PC for the change to take effect.\n\n* Manual Alternative: Downgrade your Nvidia graphics driver to the recommended driver (`/drivers`)."
+      "text": "Hardware-Accelerated GPU Scheduling (HAGS) is a Windows feature that hands VRAM management directly to your GPU which should help reduce CPU bottleneck.\n\nA bug in the Nvidia 616.xx driver branch seems to break virtual monitors when HAGS is active, causing the headset screen to render as completely black while audio and tracking continue to work normally.\n\nIt's also known to either improve or degrade performance in some games as well.\n\n**How to disable HAGS:**\n\n1. Open Windows Settings > System > Display > Graphics (or Graphics Settings).\n\n2. Click Advanced Graphics Settings.\n\n3. Toggle Hardware-accelerated GPU scheduling to Off.\n\n4. Restart your PC for the change to take effect.\n\n* Manual Alternative: Downgrade your Nvidia graphics driver to the recommended driver (`/drivers`)."
     }
   ]
 }
