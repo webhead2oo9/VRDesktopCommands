@@ -5,11 +5,11 @@
   "blocks": [
     {
       "type": "heading",
-      "text": "__**Why is your virtual monitor screen black? (HAGS & Nvidia 616 Drivers)**__"
+      "text": "__HAGS in WIndows__"
     },
     {
       "type": "text",
-      "text": "Hardware-Accelerated GPU Scheduling (HAGS) is a Windows feature that hands VRAM management directly to your GPU which should help reduce CPU bottleneck.\n\nA bug in the Nvidia 616.xx driver branch prevents virtual monitors from appearing or makes the screen black when you don't have a physical monitor connected if HAGS is active.\n\nIt's also known to either improve or degrade performance in some games as well.\n\n**How to disable HAGS:**\n\n1. Open Windows Settings > System > Display > Graphics (or Graphics Settings).\n\n2. Click Advanced Graphics Settings.\n\n3. Toggle Hardware-accelerated GPU scheduling to Off.\n\n4. Restart your PC for the change to take effect.\n\n* Manual Alternative: Downgrade your Nvidia graphics driver to the recommended driver (`/drivers`)."
+      "text": "Hardware-Accelerated GPU Scheduling (HAGS) is a Windows feature that hands VRAM management directly to your GPU which should help reduce CPU bottleneck.\n\nHAGS must be enabled in order to use DLSS.\n\n**A bug in the Nvidia 616.xx driver branch prevents virtual monitors from appearing or makes the screen black when you don't have a physical monitor connected if HAGS is active.** (*Nvidia has released a hotfix to address this but it has not made it to the Nvidia APP yet.*)\n\nIt's also known to either improve or degrade performance in some VR games as well.\n\n**How to disable HAGS:**\n\n1. Open Windows Settings > System > Display > Graphics (or Graphics Settings).\n\n2. Click Advanced Graphics Settings.\n\n3. Toggle Hardware-accelerated GPU scheduling to Off.\n\n4. Restart your PC for the change to take effect.\n\n* Manual Alternative: Downgrade your Nvidia graphics driver to the recommended driver (`/drivers`)."
     }
   ]
 }
