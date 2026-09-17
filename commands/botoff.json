@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "botoff",
+  "description": "Describe this command",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Disable OpenSorce.ai"
+    },
+    {
+      "type": "text",
+      "text": "Bringing OpenSorce.ai down for 1 hour."
+    }
+  ]
+}
