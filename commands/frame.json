@@ -1,7 +1,7 @@
 {
   "format": 2,
   "name": "frame",
-  "description": "Describe this command",
+  "description": "Steam frame support",
   "blocks": [
     {
       "type": "heading",
