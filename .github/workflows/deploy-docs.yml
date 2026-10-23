@@ -19,7 +19,8 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Ruby 3.1 builds are unavailable on Ubuntu 26.04.
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
