@@ -1,7 +1,7 @@
 {
   "format": 2,
   "name": "servicefix",
-  "description": "Fix connection issues after updating",
+  "description": "Fix rare service issue",
   "blocks": [
     {
       "type": "heading",
