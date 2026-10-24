@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "text": "After updating or installing, a few users may experience connection issues. These are the steps to resolve that issue:\n\n1. Open **File Explorer**, go into the installation folder below:\n`C:\\Program Files\\Virtual Desktop Streamer`\n\n2. Double-click **VirtualDesktop.Service.msi** and let it complete \n\n3. Double-click **VirtualDesktop.Setup.exe** It should complete quickly. \n\n4. Reboot your PC.\n\n5. Try connecting again"
+      "text": "After updating or installing, a few users may experience connection issues due to the Virtual Desktop service not being installed correctly. These are the steps to resolve that issue:\n\n1. Open **File Explorer**, go into the installation folder below:\n`C:\\Program Files\\Virtual Desktop Streamer`\n\n2. Double-click **VirtualDesktop.Service.msi** and let it complete \n\n3. Double-click **VirtualDesktop.Setup.exe** It should complete quickly. \n\n4. Reboot your PC.\n\n5. Try connecting again"
     }
   ]
 }
