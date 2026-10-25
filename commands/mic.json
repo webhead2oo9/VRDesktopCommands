@@ -1,7 +1,7 @@
 {
   "format": 2,
   "name": "mic",
-  "description": "Describe this command",
+  "description": "Meta broke the Microphone with their OS updates",
   "blocks": [
     {
       "type": "heading",
