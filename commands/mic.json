@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "mic",
+  "description": "Describe this command",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Meta broke the Microphone with their OS updates"
+    },
+    {
+      "type": "text",
+      "text": "Quest 2/Quest Pro: Disable Noise Cancellation in the Settings tab otherwise the microphone will not work at all.\nQuest 3/3S: Voices playing through the speakers will come through the mic so lower your headset volume or use earphones.\n\nWe’ve informed Meta about those bugs since they don’t have any QA to catch these things. They are aware and there’s nothing we can do until they fix this."
+    }
+  ]
+}
