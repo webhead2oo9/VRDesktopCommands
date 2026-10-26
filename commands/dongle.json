@@ -1,0 +1,194 @@
+{
+  "format": 2,
+  "description": "Connect your headset to Ethernet with a USB dongle (setup, PD picks, PoE, fixes)",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Ethernet-to-USB Dongle on your Quest headset"
+    },
+    {
+      "type": "text",
+      "text": "A USB-C to Ethernet adapter plugged into your headset lets you connect straight to your router, a switch, or your PC. **Adapters with a PD (Power Delivery) port keep the headset charged while you play**, and the connection is usually more stable than Wi-Fi or the USB connection beta.\n\nMeta doesn't officially support this, but they've kept it working and fixed it when it broke in the past."
+    },
+    {
+      "type": "text",
+      "text": "Full tested list: <#1553463172818534550>\nDiscussion & help: <#1390686127937159209>"
+    },
+    {
+      "type": "small",
+      "text": "None of these products are made or endorsed by Virtual Desktop, and none are affiliate links. Buy at your own risk."
+    }
+  ],
+  "pages": [
+    {
+      "name": "main",
+      "title": "Main Page",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Ethernet-to-USB Dongle on your Quest headset"
+        },
+        {
+          "type": "text",
+          "text": "A USB-C to Ethernet adapter plugged into your headset lets you connect straight to your router, a switch, or your PC. **Adapters with a PD (Power Delivery) port keep the headset charged while you play**, and the connection is usually more stable than Wi-Fi or the USB connection beta.\n\nMeta doesn't officially support this, but they've kept it working and fixed it when it broke in the past."
+        },
+        {
+          "type": "text",
+          "text": "Full tested list: <#1553463172818534550>\nDiscussion & help: <#1390686127937159209>"
+        },
+        {
+          "type": "small",
+          "text": "None of these products are made or endorsed by Virtual Desktop, and none are affiliate links. Buy at your own risk."
+        }
+      ]
+    },
+    {
+      "name": "setup",
+      "title": "Setup steps",
+      "description": "How to connect your headset with a dongle",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Setup steps"
+        },
+        {
+          "type": "text",
+          "text": "1. Disable Wi-Fi on your headset.\n2. Unplug your headset and turn it off.\n3. Connect the Ethernet adapter to the headset's USB-C port. (Short, high-quality USB-C extensions can work, see **Cables & power**.)\n4. Plug an Ethernet cable into the adapter and the other end into your router, switch, or PC. Connecting directly to the PC requires ICS, type `/ics` for the guide.\n5. If your adapter has a PD port, plug a powered USB-C cable into it.\n6. Power on the headset.\n7. Confirm it's working by loading a page in the headset's built-in browser.\n8. Open Virtual Desktop and connect to your PC."
+        },
+        {
+          "type": "field",
+          "name": "Good to know",
+          "value": "- The headset shows no Ethernet icon. If it connects with Wi-Fi off, it's working.\n- Some adapters (mostly hubs) only work if plugged in while the headset is **off**.\n- If Ethernet is your only connection, the headset may not update itself or your apps. Turn Wi-Fi on now and then to update."
+        }
+      ]
+    },
+    {
+      "name": "pd-dongles",
+      "title": "PD dongles (charge while you play)",
+      "description": "Community-tested Ethernet adapters with a PD charging port",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "PD dongles (charge while you play)"
+        },
+        {
+          "type": "text",
+          "text": "Reported working by members in <#1553463172818534550>. Read the original post before buying, manufacturers sometimes swap chipsets without changing the listing."
+        },
+        {
+          "type": "field",
+          "name": "Most recommended",
+          "value": "**BENFEI USB-C Gigabit, 100W PD**: the community favorite. Use a **USB-C to C** cable for power, A-to-C is hit or miss.\n[US](https://www.amazon.com/dp/B0D3GZMN8X) · [UK](https://www.amazon.co.uk/dp/B0D3GZMN8X) · [DE](https://www.amazon.de/dp/B0D3GZMN8X) · [PL](https://www.amazon.pl/dp/B0D3GZMN8X)"
+        },
+        {
+          "type": "field",
+          "name": "Also working",
+          "value": "**Cable Matters 2.5GbE, 100W PD**: [US](https://www.amazon.com/dp/B0CFGBNYX8) · [DE](https://www.amazon.de/dp/B0CFGBNYX8)\n**Generic / Ruxely Gigabit, 60W PD** (cheap, ~$10): [US](https://www.amazon.com/dp/B09MQDWP6H) · [UK](https://www.amazon.co.uk/dp/B09MQDWP6H)\n**Mygatti Gigabit, 100W PD**: [UK](https://www.amazon.co.uk/dp/B0DLKQDR59)\n**Belkin INC019btBK, 100W PD**: [Best Buy](https://www.bestbuy.com/site/searchpage.jsp?st=INC019btBK)\n**StarTech 2.5GbE, 100W PD**: [AU](https://www.scorptec.com.au/product/cables-and-adapters/usb/116410-2gpd3-usb-c-ethernet)\n**Volans VL-RJ45-CP, PD30**: [AU](https://www.ple.com.au/products/665439)"
+        },
+        {
+          "type": "small",
+          "text": "Found one that works? Post the link in the discussion thread so it can be added to the list."
+        }
+      ]
+    },
+    {
+      "name": "hubs-poe",
+      "title": "Hubs & PoE setups",
+      "description": "Multiport hubs and Power over Ethernet options",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Hubs & PoE setups"
+        },
+        {
+          "type": "field",
+          "name": "Multiport hubs with Ethernet + PD",
+          "value": "Heavier than a dongle, but they work. Several need the headset **off** when you plug them in.\n**UGREEN Revodok 6-in-1**: [US](https://www.amazon.com/dp/B0BW2TLQ8S) (plug in with headset off)\n**NOVOO 7-in-1, 100W PD** (tested on Pico 4/4 Ultra): [DE](https://www.amazon.de/dp/B0957DFS8V)\n**Hama 5-port USB-C hub**: [ES](https://www.amazon.es/dp/B08SDVWFHT)\n**Acer 9-in-1 USB-C hub**: [US](https://www.amazon.com/dp/B0CQSZYWT8)"
+        },
+        {
+          "type": "field",
+          "name": "PoE (power and data over one Ethernet cable)",
+          "value": "A PoE injector or PoE switch sends power down the Ethernet cable, and a PoE-to-USB-C splitter near the headset delivers both. One cable to the headset, no separate charger.\nExample kit from a member: REVODATA 2.5GPD2CAT-20V PoE to USB-C (25W) + SODOLA 2.5G PoE+ injector (30W). REVOTECH 25W PoE to Type-C is a cheaper AliExpress option.\nFull details and links: [PoE post](https://discord.com/channels/564087419918483486/1553463172818534550/1553471557232361513)"
+        }
+      ]
+    },
+    {
+      "name": "cables-power",
+      "title": "Cables & power",
+      "description": "Extensions, chargers and mounting tips",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Cables & power"
+        },
+        {
+          "type": "field",
+          "name": "USB-C extensions",
+          "value": "Most people run a short USB-C extension so the dongle isn't hanging off the headset. Keep it short and good quality: long or cheap extensions are the #1 cause of random disconnects.\nReported working: CAKOBLE 3m right-angle [DE](https://www.amazon.de/dp/B0DLNW1T8S) · CHENLENIC 90° 20Gbps [DE](https://www.amazon.de/dp/B0D1V76CYB) · [this setup](https://discord.com/channels/564087419918483486/1390686127937159209/1552346224210743399) (BENFEI + extension + 45W charger)"
+        },
+        {
+          "type": "field",
+          "name": "Power",
+          "value": "No special cable needed to power the dongle, any USB-C cable that carries power works. A 20W+ USB-C PD charger is plenty for a Quest. Long 100W C-to-C cables (like Anker's 10ft) are handy for standing play."
+        },
+        {
+          "type": "field",
+          "name": "Ethernet cable",
+          "value": "Use a known-good Cat5e/Cat6 cable. Some cables sold as \"Cat 6\" only link at 100Mbps, so swap it if your speed tops out around 100."
+        }
+      ]
+    },
+    {
+      "name": "troubleshooting",
+      "title": "Troubleshooting",
+      "description": "Slow speeds, disconnects and common gotchas",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Troubleshooting"
+        },
+        {
+          "type": "field",
+          "name": "Test your speed first",
+          "value": "Run OpenSpeedTest on your PC (in <#1162377197751906364>) and open it in the headset's browser. You want 900+ Mbps on a gigabit dongle."
+        },
+        {
+          "type": "field",
+          "name": "Stuck around 100 Mbps",
+          "value": "Usually the dongle (wrong chipset, the headset sees it as 100Mb) or a bad Ethernet cable. Try another cable, then a dongle from the tested list."
+        },
+        {
+          "type": "field",
+          "name": "Good speed test but lag in VD",
+          "value": "Cheap dongles can overheat and drop off under sustained load even if a quick speed test looks fine. Reseat/restart the dongle, try Auto bitrate, or switch to a tested dongle."
+        },
+        {
+          "type": "field",
+          "name": "Random disconnects",
+          "value": "Check for a long or low-quality USB extension, or the dongle pigtail wiggling in the headset port. Secure it. If it never happens on Wi-Fi, it's almost certainly the USB side."
+        },
+        {
+          "type": "field",
+          "name": "Other gotchas",
+          "value": "- On the VD beta, try toggling **Allow USB Connection** off in Settings if your dongle isn't detected.\n- Direct-to-PC? Make sure ICS is set to start automatically so it doesn't silently turn off, see `/ics`.\n- A switch between PC and headset is fine and can help if your router is busy."
+        }
+      ]
+    },
+    {
+      "name": "other-headsets",
+      "title": "Other headsets",
+      "description": "Quest 2/Pro, Pico, Play for Dream, Galaxy XR",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Other headsets"
+        },
+        {
+          "type": "text",
+          "text": "**Quest 2 / Quest Pro**: may need Developer Mode and this adb command from a connected PC:\n`adb shell setprop debug.usb.ethernet.enabled 1`\n\n**Pico 4 Ultra, Play for Dream, Galaxy XR**: also support Ethernet adapters, but the steps may differ from the Quest guide.\n\nMeta has removed and restored this feature on Quest 2 and Quest 3 before, so a future update could change things. Check the discussion thread if it suddenly stops working."
+        }
+      ]
+    }
+  ],
+  "name": "dongle"
+}
