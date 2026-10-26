@@ -11,11 +11,6 @@
       "text": "A USB-C to Ethernet adapter plugged into your headset lets you connect straight to your router, a switch, or your PC. **Adapters with a PD (Power Delivery) port keep the headset charged while you play**, and the connection is usually more stable than Wi-Fi or the USB connection beta.\n\nMeta doesn't officially support this, but they've kept it working and fixed it when it broke in the past."
     },
     {
-      "type": "field",
-      "name": "Pages",
-      "value": "**Setup steps**: how to connect\n**PD dongles**: community-tested adapters that charge\n**Hubs & PoE**: multiport hubs and Power over Ethernet setups\n**Cables & power**: extensions, chargers, mounting\n**Troubleshooting**: slow speeds, disconnects, gotchas\n**Other headsets**: Quest 2/Pro, Pico and more"
-    },
-    {
       "type": "text",
       "text": "Full tested list: <#1553463172818534550>\nDiscussion & help: <#1390686127937159209>"
     },
