@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "name": "update",
+  "description": "Connection after updating",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Unable to connect after updating."
+    },
+    {
+      "type": "text",
+      "text": "If your PC can't connect after the most recent update:\n\nYou just need to make sure your headset can reach the VD and Meta servers at least once after installing the update.\n\nThis is not avoidable.\n\nYou will not need to be connected long enough for your headset OS to update."
+    }
+  ]
+}
